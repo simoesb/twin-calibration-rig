@@ -1,0 +1,29 @@
+{
+  "democell": {
+    "file": "democell.glb",
+    "bytes": 6603304,
+    "size": [
+      3.805,
+      1.3645,
+      2.6
+    ]
+  },
+  "bracketDraft": {
+    "file": "bracket-draft.glb",
+    "bytes": 8848236,
+    "size": [
+      1.0278,
+      0.7046,
+      0.4469
+    ]
+  },
+  "bracketReference": {
+    "file": "bracket-reference.glb",
+    "bytes": 261256,
+    "size": [
+      0.1216,
+      0.08,
+      0.0516
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sha": "2e184e83965ec48b7b37649f7255000b7b39b8388cca29329763ddf17112e285",
+  "crop": "parts/pilot-fixture-block/t4/reflective-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 49.635,
+  "job": "880a80f5-4904-4742-8570-3e809dd4fa0b",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T20:46:56.707Z"
+}

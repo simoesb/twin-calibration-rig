@@ -1,0 +1,282 @@
+[
+  {
+    "tile": 1,
+    "trial": 12,
+    "hole": 0,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 2,
+    "trial": 16,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 3,
+    "trial": 16,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 4,
+    "trial": 1,
+    "hole": 0,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 5,
+    "trial": 14,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 6,
+    "trial": 1,
+    "hole": 1,
+    "seen": true,
+    "auto": "wrong-size"
+  },
+  {
+    "tile": 7,
+    "trial": 17,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 8,
+    "trial": 18,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 9,
+    "trial": 13,
+    "hole": 1,
+    "seen": true,
+    "auto": "wrong-size"
+  },
+  {
+    "tile": 10,
+    "trial": 2,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 11,
+    "trial": 3,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 12,
+    "trial": 4,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 13,
+    "trial": 15,
+    "hole": 1,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 14,
+    "trial": 0,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 15,
+    "trial": 13,
+    "hole": 0,
+    "seen": false,
+    "auto": "wrong-size"
+  },
+  {
+    "tile": 16,
+    "trial": 8,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 17,
+    "trial": 14,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 18,
+    "trial": 15,
+    "hole": 0,
+    "seen": true,
+    "auto": "wrong-size"
+  },
+  {
+    "tile": 19,
+    "trial": 8,
+    "hole": 0,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 20,
+    "trial": 7,
+    "hole": 0,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 21,
+    "trial": 18,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 22,
+    "trial": 4,
+    "hole": 0,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 23,
+    "trial": 5,
+    "hole": 1,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 24,
+    "trial": 6,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 25,
+    "trial": 19,
+    "hole": 0,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 26,
+    "trial": 7,
+    "hole": 1,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 27,
+    "trial": 2,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 28,
+    "trial": 11,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 29,
+    "trial": 6,
+    "hole": 1,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 30,
+    "trial": 11,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 31,
+    "trial": 0,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 32,
+    "trial": 10,
+    "hole": 1,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 33,
+    "trial": 17,
+    "hole": 0,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 34,
+    "trial": 9,
+    "hole": 0,
+    "seen": false,
+    "auto": "wrong-size"
+  },
+  {
+    "tile": 35,
+    "trial": 3,
+    "hole": 0,
+    "seen": false,
+    "auto": "missing"
+  },
+  {
+    "tile": 36,
+    "trial": 12,
+    "hole": 1,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 37,
+    "trial": 9,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 38,
+    "trial": 10,
+    "hole": 0,
+    "seen": true,
+    "auto": "recovered"
+  },
+  {
+    "tile": 39,
+    "trial": 19,
+    "hole": 1,
+    "seen": true,
+    "auto": "missing"
+  },
+  {
+    "tile": 40,
+    "trial": 5,
+    "hole": 0,
+    "seen": true,
+    "auto": "missing"
+  }
+]

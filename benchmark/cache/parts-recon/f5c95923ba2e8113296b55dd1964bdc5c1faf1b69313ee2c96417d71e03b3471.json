@@ -1,0 +1,19 @@
+{
+  "sha": "f5c95923ba2e8113296b55dd1964bdc5c1faf1b69313ee2c96417d71e03b3471",
+  "crop": "parts/pilot-bearing-housing/t5/occlusion-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 58.869,
+  "job": "344a5a2b-a139-45ec-add2-0a397a563a54",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T19:57:45.620Z"
+}

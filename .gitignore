@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+# Stored reconstructions: v1.0 release assets, fetched with `node fetch-meshes.mjs`
+benchmark/cache/parts-recon/*.glb
+benchmark/cache/recon/*.glb
+.meshes-download/

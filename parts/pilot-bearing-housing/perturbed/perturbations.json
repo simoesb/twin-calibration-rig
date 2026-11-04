@@ -1,0 +1,28 @@
+{
+  "feature": "bore-bearing",
+  "diameterMm": 52,
+  "depthMm": 52,
+  "variants": {
+    "plugged": {
+      "expected": "missing"
+    },
+    "enlarged": {
+      "expected": "recovered",
+      "expectedAreaRatioAbove": 1.4,
+      "diameterMm": 83.2
+    },
+    "shifted": {
+      "expected": [
+        "partial",
+        "missing"
+      ],
+      "offsetMm": 52,
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "note": "Measurement validation only; CAD frame (mm, Z up) for the feature, GLB metric +Y up."
+}

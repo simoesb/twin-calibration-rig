@@ -1,0 +1,40 @@
+{
+  "id": "flange-dn50",
+  "name": "Weld-neck flange DN50",
+  "category": "turned",
+  "units": "mm",
+  "declaredSize": {
+    "length": 165,
+    "width": 165,
+    "height": 62
+  },
+  "material": "steel, machined",
+  "restingFaces": [
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "features": [
+    {
+      "id": "bolt-hole-1",
+      "type": "through-hole",
+      "center": [
+        62.5,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 18,
+      "depth": 20
+    }
+  ],
+  "release": "public",
+  "source": "in-house design",
+  "notes": "4-fold rotational symmetry about the bore axis"
+}

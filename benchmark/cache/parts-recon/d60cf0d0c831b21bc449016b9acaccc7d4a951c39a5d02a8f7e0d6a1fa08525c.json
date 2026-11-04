@@ -1,0 +1,19 @@
+{
+  "sha": "d60cf0d0c831b21bc449016b9acaccc7d4a951c39a5d02a8f7e0d6a1fa08525c",
+  "crop": "parts/pilot-flange-adapter/t5/reflective-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 56.416,
+  "job": "e79ea18f-48c9-4225-aba9-e2f371815a67",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:56:47.805Z"
+}

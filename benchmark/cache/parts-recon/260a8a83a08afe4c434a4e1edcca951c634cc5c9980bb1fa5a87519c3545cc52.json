@@ -1,0 +1,19 @@
+{
+  "sha": "260a8a83a08afe4c434a4e1edcca951c634cc5c9980bb1fa5a87519c3545cc52",
+  "crop": "parts/pilot-sheet-metal-mount/t2/occlusion-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 62.65,
+  "job": "b1991be9-2190-42b2-824a-a2cdbe819f7a",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:44:13.721Z"
+}

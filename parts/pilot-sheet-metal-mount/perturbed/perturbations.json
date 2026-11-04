@@ -1,0 +1,28 @@
+{
+  "feature": "bore-sensor",
+  "diameterMm": 16,
+  "depthMm": 3,
+  "variants": {
+    "plugged": {
+      "expected": "missing"
+    },
+    "enlarged": {
+      "expected": "recovered",
+      "expectedAreaRatioAbove": 1.4,
+      "diameterMm": 25.6
+    },
+    "shifted": {
+      "expected": [
+        "partial",
+        "missing"
+      ],
+      "offsetMm": 16,
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "note": "Measurement validation only; CAD frame (mm, Z up) for the feature, GLB metric +Y up."
+}

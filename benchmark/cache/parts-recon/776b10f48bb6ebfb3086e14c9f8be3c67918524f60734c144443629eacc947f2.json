@@ -1,0 +1,19 @@
+{
+  "sha": "776b10f48bb6ebfb3086e14c9f8be3c67918524f60734c144443629eacc947f2",
+  "crop": "parts/pilot-flange-adapter/t8/reflective-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 62.983,
+  "job": "47df4935-4b16-4eaf-9d0b-aad5f7b8a792",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T21:02:38.076Z"
+}

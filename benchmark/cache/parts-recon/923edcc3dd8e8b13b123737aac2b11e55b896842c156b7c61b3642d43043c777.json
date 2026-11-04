@@ -1,0 +1,19 @@
+{
+  "sha": "923edcc3dd8e8b13b123737aac2b11e55b896842c156b7c61b3642d43043c777",
+  "crop": "parts/pilot-bearing-housing/t6/occlusion-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 56.502,
+  "job": "e49d5ed2-c32e-482d-82e1-cbc55bf80414",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:20:20.043Z"
+}

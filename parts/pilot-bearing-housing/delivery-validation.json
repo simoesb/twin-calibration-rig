@@ -1,0 +1,19 @@
+{
+  "id": "pilot-bearing-housing",
+  "stepReimportValid": true,
+  "stepRoundtripVolumeRelativeError": 9.762542883144113e-15,
+  "glbExtentsMetres": [
+    0.17399999499320984,
+    0.10300000011920929,
+    0.07400000095367432
+  ],
+  "glbAxisMappingCorrect": true,
+  "glbRestingBaseYMetres": 0.0,
+  "glbWatertightAfterSeamWeld": true,
+  "glbWindingConsistent": true,
+  "glbCadVolumeRelativeError": 6.235998482969038e-05,
+  "triangles": 29148,
+  "features": 8,
+  "probedFeatureChecks": 7,
+  "seamWeldPrecisionMetres": 1e-08
+}

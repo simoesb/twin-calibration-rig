@@ -1,0 +1,19 @@
+{
+  "sha": "ca2a23132317c8bea49b87920eba2607f8327562d460f5500521228aa6cc16df",
+  "crop": "parts/pilot-fixture-block/t6/standard-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 58.831,
+  "job": "ba1ee6b0-840c-4f66-a12a-aa45ab5eb1d4",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T16:49:34.415Z"
+}

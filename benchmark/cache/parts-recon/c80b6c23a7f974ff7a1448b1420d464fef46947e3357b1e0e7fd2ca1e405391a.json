@@ -1,0 +1,19 @@
+{
+  "sha": "c80b6c23a7f974ff7a1448b1420d464fef46947e3357b1e0e7fd2ca1e405391a",
+  "crop": "parts/pilot-fixture-block/t8/occlusion-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 62.777,
+  "job": "14957bc6-dbc7-4620-bbc2-bed21fbf2578",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T20:10:16.370Z"
+}

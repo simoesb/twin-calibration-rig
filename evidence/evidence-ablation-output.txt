@@ -1,0 +1,12 @@
+┌─────────┬────────────────────────┬──────────────────────┬──────────────────────┬──────────────────────┬─────────────────────┬─────────────────────┬────────────────────────────────────────────────────────────┐
+│ (index) │ condition              │ dimension            │ feature              │ placement            │ acceptanceSupported │ reasons             │ expected                                                   │
+├─────────┼────────────────────────┼──────────────────────┼──────────────────────┼──────────────────────┼─────────────────────┼─────────────────────┼────────────────────────────────────────────────────────────┤
+│ 0       │ 'No evidence recorded' │ 'unassessed'         │ 'unassessed'         │ 'unassessed'         │ '—'                 │ ''                  │ 'no checks'                                                │
+│ 1       │ 'Checks recorded'      │ 'current'            │ 'current'            │ 'current'            │ true                │ ''                  │ 'current/current/current'                                  │
+│ 2       │ 'Colour edited'        │ 'current'            │ 'current'            │ 'current'            │ true                │ ''                  │ 'current/current/current'                                  │
+│ 3       │ 'Moved and rotated'    │ 'current'            │ 'current'            │ 'needs_reassessment' │ false               │ 'moved'             │ 'current/current/needs_reassessment'                       │
+│ 4       │ 'Rescaled'             │ 'needs_reassessment' │ 'needs_reassessment' │ 'needs_reassessment' │ false               │ 'scale changed'     │ 'needs_reassessment/needs_reassessment/needs_reassessment' │
+│ 5       │ 'Mesh replaced'        │ 'needs_reassessment' │ 'needs_reassessment' │ 'needs_reassessment' │ false               │ 'mesh replaced'     │ 'needs_reassessment/needs_reassessment/needs_reassessment' │
+│ 6       │ 'Reference revised'    │ 'needs_reassessment' │ 'needs_reassessment' │ 'current'            │ false               │ 'reference revised' │ 'needs_reassessment/needs_reassessment/current'            │
+└─────────┴────────────────────────┴──────────────────────┴──────────────────────┴──────────────────────┴─────────────────────┴─────────────────────┴────────────────────────────────────────────────────────────┘
+{"agree":23,"total":24}

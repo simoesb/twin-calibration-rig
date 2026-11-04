@@ -1,0 +1,83 @@
+{
+  "cadValid": true,
+  "solidCount": 1,
+  "cadVolumeMm3": 64926.252652068615,
+  "cadDimensionsMm": [
+    120.0000002507553,
+    79.00000012537765,
+    107.0
+  ],
+  "stlWatertight": true,
+  "stlWindingConsistent": true,
+  "stlTriangles": 11584,
+  "meshCadVolumeRelativeError": 1.5823088297180776e-05,
+  "featureChecks": [
+    {
+      "name": "slot--43 open",
+      "point": [
+        -43,
+        -15,
+        1.5
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "slot-43 open",
+      "point": [
+        43,
+        -15,
+        1.5
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "bore-sensor axis void",
+      "point": [
+        -46.0,
+        37.5,
+        81.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-top--42 axis void",
+      "point": [
+        -42.0,
+        18.0,
+        105.5
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-top-42 axis void",
+      "point": [
+        42.0,
+        18.0,
+        105.5
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "web retained",
+      "point": [
+        50,
+        37.5,
+        50
+      ],
+      "inside": true,
+      "actualInside": true,
+      "passed": true
+    }
+  ],
+  "declaredDimensionCheck": true
+}

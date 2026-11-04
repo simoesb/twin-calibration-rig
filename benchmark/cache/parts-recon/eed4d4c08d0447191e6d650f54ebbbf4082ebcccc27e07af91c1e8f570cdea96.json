@@ -1,0 +1,19 @@
+{
+  "sha": "eed4d4c08d0447191e6d650f54ebbbf4082ebcccc27e07af91c1e8f570cdea96",
+  "crop": "parts/pilot-sheet-metal-mount/t7/standard-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 65.312,
+  "job": "5612ce3f-a93a-4646-863a-1d663c20a4a9",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:11:46.527Z"
+}

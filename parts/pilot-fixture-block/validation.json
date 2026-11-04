@@ -1,0 +1,160 @@
+{
+  "cadValid": true,
+  "solidCount": 1,
+  "cadVolumeMm3": 510968.8974526367,
+  "cadDimensionsMm": [
+    160.0,
+    100.0,
+    38.0
+  ],
+  "stlWatertight": true,
+  "stlWindingConsistent": true,
+  "stlTriangles": 18748,
+  "meshCadVolumeRelativeError": 7.030054799553219e-06,
+  "featureChecks": [
+    {
+      "name": "mount--65--35 axis void",
+      "point": [
+        -65.0,
+        -35.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount--65-35 axis void",
+      "point": [
+        -65.0,
+        35.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-65--35 axis void",
+      "point": [
+        65.0,
+        -35.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-65-35 axis void",
+      "point": [
+        65.0,
+        35.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "dowel-floor--30 axis void",
+      "point": [
+        -30.0,
+        0.0,
+        17.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "dowel-floor-30 axis void",
+      "point": [
+        30.0,
+        0.0,
+        17.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "front-cross-bore--39 axis void",
+      "point": [
+        -39.0,
+        -47.0,
+        12.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "front-cross-bore-39 axis void",
+      "point": [
+        39.0,
+        -47.0,
+        12.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "hidden-rear-port axis void",
+      "point": [
+        0.0,
+        47.0,
+        15.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "top-dowel--26 axis void",
+      "point": [
+        -26.0,
+        38.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "top-dowel-26 axis void",
+      "point": [
+        26.0,
+        38.0,
+        35.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "island retained",
+      "point": [
+        0,
+        0,
+        24
+      ],
+      "inside": true,
+      "actualInside": true,
+      "passed": true
+    },
+    {
+      "name": "pocket open",
+      "point": [
+        20,
+        0,
+        30
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    }
+  ],
+  "declaredDimensionCheck": true
+}

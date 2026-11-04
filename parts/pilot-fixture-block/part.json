@@ -1,0 +1,283 @@
+{
+  "id": "pilot-fixture-block",
+  "name": "Machined fixture block",
+  "category": "prismatic-machined",
+  "units": "mm",
+  "declaredSize": {
+    "length": 160,
+    "width": 100,
+    "height": 38
+  },
+  "declaredSizeSource": "original design parameters; synthetic nominal dimensions, not independently measured AAS values",
+  "material": "aluminium, precision machined",
+  "restingFaces": [
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "features": [
+    {
+      "id": "stepped-pocket",
+      "type": "pocket",
+      "center": [
+        0,
+        0,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "width": 98,
+      "length": 52,
+      "depth": 18,
+      "cornerRadius": 6
+    },
+    {
+      "id": "location-island",
+      "type": "boss",
+      "center": [
+        0,
+        0,
+        20
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "width": 18,
+      "length": 14,
+      "height": 7
+    },
+    {
+      "id": "mount--65--35",
+      "type": "through-hole",
+      "center": [
+        -65,
+        -35,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 9,
+      "depth": 38,
+      "entryChamfer": 0.35,
+      "counterbore": {
+        "diameter": 16,
+        "depth": 8
+      }
+    },
+    {
+      "id": "mount--65-35",
+      "type": "through-hole",
+      "center": [
+        -65,
+        35,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 9,
+      "depth": 38,
+      "entryChamfer": 0.35,
+      "counterbore": {
+        "diameter": 16,
+        "depth": 8
+      }
+    },
+    {
+      "id": "mount-65--35",
+      "type": "through-hole",
+      "center": [
+        65,
+        -35,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 9,
+      "depth": 38,
+      "entryChamfer": 0.35,
+      "counterbore": {
+        "diameter": 16,
+        "depth": 8
+      }
+    },
+    {
+      "id": "mount-65-35",
+      "type": "through-hole",
+      "center": [
+        65,
+        35,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 9,
+      "depth": 38,
+      "entryChamfer": 0.35,
+      "counterbore": {
+        "diameter": 16,
+        "depth": 8
+      }
+    },
+    {
+      "id": "dowel-floor--30",
+      "type": "blind-hole",
+      "center": [
+        -30,
+        0,
+        20
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 6,
+      "depth": 10,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "dowel-floor-30",
+      "type": "blind-hole",
+      "center": [
+        30,
+        0,
+        20
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 6,
+      "depth": 10,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "front-cross-bore--39",
+      "type": "blind-hole",
+      "center": [
+        -39,
+        -50,
+        12
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "diameter": 8,
+      "depth": 24,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "front-cross-bore-39",
+      "type": "blind-hole",
+      "center": [
+        39,
+        -50,
+        12
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "diameter": 8,
+      "depth": 24,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "hidden-rear-port",
+      "type": "blind-hole",
+      "center": [
+        0,
+        50,
+        15
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "diameter": 7,
+      "depth": 16,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "top-dowel--26",
+      "type": "blind-hole",
+      "center": [
+        -26,
+        38,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 5,
+      "depth": 12,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "top-dowel-26",
+      "type": "blind-hole",
+      "center": [
+        26,
+        38,
+        38
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 5,
+      "depth": 12,
+      "entryChamfer": 0.35
+    }
+  ],
+  "release": "public",
+  "source": "Original parametric synthetic design created for this evaluation; not a manufacturer model or certified standard part.",
+  "notes": "Held-out test part, reviewed against common design rules before any reconstruction existed.",
+  "cadCoordinateSystem": {
+    "up": "Z",
+    "units": "mm",
+    "origin": "XY center, resting base Z=0"
+  },
+  "meshCoordinateSystem": {
+    "file": "model.glb",
+    "up": "Y",
+    "units": "m",
+    "fromCad": "[x,y,z] mm -> [x,z,-y] / 1000 m"
+  },
+  "evaluationStatus": "held-out test part (protocol/PROTOCOL.md); not used for method development",
+  "modelFiles": {
+    "cad": "model.step",
+    "mesh": "model.glb",
+    "triangulatedCad": "model.stl",
+    "preview": "preview.png"
+  },
+  "annotationsPolicy": "CAD and feature inventory are evaluator-only; explicitly specify any fields made available to the agent.",
+  "threadPolicy": "Ports are modeled as smooth bores; no thread standard or thread accuracy is asserted."
+}

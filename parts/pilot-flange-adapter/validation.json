@@ -1,0 +1,149 @@
+{
+  "cadValid": true,
+  "solidCount": 1,
+  "cadVolumeMm3": 329223.6519323278,
+  "cadDimensionsMm": [
+    150.0000001,
+    150.0000001,
+    40.0000001
+  ],
+  "stlWatertight": true,
+  "stlWindingConsistent": true,
+  "stlTriangles": 64612,
+  "meshCadVolumeRelativeError": 0.00023307502661405776,
+  "featureChecks": [
+    {
+      "name": "bore-central axis void",
+      "point": [
+        0.0,
+        0.0,
+        37.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-1 axis void",
+      "point": [
+        60.0,
+        0.0,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-2 axis void",
+      "point": [
+        42.42640687119285,
+        42.42640687119285,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-3 axis void",
+      "point": [
+        3.67394039744206e-15,
+        60.0,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-4 axis void",
+      "point": [
+        -42.426406871192846,
+        42.42640687119285,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-5 axis void",
+      "point": [
+        -60.0,
+        7.34788079488412e-15,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-6 axis void",
+      "point": [
+        -42.42640687119286,
+        -42.426406871192846,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-7 axis void",
+      "point": [
+        -1.1021821192326178e-14,
+        -60.0,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "mount-bolt-8 axis void",
+      "point": [
+        42.42640687119284,
+        -42.42640687119286,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "index-dowel axis void",
+      "point": [
+        61.89992867825621,
+        25.639789968461017,
+        13.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "radial-service-port axis void",
+      "point": [
+        42.0,
+        0.0,
+        28.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "hub wall retained",
+      "point": [
+        40,
+        10,
+        24
+      ],
+      "inside": true,
+      "actualInside": true,
+      "passed": true
+    }
+  ],
+  "declaredDimensionCheck": true
+}

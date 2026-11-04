@@ -1,0 +1,2319 @@
+{
+  "protocol": "protocol/PROTOCOL.md",
+  "file": "results.json",
+  "parts": {
+    "pilot-fixture-block": {
+      "standard": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 15.014299612702409,
+          "centreMedianCI": [
+            12.407178931611888,
+            15.599222784721153
+          ],
+          "sizeAbsMedian": 26.309976280273467,
+          "chamferMedian": 6.311867497625435,
+          "heightAbsMedian": 0.2560751117459681,
+          "longAbsMedian": 10.000004867460998,
+          "shortAbsMedian": 6.894628926622223,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7241996262110508,
+          "centreMedianCI": [
+            1.4277593773212525,
+            1.9305520418108773
+          ],
+          "sizeAbsMedian": 0.823023366619241,
+          "chamferMedian": 1.7491289806482277,
+          "heightAbsMedian": 2.1245133539669614,
+          "longAbsMedian": 0.585710309812526,
+          "shortAbsMedian": 1.0731049879324495,
+          "generations": 1,
+          "coverage": 0.34211666666666674
+        },
+        "B": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7633158719793263,
+          "centreMedianCI": [
+            1.4193818979904669,
+            1.8951348857371635
+          ],
+          "sizeAbsMedian": 0.929372596380662,
+          "chamferMedian": 1.7183287328797014,
+          "heightAbsMedian": 2.119743523586848,
+          "longAbsMedian": 0.9271313525795466,
+          "shortAbsMedian": 1.0275190052402294,
+          "generations": 1,
+          "coverage": 0.3393333333333334
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7633158719793263,
+          "centreMedianCI": [
+            1.4193818979904669,
+            1.8951348857371635
+          ],
+          "sizeAbsMedian": 0.929372596380662,
+          "chamferMedian": 1.7183287328797014,
+          "heightAbsMedian": 2.119743523586848,
+          "longAbsMedian": 0.9271313525795466,
+          "shortAbsMedian": 1.0275190052402294,
+          "generations": 1,
+          "coverage": 0.3393333333333334
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7323433074241512,
+          "centreMedianCI": [
+            1.491331663943678,
+            1.932414332450116
+          ],
+          "sizeAbsMedian": 0.638750689173001,
+          "chamferMedian": 1.720105255893389,
+          "heightAbsMedian": 2.1628494070697335,
+          "longAbsMedian": 0.8991509923204632,
+          "shortAbsMedian": 1.0275190052402294,
+          "generations": 2,
+          "coverage": 0.32215
+        },
+        "skipped": 0
+      },
+      "occlusion": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 13.45566583759619,
+          "centreMedianCI": [
+            12.547614876465408,
+            25.34254772707403
+          ],
+          "sizeAbsMedian": 27.11157845283671,
+          "chamferMedian": 15.562068248271736,
+          "heightAbsMedian": 0.4695629484187669,
+          "longAbsMedian": 10.001186029110043,
+          "shortAbsMedian": 18.72080016884975,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 9,
+          "failureCI": [
+            0.5958499704752279,
+            0.9821237871039259
+          ],
+          "centreMedian": 27.305182155037414,
+          "centreMedianCI": [
+            21.8197640731992,
+            30.306359938132214
+          ],
+          "sizeAbsMedian": 8.372141840826064,
+          "chamferMedian": 9.078791126133943,
+          "heightAbsMedian": 10.972682828268244,
+          "longAbsMedian": 60.291245774430124,
+          "shortAbsMedian": 18.668654427603737,
+          "generations": 1,
+          "coverage": 0.2303666666666667
+        },
+        "B": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 27.566510155608995,
+          "centreMedianCI": [
+            19.798154600187424,
+            33.08574889690314
+          ],
+          "sizeAbsMedian": 5.680517818148467,
+          "chamferMedian": 9.109026389982166,
+          "heightAbsMedian": 6.997384578138311,
+          "longAbsMedian": 37.67222285545549,
+          "shortAbsMedian": 8.372980830066615,
+          "generations": 1,
+          "coverage": 0.26815
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.8441754496401317,
+          "centreMedianCI": [
+            1.4972655026483663,
+            2.0918534788775514
+          ],
+          "sizeAbsMedian": 0.2600698257409606,
+          "chamferMedian": 1.8062731326717711,
+          "heightAbsMedian": 2.465547760309883,
+          "longAbsMedian": 0.5775245085455905,
+          "shortAbsMedian": 1.5142245980312372,
+          "generations": 2,
+          "coverage": 0.3269666666666667
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.8441754496401317,
+          "centreMedianCI": [
+            1.4972655026483663,
+            2.0918534788775514
+          ],
+          "sizeAbsMedian": 0.2600698257409606,
+          "chamferMedian": 1.8062731326717711,
+          "heightAbsMedian": 2.465547760309883,
+          "longAbsMedian": 0.5775245085455905,
+          "shortAbsMedian": 1.5142245980312372,
+          "generations": 2,
+          "coverage": 0.3269666666666667
+        },
+        "skipped": 0
+      },
+      "limited": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 33.59253939552309,
+          "centreMedianCI": [
+            29.990652719315264,
+            38.898571877527786
+          ],
+          "sizeAbsMedian": 23.238351327764924,
+          "chamferMedian": 12.942624404646718,
+          "heightAbsMedian": 14.231729188144248,
+          "longAbsMedian": 9.99973832324022,
+          "shortAbsMedian": 21.433097803524674,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 11.64580337750966,
+          "centreMedianCI": [
+            9.797046258677698,
+            23.542922070701916
+          ],
+          "sizeAbsMedian": 7.1938987185784455,
+          "chamferMedian": 6.402410539003409,
+          "heightAbsMedian": 8.429661450369553,
+          "longAbsMedian": 20.113816160196475,
+          "shortAbsMedian": 13.909211095506468,
+          "generations": 1,
+          "coverage": 0.23110000000000003
+        },
+        "B": {
+          "n": 10,
+          "failures": 8,
+          "failureCI": [
+            0.4901624691221323,
+            0.9433178490622331
+          ],
+          "centreMedian": 16.348242624702703,
+          "centreMedianCI": [
+            10.233569511725008,
+            23.489936558526026
+          ],
+          "sizeAbsMedian": 7.312896027363507,
+          "chamferMedian": 6.304765528643552,
+          "heightAbsMedian": 9.792212611674177,
+          "longAbsMedian": 19.473302194089936,
+          "shortAbsMedian": 13.507087101699263,
+          "generations": 1,
+          "coverage": 0.23783333333333334
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.9964233869116519,
+          "centreMedianCI": [
+            1.7585868072194377,
+            2.2100867647221327
+          ],
+          "sizeAbsMedian": 0.6315411698268825,
+          "chamferMedian": 1.8544656844095204,
+          "heightAbsMedian": 2.2558500922219005,
+          "longAbsMedian": 1.1128303700144726,
+          "shortAbsMedian": 1.3322578109022654,
+          "generations": 2,
+          "coverage": 0.32195
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.9964233869116519,
+          "centreMedianCI": [
+            1.7585868072194377,
+            2.2100867647221327
+          ],
+          "sizeAbsMedian": 0.6315411698268825,
+          "chamferMedian": 1.8544656844095204,
+          "heightAbsMedian": 2.2558500922219005,
+          "longAbsMedian": 1.1128303700144726,
+          "shortAbsMedian": 1.3322578109022654,
+          "generations": 2,
+          "coverage": 0.32195
+        },
+        "skipped": 0
+      },
+      "reflective": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 15.01518241876355,
+          "centreMedianCI": [
+            12.552522369130186,
+            15.599583273277943
+          ],
+          "sizeAbsMedian": 22.41235209774009,
+          "chamferMedian": 6.47972083064805,
+          "heightAbsMedian": 0.5397078228104313,
+          "longAbsMedian": 10.000158504396783,
+          "shortAbsMedian": 7.723563221285451,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 3,
+          "failureCI": [
+            0.10779126655639397,
+            0.603221854654029
+          ],
+          "centreMedian": 1.6982116697829015,
+          "centreMedianCI": [
+            1.3949195941908097,
+            9.624000566702396
+          ],
+          "sizeAbsMedian": 0.7968136614656562,
+          "chamferMedian": 1.7218576515427524,
+          "heightAbsMedian": 2.1107835170047218,
+          "longAbsMedian": 1.3461793775622621,
+          "shortAbsMedian": 1.457279238783915,
+          "generations": 1,
+          "coverage": 0.36628333333333335
+        },
+        "B": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 1.7928394208437353,
+          "centreMedianCI": [
+            1.4528232522109925,
+            9.074801540216509
+          ],
+          "sizeAbsMedian": 0.80485427068272,
+          "chamferMedian": 1.7114684907835054,
+          "heightAbsMedian": 2.081690634489819,
+          "longAbsMedian": 1.4186630128715794,
+          "shortAbsMedian": 1.554589577988541,
+          "generations": 1,
+          "coverage": 0.36721666666666664
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7016318613820876,
+          "centreMedianCI": [
+            1.4528232522109925,
+            1.9432437447418913
+          ],
+          "sizeAbsMedian": 0.80485427068272,
+          "chamferMedian": 1.7114684907835054,
+          "heightAbsMedian": 1.9294575724466134,
+          "longAbsMedian": 1.1422886776892849,
+          "shortAbsMedian": 1.2518061780523726,
+          "generations": 1.3,
+          "coverage": 0.36160000000000003
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.7016318613820876,
+          "centreMedianCI": [
+            1.4528232522109925,
+            1.9432437447418913
+          ],
+          "sizeAbsMedian": 0.80485427068272,
+          "chamferMedian": 1.7114684907835054,
+          "heightAbsMedian": 1.9294575724466134,
+          "longAbsMedian": 1.1422886776892849,
+          "shortAbsMedian": 1.2518061780523726,
+          "generations": 2,
+          "coverage": 0.36160000000000003
+        },
+        "skipped": 0
+      }
+    },
+    "pilot-flange-adapter": {
+      "standard": {
+        "naive": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 2.2635831492062053,
+          "centreMedianCI": [
+            1.4927443902580666,
+            4.721569677345789
+          ],
+          "sizeAbsMedian": 0.3329168115829506,
+          "chamferMedian": 2.1858177786410016,
+          "heightAbsMedian": 3.7303439114517167,
+          "longAbsMedian": 0.42494196605365187,
+          "shortAbsMedian": 0.4922644890045791,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 3.9026527620484264,
+          "centreMedianCI": [
+            0.8773627434484691,
+            10.00062679217747
+          ],
+          "sizeAbsMedian": 0.29035293958686315,
+          "chamferMedian": 2.6056452883540855,
+          "heightAbsMedian": 3.740728909341684,
+          "longAbsMedian": 0.414554555730029,
+          "shortAbsMedian": 0.39834022004212044,
+          "generations": 1,
+          "coverage": 0.3675333333333333
+        },
+        "B": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 3.7325732352548906,
+          "centreMedianCI": [
+            0.9000995992753377,
+            9.803179206886139
+          ],
+          "sizeAbsMedian": 0.256866153128843,
+          "chamferMedian": 2.5884607712131418,
+          "heightAbsMedian": 3.7476306750104937,
+          "longAbsMedian": 0.520131774689167,
+          "shortAbsMedian": 0.5118326591039835,
+          "generations": 1,
+          "coverage": 0.3646666666666666
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.095488007583617,
+          "centreMedianCI": [
+            0.9000995992753377,
+            3.283704596414684
+          ],
+          "sizeAbsMedian": 0.18326768609993604,
+          "chamferMedian": 2.172671501973733,
+          "heightAbsMedian": 3.35592305550092,
+          "longAbsMedian": 0.8198247151967042,
+          "shortAbsMedian": 0.9516980781041351,
+          "generations": 1.5,
+          "coverage": 0.3446166666666666
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.1359730254624987,
+          "centreMedianCI": [
+            0.9000995992753377,
+            3.300983611406404
+          ],
+          "sizeAbsMedian": 0.18958807190449511,
+          "chamferMedian": 1.9729955425075836,
+          "heightAbsMedian": 4.862449589493279,
+          "longAbsMedian": 0.9564733472004622,
+          "shortAbsMedian": 1.1181114551477855,
+          "generations": 2,
+          "coverage": 0.34006666666666663
+        },
+        "skipped": 0
+      },
+      "occlusion": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 25.52984186617137,
+          "centreMedianCI": [
+            24.77479368108593,
+            26.95465747983217
+          ],
+          "sizeAbsMedian": 18.177148923508547,
+          "chamferMedian": 8.738237597273017,
+          "heightAbsMedian": 13.113689133236738,
+          "longAbsMedian": 0.02621529300411707,
+          "shortAbsMedian": 64.65419072451874,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 8,
+          "failureCI": [
+            0.4901624691221323,
+            0.9433178490622331
+          ],
+          "centreMedian": 13.155435844717132,
+          "centreMedianCI": [
+            9.1958791016971,
+            16.45339193015022
+          ],
+          "sizeAbsMedian": 6.499408178470468,
+          "chamferMedian": 7.661842275054193,
+          "heightAbsMedian": 14.210699047182695,
+          "longAbsMedian": 22.053591622842745,
+          "shortAbsMedian": 50.6996721093638,
+          "generations": 1,
+          "coverage": 0.2753
+        },
+        "B": {
+          "n": 10,
+          "failures": 5,
+          "failureCI": [
+            0.23659308901147938,
+            0.7634069109885205
+          ],
+          "centreMedian": 10.402221110927742,
+          "centreMedianCI": [
+            8.452458408363785,
+            15.919942150427929
+          ],
+          "sizeAbsMedian": 2.5986176731390365,
+          "chamferMedian": 7.505818664411797,
+          "heightAbsMedian": 12.748227274815893,
+          "longAbsMedian": 26.01836801412331,
+          "shortAbsMedian": 53.906247830180504,
+          "generations": 1,
+          "coverage": 0.2705
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.292576281720223,
+          "centreMedianCI": [
+            3.058324508907894,
+            3.362351904417115
+          ],
+          "sizeAbsMedian": 0.2571066861691784,
+          "chamferMedian": 1.9936676772897894,
+          "heightAbsMedian": 5.164528569855165,
+          "longAbsMedian": 0.9516026754023965,
+          "shortAbsMedian": 1.1462620614830776,
+          "generations": 2,
+          "coverage": 0.3204166666666667
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.292576281720223,
+          "centreMedianCI": [
+            3.058324508907894,
+            3.362351904417115
+          ],
+          "sizeAbsMedian": 0.2571066861691784,
+          "chamferMedian": 1.9936676772897894,
+          "heightAbsMedian": 5.164528569855165,
+          "longAbsMedian": 0.9516026754023965,
+          "shortAbsMedian": 1.1462620614830776,
+          "generations": 2,
+          "coverage": 0.3204166666666667
+        },
+        "skipped": 0
+      },
+      "limited": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 26.887759292095208,
+          "centreMedianCI": [
+            26.283208103620833,
+            27.402720141771297
+          ],
+          "sizeAbsMedian": 17.089437925529662,
+          "chamferMedian": 7.575581411407702,
+          "heightAbsMedian": 12.453661290625417,
+          "longAbsMedian": 0.026241706740925963,
+          "shortAbsMedian": 67.72324986764005,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 6,
+          "failureCI": [
+            0.31267376792119533,
+            0.8318196714735931
+          ],
+          "centreMedian": 23.049538836986233,
+          "centreMedianCI": [
+            6.433298683062671,
+            27.07308512227774
+          ],
+          "sizeAbsMedian": 5.143636855864964,
+          "chamferMedian": 7.313175900122544,
+          "heightAbsMedian": 11.754671800566108,
+          "longAbsMedian": 11.697332572172677,
+          "shortAbsMedian": 48.89806017419792,
+          "generations": 1,
+          "coverage": 0.25254999999999994
+        },
+        "B": {
+          "n": 10,
+          "failures": 6,
+          "failureCI": [
+            0.31267376792119533,
+            0.8318196714735931
+          ],
+          "centreMedian": 12.751520434301707,
+          "centreMedianCI": [
+            6.469962559052487,
+            24.429782776316458
+          ],
+          "sizeAbsMedian": 2.3493684002520556,
+          "chamferMedian": 7.294066893945699,
+          "heightAbsMedian": 11.563722050465186,
+          "longAbsMedian": 11.170103916151085,
+          "shortAbsMedian": 59.25520864497102,
+          "generations": 1,
+          "coverage": 0.2637666666666667
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.3904649612642945,
+          "centreMedianCI": [
+            3.3479325003849527,
+            3.572556092387474
+          ],
+          "sizeAbsMedian": 0.5799889149535886,
+          "chamferMedian": 2.0530689788464835,
+          "heightAbsMedian": 5.066583670149505,
+          "longAbsMedian": 1.6556634951348237,
+          "shortAbsMedian": 1.7747235857352162,
+          "generations": 2,
+          "coverage": 0.3211
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 3.3904649612642945,
+          "centreMedianCI": [
+            3.3479325003849527,
+            3.572556092387474
+          ],
+          "sizeAbsMedian": 0.5799889149535886,
+          "chamferMedian": 2.0530689788464835,
+          "heightAbsMedian": 5.066583670149505,
+          "longAbsMedian": 1.6556634951348237,
+          "shortAbsMedian": 1.7747235857352162,
+          "generations": 2,
+          "coverage": 0.3211
+        },
+        "skipped": 0
+      },
+      "reflective": {
+        "naive": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.627277726106228,
+          "centreMedianCI": [
+            1.4336022932615315,
+            6.597267669450807
+          ],
+          "sizeAbsMedian": 0.1869053246400909,
+          "chamferMedian": 1.303044690564969,
+          "heightAbsMedian": 2.1101358280961047,
+          "longAbsMedian": 0.4792812837618454,
+          "shortAbsMedian": 0.5546766702642092,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 3,
+          "failureCI": [
+            0.10779126655639397,
+            0.603221854654029
+          ],
+          "centreMedian": 0.9731445547239087,
+          "centreMedianCI": [
+            0.9370875522252017,
+            11.8962699651352
+          ],
+          "sizeAbsMedian": 0.28270557204421176,
+          "chamferMedian": 1.0710999321365304,
+          "heightAbsMedian": 1.8981547272571841,
+          "longAbsMedian": 0.3702428602862795,
+          "shortAbsMedian": 0.244277471051213,
+          "generations": 1,
+          "coverage": 0.3631333333333333
+        },
+        "B": {
+          "n": 10,
+          "failures": 3,
+          "failureCI": [
+            0.10779126655639397,
+            0.603221854654029
+          ],
+          "centreMedian": 0.9711831766504596,
+          "centreMedianCI": [
+            0.939428326074939,
+            12.05992304904513
+          ],
+          "sizeAbsMedian": 0.2038239683343157,
+          "chamferMedian": 1.0992214963227118,
+          "heightAbsMedian": 1.8900532457329922,
+          "longAbsMedian": 0.46602942498999433,
+          "shortAbsMedian": 0.3181753248475694,
+          "generations": 1,
+          "coverage": 0.3633166666666666
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 0.9711831766504596,
+          "centreMedianCI": [
+            0.939428326074939,
+            3.008348076022134
+          ],
+          "sizeAbsMedian": 0.2126358834048825,
+          "chamferMedian": 1.0992214963227118,
+          "heightAbsMedian": 1.8900532457329922,
+          "longAbsMedian": 0.46602942498999433,
+          "shortAbsMedian": 0.3181753248475694,
+          "generations": 1.3,
+          "coverage": 0.36269999999999997
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 0.9711831766504596,
+          "centreMedianCI": [
+            0.939428326074939,
+            3.008348076022134
+          ],
+          "sizeAbsMedian": 0.2126358834048825,
+          "chamferMedian": 1.0992214963227118,
+          "heightAbsMedian": 1.8900532457329922,
+          "longAbsMedian": 0.46602942498999433,
+          "shortAbsMedian": 0.3181753248475694,
+          "generations": 2,
+          "coverage": 0.36269999999999997
+        },
+        "skipped": 0
+      }
+    },
+    "pilot-bearing-housing": {
+      "standard": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 26.054980260223193,
+          "centreMedianCI": [
+            18.07180330342332,
+            29.026693651716048
+          ],
+          "sizeAbsMedian": 24.911001099219952,
+          "chamferMedian": 10.911222485259245,
+          "heightAbsMedian": 13.894174885273557,
+          "longAbsMedian": 24.00013011439739,
+          "shortAbsMedian": 9.153065539107525,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 2.0229806208486196,
+          "centreMedianCI": [
+            0.9762108650254083,
+            3.3303289885617104
+          ],
+          "sizeAbsMedian": 0.5799829973772819,
+          "chamferMedian": 1.3659175570627284,
+          "heightAbsMedian": 2.430214631175931,
+          "longAbsMedian": 1.892937255702415,
+          "shortAbsMedian": 0.6427281975554255,
+          "generations": 1,
+          "coverage": 0.3130333333333334
+        },
+        "B": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.8543607845725636,
+          "centreMedianCI": [
+            1.1783150494453285,
+            3.328212553923404
+          ],
+          "sizeAbsMedian": 0.4375095822323316,
+          "chamferMedian": 1.3862552229264167,
+          "heightAbsMedian": 2.7603307353397666,
+          "longAbsMedian": 1.6582528914881323,
+          "shortAbsMedian": 0.6561786597076846,
+          "generations": 1,
+          "coverage": 0.3078666666666666
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.8543607845725636,
+          "centreMedianCI": [
+            1.1783150494453285,
+            3.328212553923404
+          ],
+          "sizeAbsMedian": 0.4375095822323316,
+          "chamferMedian": 1.3862552229264167,
+          "heightAbsMedian": 2.7603307353397666,
+          "longAbsMedian": 1.6582528914881323,
+          "shortAbsMedian": 0.6561786597076846,
+          "generations": 1,
+          "coverage": 0.3078666666666666
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.5053038308142097,
+          "centreMedianCI": [
+            0.5056324024215271,
+            2.860530360728707
+          ],
+          "sizeAbsMedian": 0.6465503385776172,
+          "chamferMedian": 1.277135936698372,
+          "heightAbsMedian": 0.7746293256597481,
+          "longAbsMedian": 1.4203513049079741,
+          "shortAbsMedian": 0.6204661051721905,
+          "generations": 2,
+          "coverage": 0.32221666666666665
+        },
+        "skipped": 0
+      },
+      "occlusion": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 35.91091484107227,
+          "centreMedianCI": [
+            29.15427435817326,
+            59.18432613431748
+          ],
+          "sizeAbsMedian": 27.54026862871851,
+          "chamferMedian": 12.274719455315676,
+          "heightAbsMedian": 43.641568739105296,
+          "longAbsMedian": 24.001051264590778,
+          "shortAbsMedian": 9.357354768728559,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 9,
+          "failureCI": [
+            0.5958499704752279,
+            0.9821237871039259
+          ],
+          "centreMedian": 16.89670824849556,
+          "centreMedianCI": [
+            11.887247456298368,
+            22.25821673190628
+          ],
+          "sizeAbsMedian": 1.4201587376242608,
+          "chamferMedian": 5.665079931496402,
+          "heightAbsMedian": 26.992572821046668,
+          "longAbsMedian": 12.816123222490983,
+          "shortAbsMedian": 11.810351662335128,
+          "generations": 1,
+          "coverage": 0.22516666666666665
+        },
+        "B": {
+          "n": 10,
+          "failures": 9,
+          "failureCI": [
+            0.5958499704752279,
+            0.9821237871039259
+          ],
+          "centreMedian": 18.15271801010662,
+          "centreMedianCI": [
+            12.458148467037702,
+            23.08248177805231
+          ],
+          "sizeAbsMedian": 1.2840230176585088,
+          "chamferMedian": 5.721901329813782,
+          "heightAbsMedian": 27.931120154894685,
+          "longAbsMedian": 10.80983361086718,
+          "shortAbsMedian": 9.835843485269821,
+          "generations": 1,
+          "coverage": 0.24303333333333335
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.354265998388477,
+          "centreMedianCI": [
+            0.9272970459018165,
+            2.3434850320968583
+          ],
+          "sizeAbsMedian": 0.3378430589679293,
+          "chamferMedian": 1.3180976812867327,
+          "heightAbsMedian": 1.2113374650559172,
+          "longAbsMedian": 2.2987921102326503,
+          "shortAbsMedian": 1.1342477459873879,
+          "generations": 2,
+          "coverage": 0.29893333333333333
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.354265998388477,
+          "centreMedianCI": [
+            0.9272970459018165,
+            2.3434850320968583
+          ],
+          "sizeAbsMedian": 0.3378430589679293,
+          "chamferMedian": 1.3180976812867327,
+          "heightAbsMedian": 1.2113374650559172,
+          "longAbsMedian": 2.2987921102326503,
+          "shortAbsMedian": 1.1342477459873879,
+          "generations": 2,
+          "coverage": 0.29893333333333333
+        },
+        "skipped": 0
+      },
+      "limited": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 39.30932505959204,
+          "centreMedianCI": [
+            28.524991141879504,
+            49.76858599467479
+          ],
+          "sizeAbsMedian": 21.150685114884926,
+          "chamferMedian": 13.650241514712302,
+          "heightAbsMedian": 19.302153850537238,
+          "longAbsMedian": 23.999951215216143,
+          "shortAbsMedian": 12.981313456905042,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 17.755890709258438,
+          "centreMedianCI": [
+            7.426406924262782,
+            22.753712750906917
+          ],
+          "sizeAbsMedian": 14.140067074748025,
+          "chamferMedian": 4.803288066592183,
+          "heightAbsMedian": 4.874053854791949,
+          "longAbsMedian": 33.06737510176893,
+          "shortAbsMedian": 3.953076877266204,
+          "generations": 1,
+          "coverage": 0.17886666666666667
+        },
+        "B": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 16.325772145859858,
+          "centreMedianCI": [
+            8.672250946672856,
+            19.46641322937902
+          ],
+          "sizeAbsMedian": 6.131268474827555,
+          "chamferMedian": 5.225470445238186,
+          "heightAbsMedian": 3.76401299308865,
+          "longAbsMedian": 23.280803017410754,
+          "shortAbsMedian": 4.853030607476438,
+          "generations": 1,
+          "coverage": 0.17961666666666667
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.6628102290913946,
+          "centreMedianCI": [
+            0.7639736653337723,
+            2.5502088715505526
+          ],
+          "sizeAbsMedian": 0.6245041304890508,
+          "chamferMedian": 1.3858105985195088,
+          "heightAbsMedian": 1.5144849679031847,
+          "longAbsMedian": 3.8795430266390096,
+          "shortAbsMedian": 0.7227376420230747,
+          "generations": 1.9,
+          "coverage": 0.28045000000000003
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.6628102290913946,
+          "centreMedianCI": [
+            0.7639736653337723,
+            2.5502088715505526
+          ],
+          "sizeAbsMedian": 0.6245041304890508,
+          "chamferMedian": 1.3858105985195088,
+          "heightAbsMedian": 1.5144849679031847,
+          "longAbsMedian": 3.8795430266390096,
+          "shortAbsMedian": 0.7227376420230747,
+          "generations": 2,
+          "coverage": 0.28045000000000003
+        },
+        "skipped": 0
+      },
+      "reflective": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 25.676094786845514,
+          "centreMedianCI": [
+            16.360001989516853,
+            28.99871668562606
+          ],
+          "sizeAbsMedian": 23.90675564809046,
+          "chamferMedian": 10.917627076995355,
+          "heightAbsMedian": 7.718794606655033,
+          "longAbsMedian": 24.00007873626553,
+          "shortAbsMedian": 9.640573672370547,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 2.618041474670005,
+          "centreMedianCI": [
+            1.3684728114354057,
+            3.7158697441459574
+          ],
+          "sizeAbsMedian": 1.0364588043636491,
+          "chamferMedian": 1.5565761233038846,
+          "heightAbsMedian": 3.7502025521726767,
+          "longAbsMedian": 2.2218506730833365,
+          "shortAbsMedian": 0.8105722429335716,
+          "generations": 1,
+          "coverage": 0.30628333333333335
+        },
+        "B": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 2.471550837653769,
+          "centreMedianCI": [
+            1.1613683702465392,
+            3.746029110730259
+          ],
+          "sizeAbsMedian": 0.7501445837694354,
+          "chamferMedian": 1.5550657923221443,
+          "heightAbsMedian": 3.3473192637862303,
+          "longAbsMedian": 2.413130395087504,
+          "shortAbsMedian": 0.8034263151781018,
+          "generations": 1,
+          "coverage": 0.30684999999999996
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.9257766395292946,
+          "centreMedianCI": [
+            1.072367393547413,
+            3.730238638831312
+          ],
+          "sizeAbsMedian": 0.5577981770554463,
+          "chamferMedian": 1.5365176119995507,
+          "heightAbsMedian": 2.0081547932034316,
+          "longAbsMedian": 1.5886785029997075,
+          "shortAbsMedian": 0.6523843757107461,
+          "generations": 1.1,
+          "coverage": 0.31986666666666663
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.9665728250241301,
+          "centreMedianCI": [
+            1.072367393547413,
+            3.262759269175284
+          ],
+          "sizeAbsMedian": 0.7501445837694354,
+          "chamferMedian": 1.5716192860438443,
+          "heightAbsMedian": 2.0081547932034316,
+          "longAbsMedian": 1.5886785029997075,
+          "shortAbsMedian": 0.7261975878264104,
+          "generations": 2,
+          "coverage": 0.31315
+        },
+        "skipped": 0
+      }
+    },
+    "pilot-sheet-metal-mount": {
+      "standard": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 47.853880328976636,
+          "centreMedianCI": [
+            44.84542361381354,
+            52.79478228824547
+          ],
+          "sizeAbsMedian": 7.570982784647873,
+          "chamferMedian": 23.422069481712477,
+          "heightAbsMedian": 33.237001310792046,
+          "longAbsMedian": 29.999977316931353,
+          "shortAbsMedian": 24.484080741435157,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 2.075047819087094,
+          "centreMedianCI": [
+            1.5456138475558414,
+            7.6797366037185935
+          ],
+          "sizeAbsMedian": 0.6918446119020205,
+          "chamferMedian": 1.1053645876506142,
+          "heightAbsMedian": 3.011265290797427,
+          "longAbsMedian": 3.4229715607894673,
+          "shortAbsMedian": 2.316372162339375,
+          "generations": 1,
+          "coverage": 0.33940000000000003
+        },
+        "B": {
+          "n": 10,
+          "failures": 1,
+          "failureCI": [
+            0.017876212896073978,
+            0.4041500295247722
+          ],
+          "centreMedian": 1.9747117746746317,
+          "centreMedianCI": [
+            1.5256437720107188,
+            3.8680611072390674
+          ],
+          "sizeAbsMedian": 0.46249862664365926,
+          "chamferMedian": 0.922291909883403,
+          "heightAbsMedian": 3.141817877362285,
+          "longAbsMedian": 3.0774405213027656,
+          "shortAbsMedian": 2.5022308708462226,
+          "generations": 1,
+          "coverage": 0.34868333333333335
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.5796951008673863,
+          "centreMedianCI": [
+            1.1974113801635518,
+            1.9248525036547077
+          ],
+          "sizeAbsMedian": 0.41747405898782675,
+          "chamferMedian": 0.7663179469097916,
+          "heightAbsMedian": 2.1957820740514666,
+          "longAbsMedian": 2.308356942725492,
+          "shortAbsMedian": 1.0848105984091054,
+          "generations": 1.7,
+          "coverage": 0.41273333333333334
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.3404145768560598,
+          "centreMedianCI": [
+            0.83512475698212,
+            1.9235613054465017
+          ],
+          "sizeAbsMedian": 0.41747405898782675,
+          "chamferMedian": 0.6975550583645358,
+          "heightAbsMedian": 1.1120513159955658,
+          "longAbsMedian": 1.9651236346661105,
+          "shortAbsMedian": 0.7682728866658106,
+          "generations": 2,
+          "coverage": 0.4176333333333333
+        },
+        "skipped": 0
+      },
+      "occlusion": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 19.176116119662645,
+          "centreMedianCI": [
+            16.427965735908547,
+            26.931449798673707
+          ],
+          "sizeAbsMedian": 4.186697773099657,
+          "chamferMedian": 14.52156763822532,
+          "heightAbsMedian": 25.52377814750234,
+          "longAbsMedian": 29.998407466785686,
+          "shortAbsMedian": 6.515291938122725,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 15.060788396832631,
+          "centreMedianCI": [
+            6.073173372575269,
+            24.11026789546095
+          ],
+          "sizeAbsMedian": 7.313051373698132,
+          "chamferMedian": 6.039900340914313,
+          "heightAbsMedian": 16.712724965593452,
+          "longAbsMedian": 8.785838020683752,
+          "shortAbsMedian": 5.7189334286451015,
+          "generations": 1,
+          "coverage": 0.2844833333333333
+        },
+        "B": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 16.495975217790694,
+          "centreMedianCI": [
+            4.645221078340455,
+            20.491772971631335
+          ],
+          "sizeAbsMedian": 6.952361515241028,
+          "chamferMedian": 7.700847855900259,
+          "heightAbsMedian": 24.997925719384916,
+          "longAbsMedian": 7.889948820285819,
+          "shortAbsMedian": 5.493907328732506,
+          "generations": 1,
+          "coverage": 0.3076333333333333
+        },
+        "C": {
+          "n": 10,
+          "failures": 1,
+          "failureCI": [
+            0.017876212896073978,
+            0.4041500295247722
+          ],
+          "centreMedian": 1.4007587796662664,
+          "centreMedianCI": [
+            0.6193374194030122,
+            2.0379867401240555
+          ],
+          "sizeAbsMedian": 0.582401260603449,
+          "chamferMedian": 0.6891780416619002,
+          "heightAbsMedian": 1.4331914492445863,
+          "longAbsMedian": 2.182896841880111,
+          "shortAbsMedian": 1.3879532829865342,
+          "generations": 2,
+          "coverage": 0.4182166666666666
+        },
+        "D": {
+          "n": 10,
+          "failures": 1,
+          "failureCI": [
+            0.017876212896073978,
+            0.4041500295247722
+          ],
+          "centreMedian": 1.4007587796662664,
+          "centreMedianCI": [
+            0.6193374194030122,
+            2.0379867401240555
+          ],
+          "sizeAbsMedian": 0.582401260603449,
+          "chamferMedian": 0.6891780416619002,
+          "heightAbsMedian": 1.4331914492445863,
+          "longAbsMedian": 2.182896841880111,
+          "shortAbsMedian": 1.3879532829865342,
+          "generations": 2,
+          "coverage": 0.4182166666666666
+        },
+        "skipped": 0
+      },
+      "limited": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 53.24653342157746,
+          "centreMedianCI": [
+            40.12073554324527,
+            65.1819829867448
+          ],
+          "sizeAbsMedian": 14.516944492608886,
+          "chamferMedian": 32.32873550114664,
+          "heightAbsMedian": 42.96422320079218,
+          "longAbsMedian": 29.999914578886198,
+          "shortAbsMedian": 17.41971311229168,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 23.450979895287666,
+          "centreMedianCI": [
+            9.188925044010631,
+            51.76929382547772
+          ],
+          "sizeAbsMedian": 13.337412705737433,
+          "chamferMedian": 9.946668049522431,
+          "heightAbsMedian": 11.288222819570702,
+          "longAbsMedian": 18.291974013145307,
+          "shortAbsMedian": 15.819654733041824,
+          "generations": 1,
+          "coverage": 0.21938333333333335
+        },
+        "B": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 17.428020154765633,
+          "centreMedianCI": [
+            9.194307090481045,
+            32.03912781282533
+          ],
+          "sizeAbsMedian": 12.526316316359342,
+          "chamferMedian": 10.206571076843787,
+          "heightAbsMedian": 15.383918552958619,
+          "longAbsMedian": 22.962596974484267,
+          "shortAbsMedian": 18.1411099147753,
+          "generations": 1,
+          "coverage": 0.27718333333333334
+        },
+        "C": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.3738546461304209,
+          "centreMedianCI": [
+            0.6119003251681633,
+            2.0636945896943906
+          ],
+          "sizeAbsMedian": 0.4489501146376307,
+          "chamferMedian": 0.7073936085409989,
+          "heightAbsMedian": 0.378745849654194,
+          "longAbsMedian": 2.527842308166439,
+          "shortAbsMedian": 0.9708594251365277,
+          "generations": 2,
+          "coverage": 0.4161
+        },
+        "D": {
+          "n": 10,
+          "failures": 0,
+          "failureCI": [
+            0,
+            0.2775328030260577
+          ],
+          "centreMedian": 1.3738546461304209,
+          "centreMedianCI": [
+            0.6119003251681633,
+            2.0636945896943906
+          ],
+          "sizeAbsMedian": 0.4489501146376307,
+          "chamferMedian": 0.7073936085409989,
+          "heightAbsMedian": 0.378745849654194,
+          "longAbsMedian": 2.527842308166439,
+          "shortAbsMedian": 0.9708594251365277,
+          "generations": 2,
+          "coverage": 0.4161
+        },
+        "skipped": 0
+      },
+      "reflective": {
+        "naive": {
+          "n": 10,
+          "failures": 10,
+          "failureCI": [
+            0.7224671969739421,
+            0.9999999999999999
+          ],
+          "centreMedian": 47.36476357333375,
+          "centreMedianCI": [
+            43.1464300870569,
+            52.78510565572006
+          ],
+          "sizeAbsMedian": 5.745599177604232,
+          "chamferMedian": 22.763901473767113,
+          "heightAbsMedian": 33.38325637075995,
+          "longAbsMedian": 29.999970929933397,
+          "shortAbsMedian": 18.27920192585397,
+          "generations": 1,
+          "coverage": null
+        },
+        "A": {
+          "n": 10,
+          "failures": 7,
+          "failureCI": [
+            0.39677814534597083,
+            0.892208733443606
+          ],
+          "centreMedian": 16.555333636659697,
+          "centreMedianCI": [
+            2.4312498989973705,
+            32.16103688639759
+          ],
+          "sizeAbsMedian": 3.437978003047293,
+          "chamferMedian": 1.5715145748550872,
+          "heightAbsMedian": 3.0332292091699298,
+          "longAbsMedian": 3.6553539585997274,
+          "shortAbsMedian": 3.6417467789654214,
+          "generations": 1,
+          "coverage": 0.3456833333333333
+        },
+        "B": {
+          "n": 10,
+          "failures": 5,
+          "failureCI": [
+            0.23659308901147938,
+            0.7634069109885205
+          ],
+          "centreMedian": 6.291634141354232,
+          "centreMedianCI": [
+            1.8037332232425005,
+            18.574590847857042
+          ],
+          "sizeAbsMedian": 2.7777292919401733,
+          "chamferMedian": 1.2914239536438474,
+          "heightAbsMedian": 3.542224970075447,
+          "longAbsMedian": 2.7400287007031676,
+          "shortAbsMedian": 2.549384865733084,
+          "generations": 1,
+          "coverage": 0.3522
+        },
+        "C": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 1.6659893503308119,
+          "centreMedianCI": [
+            1.3346931027455953,
+            5.908121543943633
+          ],
+          "sizeAbsMedian": 1.3087435793622482,
+          "chamferMedian": 0.946905541414278,
+          "heightAbsMedian": 1.628101684665928,
+          "longAbsMedian": 3.63631740890763,
+          "shortAbsMedian": 1.0458350274355488,
+          "generations": 1.7,
+          "coverage": 0.38785
+        },
+        "D": {
+          "n": 10,
+          "failures": 2,
+          "failureCI": [
+            0.056682150937766844,
+            0.5098375308778678
+          ],
+          "centreMedian": 1.6659893503308119,
+          "centreMedianCI": [
+            1.3346931027455953,
+            5.960893018628775
+          ],
+          "sizeAbsMedian": 1.234386203677662,
+          "chamferMedian": 0.946905541414278,
+          "heightAbsMedian": 1.4959968169009352,
+          "longAbsMedian": 2.560832134348101,
+          "shortAbsMedian": 1.822008736622291,
+          "generations": 2,
+          "coverage": 0.3859666666666667
+        },
+        "skipped": 0
+      }
+    }
+  },
+  "pooled": {
+    "standard": {
+      "naive": {
+        "n": 40,
+        "failures": 30,
+        "failureRate": 0.75,
+        "failureCI": [
+          0.25,
+          1
+        ],
+        "centreMedian": 15.660134494686897,
+        "centreMedianCI": [
+          2.951472978595645,
+          46.5340226623625
+        ],
+        "chamferMedian": 7.066581312353005,
+        "sizeAbsMedian": 16.396094532643634,
+        "generations": 1
+      },
+      "A": {
+        "n": 40,
+        "failures": 4,
+        "failureRate": 0.1,
+        "failureCI": [
+          0,
+          0.25
+        ],
+        "centreMedian": 1.8662108940050823,
+        "centreMedianCI": [
+          1.3238379527611952,
+          3.6237719572901153
+        ],
+        "chamferMedian": 1.5806398669283435,
+        "sizeAbsMedian": 0.48479744581729767,
+        "generations": 1
+      },
+      "B": {
+        "n": 40,
+        "failures": 3,
+        "failureRate": 0.075,
+        "failureCI": [
+          0,
+          0.2
+        ],
+        "centreMedian": 1.7814716407035454,
+        "centreMedianCI": [
+          1.5182644731977417,
+          3.208897758708851
+        ],
+        "chamferMedian": 1.6185441091815211,
+        "sizeAbsMedian": 0.4407088290814598,
+        "generations": 1
+      },
+      "C": {
+        "n": 40,
+        "failures": 0,
+        "failureRate": 0,
+        "failureCI": [
+          0,
+          0
+        ],
+        "centreMedian": 1.737566736387977,
+        "centreMedianCI": [
+          1.4861127123316182,
+          2.975056662111503
+        ],
+        "chamferMedian": 1.439573006096531,
+        "sizeAbsMedian": 0.4208068846601021,
+        "generations": 1.3
+      },
+      "D": {
+        "n": 40,
+        "failures": 0,
+        "failureRate": 0,
+        "failureCI": [
+          0,
+          0
+        ],
+        "centreMedian": 1.6089474108813393,
+        "centreMedianCI": [
+          1.135208458296975,
+          2.860530360728707
+        ],
+        "chamferMedian": 1.3915169086518633,
+        "sizeAbsMedian": 0.4554186368684654,
+        "generations": 2
+      }
+    },
+    "occlusion": {
+      "naive": {
+        "n": 40,
+        "failures": 40,
+        "failureRate": 1,
+        "failureCI": [
+          1,
+          1
+        ],
+        "centreMedian": 25.3054137669554,
+        "centreMedianCI": [
+          16.799557633913437,
+          32.24159789765434
+        ],
+        "chamferMedian": 12.248075290537866,
+        "sizeAbsMedian": 18.924779925729226,
+        "generations": 1
+      },
+      "A": {
+        "n": 40,
+        "failures": 33,
+        "failureRate": 0.825,
+        "failureCI": [
+          0.675,
+          0.95
+        ],
+        "centreMedian": 18.21198661859224,
+        "centreMedianCI": [
+          11.747649339971634,
+          25.797493519425295
+        ],
+        "chamferMedian": 6.7821982741148545,
+        "sizeAbsMedian": 5.480134809425252,
+        "generations": 1
+      },
+      "B": {
+        "n": 40,
+        "failures": 31,
+        "failureRate": 0.775,
+        "failureCI": [
+          0.55,
+          0.975
+        ],
+        "centreMedian": 17.626509577465022,
+        "centreMedianCI": [
+          11.742484046994855,
+          26.053860214684768
+        ],
+        "chamferMedian": 7.234757164752608,
+        "sizeAbsMedian": 3.5298342562156138,
+        "generations": 1
+      },
+      "C": {
+        "n": 40,
+        "failures": 1,
+        "failureRate": 0.025,
+        "failureCI": [
+          0,
+          0.1
+        ],
+        "centreMedian": 1.9660789636778642,
+        "centreMedianCI": [
+          1.2772286778590702,
+          3.180886238617751
+        ],
+        "chamferMedian": 1.6697585058759934,
+        "sizeAbsMedian": 0.3309252789906125,
+        "generations": 2
+      },
+      "D": {
+        "n": 40,
+        "failures": 1,
+        "failureRate": 0.025,
+        "failureCI": [
+          0,
+          0.1
+        ],
+        "centreMedian": 1.9660789636778642,
+        "centreMedianCI": [
+          1.2772286778590702,
+          3.180886238617751
+        ],
+        "chamferMedian": 1.6697585058759934,
+        "sizeAbsMedian": 0.3309252789906125,
+        "generations": 2
+      }
+    },
+    "limited": {
+      "naive": {
+        "n": 40,
+        "failures": 40,
+        "failureRate": 1,
+        "failureCI": [
+          1,
+          1
+        ],
+        "centreMedian": 33.59253939552309,
+        "centreMedianCI": [
+          27.127071791325783,
+          44.866047468490734
+        ],
+        "chamferMedian": 12.942624404646718,
+        "sizeAbsMedian": 18.798637830903495,
+        "generations": 1
+      },
+      "A": {
+        "n": 40,
+        "failures": 27,
+        "failureRate": 0.675,
+        "failureCI": [
+          0.525,
+          0.825
+        ],
+        "centreMedian": 17.755890709258438,
+        "centreMedianCI": [
+          10.50802272249186,
+          24.88904862278527
+        ],
+        "chamferMedian": 6.920848315372542,
+        "sizeAbsMedian": 8.300645708508963,
+        "generations": 1
+      },
+      "B": {
+        "n": 40,
+        "failures": 28,
+        "failureRate": 0.7,
+        "failureCI": [
+          0.525,
+          0.85
+        ],
+        "centreMedian": 15.230392136305667,
+        "centreMedianCI": [
+          11.153888686559467,
+          19.960592199636423
+        ],
+        "chamferMedian": 6.643610815641461,
+        "sizeAbsMedian": 6.732020632904229,
+        "generations": 1
+      },
+      "C": {
+        "n": 40,
+        "failures": 0,
+        "failureRate": 0,
+        "failureCI": [
+          0,
+          0
+        ],
+        "centreMedian": 2.0499620695469494,
+        "centreMedianCI": [
+          1.3451918388477564,
+          3.370200084464275
+        ],
+        "chamferMedian": 1.6436622871269289,
+        "sizeAbsMedian": 0.541217722031978,
+        "generations": 1.975
+      },
+      "D": {
+        "n": 40,
+        "failures": 0,
+        "failureRate": 0,
+        "failureCI": [
+          0,
+          0
+        ],
+        "centreMedian": 2.0499620695469494,
+        "centreMedianCI": [
+          1.3451918388477564,
+          3.370200084464275
+        ],
+        "chamferMedian": 1.6436622871269289,
+        "sizeAbsMedian": 0.541217722031978,
+        "generations": 2
+      }
+    },
+    "reflective": {
+      "naive": {
+        "n": 40,
+        "failures": 30,
+        "failureRate": 0.75,
+        "failureCI": [
+          0.25,
+          1
+        ],
+        "centreMedian": 15.600675941628626,
+        "centreMedianCI": [
+          1.6539977646125388,
+          43.78317035405669
+        ],
+        "chamferMedian": 7.128494735639459,
+        "sizeAbsMedian": 11.280463963501209,
+        "generations": 1
+      },
+      "A": {
+        "n": 40,
+        "failures": 13,
+        "failureRate": 0.325,
+        "failureCI": [
+          0.075,
+          0.6
+        ],
+        "centreMedian": 1.9340422000206585,
+        "centreMedianCI": [
+          1.0157651121468136,
+          13.20733616196996
+        ],
+        "chamferMedian": 1.5396563704501987,
+        "sizeAbsMedian": 0.8133871376534763,
+        "generations": 1
+      },
+      "B": {
+        "n": 40,
+        "failures": 10,
+        "failureRate": 0.25,
+        "failureCI": [
+          0.05,
+          0.475
+        ],
+        "centreMedian": 1.9324855230178433,
+        "centreMedianCI": [
+          0.991662622047515,
+          3.746156611748635
+        ],
+        "chamferMedian": 1.5074865995553357,
+        "sizeAbsMedian": 0.6699931441561779,
+        "generations": 1
+      },
+      "C": {
+        "n": 40,
+        "failures": 2,
+        "failureRate": 0.05,
+        "failureCI": [
+          0,
+          0.175
+        ],
+        "centreMedian": 1.6457471810906728,
+        "centreMedianCI": [
+          0.9846175156041614,
+          1.9786849939497666
+        ],
+        "chamferMedian": 1.4036859699711968,
+        "sizeAbsMedian": 0.5577981770554463,
+        "generations": 1.35
+      },
+      "D": {
+        "n": 40,
+        "failures": 2,
+        "failureRate": 0.05,
+        "failureCI": [
+          0,
+          0.175
+        ],
+        "centreMedian": 1.6457471810906728,
+        "centreMedianCI": [
+          0.9846175156041614,
+          1.9786849939497666
+        ],
+        "chamferMedian": 1.4036859699711968,
+        "sizeAbsMedian": 0.6411606640467638,
+        "generations": 2
+      }
+    }
+  },
+  "tests": {
+    "H1": {
+      "pilot-fixture-block": {
+        "medianB": 1.7633158719793263,
+        "medianBCI": [
+          1.4193818979904669,
+          1.8951348857371635
+        ],
+        "medianNaive": 15.014299612702409,
+        "holds": true,
+        "wilcoxonP": 0.005062153494364896
+      },
+      "pilot-flange-adapter": {
+        "medianB": 3.7325732352548906,
+        "medianBCI": [
+          0.9000995992753377,
+          9.803179206886139
+        ],
+        "medianNaive": 2.2635831492062053,
+        "holds": false,
+        "wilcoxonP": 0.07446173306976966
+      },
+      "pilot-bearing-housing": {
+        "medianB": 1.8543607845725636,
+        "medianBCI": [
+          1.1783150494453285,
+          3.328212553923404
+        ],
+        "medianNaive": 26.054980260223193,
+        "holds": true,
+        "wilcoxonP": 0.005062153494364896
+      },
+      "pilot-sheet-metal-mount": {
+        "medianB": 1.9747117746746317,
+        "medianBCI": [
+          1.5256437720107188,
+          3.8680611072390674
+        ],
+        "medianNaive": 47.853880328976636,
+        "holds": true,
+        "wilcoxonP": 0.005062153494364896
+      }
+    },
+    "H2": {
+      "pooled": {
+        "n": 160,
+        "medianDiff": -0.0923797435079532,
+        "improved": 99,
+        "wilcoxonP": 0.0015949003748612078
+      },
+      "standard": {
+        "n": 40,
+        "medianDiff": -0.017472606862567464,
+        "improved": 23,
+        "wilcoxonP": 0.14289333158586426
+      },
+      "occlusion": {
+        "n": 40,
+        "medianDiff": -0.19265453389932796,
+        "improved": 22,
+        "wilcoxonP": 0.10970635556534902
+      },
+      "limited": {
+        "n": 40,
+        "medianDiff": -0.5833312536450699,
+        "improved": 28,
+        "wilcoxonP": 0.012895605854369885
+      },
+      "reflective": {
+        "n": 40,
+        "medianDiff": -0.06852636887998975,
+        "improved": 26,
+        "wilcoxonP": 0.20641616800282536
+      }
+    },
+    "H3": {
+      "pooled": {
+        "n": 160,
+        "failB": 72,
+        "failC": 3,
+        "failD": 3,
+        "fixedByC": 69,
+        "brokenByC": 0,
+        "mcnemarP": 3.3881317890172014e-21,
+        "genC": 1.65625,
+        "genD": 2,
+        "unverifiedC": 47
+      },
+      "standard": {
+        "n": 40,
+        "failB": 3,
+        "failC": 0,
+        "failD": 0,
+        "fixedByC": 3,
+        "brokenByC": 0,
+        "mcnemarP": 0.25,
+        "genC": 1.3,
+        "genD": 2,
+        "unverifiedC": 8
+      },
+      "occlusion": {
+        "n": 40,
+        "failB": 31,
+        "failC": 1,
+        "failD": 1,
+        "fixedByC": 30,
+        "brokenByC": 0,
+        "mcnemarP": 1.862645149230957e-9,
+        "genC": 2,
+        "genD": 2,
+        "unverifiedC": 16
+      },
+      "limited": {
+        "n": 40,
+        "failB": 28,
+        "failC": 0,
+        "failD": 0,
+        "fixedByC": 28,
+        "brokenByC": 0,
+        "mcnemarP": 7.450580596923828e-9,
+        "genC": 1.975,
+        "genD": 2,
+        "unverifiedC": 15
+      },
+      "reflective": {
+        "n": 40,
+        "failB": 10,
+        "failC": 2,
+        "failD": 2,
+        "fixedByC": 8,
+        "brokenByC": 0,
+        "mcnemarP": 0.0078125,
+        "genC": 1.35,
+        "genD": 2,
+        "unverifiedC": 8
+      }
+    },
+    "trust": {
+      "pooled": {
+        "n": 160,
+        "first": {
+          "verifiedOk": 55,
+          "verifiedFail": 0,
+          "flaggedOk": 33,
+          "flaggedFail": 72
+        },
+        "final": {
+          "verifiedOk": 112,
+          "verifiedFail": 1,
+          "flaggedOk": 45,
+          "flaggedFail": 2
+        }
+      },
+      "standard": {
+        "n": 40,
+        "first": {
+          "verifiedOk": 28,
+          "verifiedFail": 0,
+          "flaggedOk": 9,
+          "flaggedFail": 3
+        },
+        "final": {
+          "verifiedOk": 32,
+          "verifiedFail": 0,
+          "flaggedOk": 8,
+          "flaggedFail": 0
+        }
+      },
+      "occlusion": {
+        "n": 40,
+        "first": {
+          "verifiedOk": 0,
+          "verifiedFail": 0,
+          "flaggedOk": 9,
+          "flaggedFail": 31
+        },
+        "final": {
+          "verifiedOk": 24,
+          "verifiedFail": 0,
+          "flaggedOk": 15,
+          "flaggedFail": 1
+        }
+      },
+      "limited": {
+        "n": 40,
+        "first": {
+          "verifiedOk": 1,
+          "verifiedFail": 0,
+          "flaggedOk": 11,
+          "flaggedFail": 28
+        },
+        "final": {
+          "verifiedOk": 25,
+          "verifiedFail": 0,
+          "flaggedOk": 15,
+          "flaggedFail": 0
+        }
+      },
+      "reflective": {
+        "n": 40,
+        "first": {
+          "verifiedOk": 26,
+          "verifiedFail": 0,
+          "flaggedOk": 4,
+          "flaggedFail": 10
+        },
+        "final": {
+          "verifiedOk": 31,
+          "verifiedFail": 1,
+          "flaggedOk": 7,
+          "flaggedFail": 1
+        }
+      }
+    },
+    "H4": {
+      "B": {
+        "seen": {
+          "n": 982,
+          "recovered": 211,
+          "rateCI": [
+            0.17189066084718257,
+            0.2585209851880416
+          ]
+        },
+        "unseen": {
+          "n": 858,
+          "recovered": 89,
+          "rateCI": [
+            0.0757409115413844,
+            0.1354548416987732
+          ]
+        },
+        "outcomes": {
+          "recovered": {
+            "seen": 211,
+            "unseen": 89
+          },
+          "partial": {
+            "seen": 115,
+            "unseen": 48
+          },
+          "missing": {
+            "seen": 334,
+            "unseen": 229
+          },
+          "no-body": {
+            "seen": 322,
+            "unseen": 492
+          }
+        }
+      },
+      "C": {
+        "seen": {
+          "n": 1233,
+          "recovered": 487,
+          "rateCI": [
+            0.3510995747348238,
+            0.437092608692103
+          ]
+        },
+        "unseen": {
+          "n": 607,
+          "recovered": 172,
+          "rateCI": [
+            0.23608661389792124,
+            0.33391950899602063
+          ]
+        },
+        "outcomes": {
+          "recovered": {
+            "seen": 487,
+            "unseen": 172
+          },
+          "partial": {
+            "seen": 203,
+            "unseen": 87
+          },
+          "missing": {
+            "seen": 426,
+            "unseen": 258
+          },
+          "no-body": {
+            "seen": 117,
+            "unseen": 90
+          }
+        }
+      }
+    },
+    "H5": {
+      "standard": {
+        "B": 0.075,
+        "C": 0
+      },
+      "occlusion": {
+        "B": 0.775,
+        "C": 0.025
+      },
+      "limited": {
+        "B": 0.7,
+        "C": 0
+      },
+      "reflective": {
+        "B": 0.25,
+        "C": 0.05
+      }
+    }
+  }
+}

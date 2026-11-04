@@ -1,0 +1,19 @@
+{
+  "sha": "1e8713acbfae4d29d426c97960e0c4cc1c5092ae1a22c815104535639c0f6cac",
+  "crop": "parts/pilot-flange-adapter/t0/limited-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 47.279,
+  "job": "ef4c33cf-e357-4baa-ae87-34b2d17710f8",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:10:51.886Z"
+}

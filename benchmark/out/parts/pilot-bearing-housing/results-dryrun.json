@@ -1,0 +1,4385 @@
+{
+  "part": "pilot-bearing-housing",
+  "dryrun": true,
+  "protocol": "protocol/PROTOCOL.md",
+  "tau": 0.9,
+  "dimTolerance": 0.1,
+  "budget": 3,
+  "declared": {
+    "length": 174,
+    "width": 74,
+    "height": 103
+  },
+  "rows": [
+    {
+      "trial": 0,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 10.88483411733467,
+          "sizeErrPct": -18.85278865226443,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.206894847640507
+          },
+          "chamferMm": 14.152060897742883,
+          "hausdorffMm": 66.1749461079351,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 67.267,
+          "centreErrMm": 0.06726893582516251,
+          "sizeErrPct": -0.11159905099881184,
+          "dims": {
+            "heightErrMm": -0.08190409530361986,
+            "longErrMm": -0.13836225394414647,
+            "shortErrMm": -0.058843719646262116
+          },
+          "chamferMm": 0.031318020408058284,
+          "hausdorffMm": 0.1414715087080171,
+          "iou": [
+            0.9982745398773006,
+            0.997871369925498,
+            1
+          ],
+          "ms": 4918,
+          "coverage": 0.19933333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1.0039421813403417,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9969924812030075,
+              "body": 1,
+              "areaRatio": 1.001113999257334,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9821428571428571,
+              "body": 0.9958333333333333,
+              "areaRatio": 1.0101694915254238,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 56
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9821428571428571,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 56
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 67.267,
+          "agreement": 0.996553704767375,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.14633083641651656,
+          "sizeErrPct": -0.0645193224308227,
+          "dims": {
+            "heightErrMm": -0.08561214361302305,
+            "longErrMm": -0.14462633536668767,
+            "shortErrMm": -0.06150775438484857
+          },
+          "chamferMm": 0.05944195556703684,
+          "hausdorffMm": 0.21081769336687456,
+          "iou": [
+            0.996553704767375,
+            0.9969595621769535,
+            1
+          ],
+          "ms": 4784,
+          "coverage": 0.19933333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065703022339028,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9894736842105263,
+              "body": 1,
+              "areaRatio": 1.001113999257334,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.006779661016949,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 56
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9821428571428571,
+              "body": 0.9958333333333333,
+              "areaRatio": 1.0135593220338983,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 56
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 67.267,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.996553704767375,
+              "heightRatio": 0.9991688152970511,
+              "longestRatio": 0.9991687853899033,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.14633083641651656,
+          "sizeErrPct": -0.0645193224308227,
+          "dims": {
+            "heightErrMm": -0.08561214361302305,
+            "longErrMm": -0.14462633536668767,
+            "shortErrMm": -0.06150775438484857
+          },
+          "chamferMm": 0.05944195556703684,
+          "hausdorffMm": 0.21081769336687456,
+          "iou": [
+            0.996553704767375,
+            0.9969595621769535,
+            1
+          ],
+          "ms": 4784,
+          "coverage": 0.19933333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065703022339028,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9894736842105263,
+              "body": 1,
+              "areaRatio": 1.001113999257334,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.006779661016949,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 56
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9821428571428571,
+              "body": 0.9958333333333333,
+              "areaRatio": 1.0135593220338983,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 56
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 67.267,
+          "centreErrMm": 0.14633083641651656,
+          "sizeErrPct": -0.0645193224308227,
+          "dims": {
+            "heightErrMm": -0.08561214361302305,
+            "longErrMm": -0.14462633536668767,
+            "shortErrMm": -0.06150775438484857
+          },
+          "chamferMm": 0.05944195556703684,
+          "hausdorffMm": 0.21081769336687456,
+          "iou": [
+            0.996553704767375,
+            0.9969595621769535,
+            1
+          ],
+          "ms": 4784,
+          "coverage": 0.19933333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065703022339028,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9894736842105263,
+              "body": 1,
+              "areaRatio": 1.001113999257334,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.006779661016949,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 56
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9821428571428571,
+              "body": 0.9958333333333333,
+              "areaRatio": 1.0135593220338983,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 56
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 30.085830899199156,
+          "sizeErrPct": -24.986416566613634,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.20689484764073
+          },
+          "chamferMm": 11.035829286402038,
+          "hausdorffMm": 57.05550652989655,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 61.051,
+          "centreErrMm": 0.2183985947429668,
+          "sizeErrPct": -0.09113344412775559,
+          "dims": {
+            "heightErrMm": 0.15528367309014524,
+            "longErrMm": 0.26232386707714106,
+            "shortErrMm": 0.11156302857723288
+          },
+          "chamferMm": 0.11688386549793146,
+          "hausdorffMm": 0.7992394670102256,
+          "iou": [
+            0.9923447689254323,
+            0.9944818072081393,
+            0.9972451790633609
+          ],
+          "ms": 5228,
+          "coverage": 0.3305,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.03468208092485549,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9759398496240601,
+              "body": 1,
+              "areaRatio": 0.9955440029706647,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9636363636363636,
+              "body": 1,
+              "areaRatio": 0.9863013698630136,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9272727272727272,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8181818181818182,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 61.051,
+          "agreement": 0.9941843971631206,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.12965691429689613,
+          "sizeErrPct": 0.21050214483946394,
+          "dims": {
+            "heightErrMm": 0.202344432837398,
+            "longErrMm": 0.3418245656297003,
+            "shortErrMm": 0.1453736718990961
+          },
+          "chamferMm": 0.12981598424321367,
+          "hausdorffMm": 6.994728826867414,
+          "iou": [
+            0.9941843971631206,
+            0.9967218771566597,
+            0.9972451790633609
+          ],
+          "ms": 4832,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0049413218035825,
+              "seenFraction": 0.03468208092485549,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 61.051,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9941843971631206,
+              "heightRatio": 1.0019645102140455,
+              "longestRatio": 1.0019644802232157,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.12965691429689613,
+          "sizeErrPct": 0.21050214483946394,
+          "dims": {
+            "heightErrMm": 0.202344432837398,
+            "longErrMm": 0.3418245656297003,
+            "shortErrMm": 0.1453736718990961
+          },
+          "chamferMm": 0.12981598424321367,
+          "hausdorffMm": 6.994728826867414,
+          "iou": [
+            0.9941843971631206,
+            0.9967218771566597,
+            0.9972451790633609
+          ],
+          "ms": 4832,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0049413218035825,
+              "seenFraction": 0.03468208092485549,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 61.051,
+          "centreErrMm": 0.12965691429689613,
+          "sizeErrPct": 0.21050214483946394,
+          "dims": {
+            "heightErrMm": 0.202344432837398,
+            "longErrMm": 0.3418245656297003,
+            "shortErrMm": 0.1453736718990961
+          },
+          "chamferMm": 0.12981598424321367,
+          "hausdorffMm": 6.994728826867414,
+          "iou": [
+            0.9941843971631206,
+            0.9967218771566597,
+            0.9972451790633609
+          ],
+          "ms": 4832,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0049413218035825,
+              "seenFraction": 0.03468208092485549,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 22.086097854041277,
+          "sizeErrPct": -30.280868260503656,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209818,
+            "shortErrMm": -10.206894847640951
+          },
+          "chamferMm": 13.372205533235707,
+          "hausdorffMm": 77.49504726268634,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.003,
+          "centreErrMm": 0.08077519486877673,
+          "sizeErrPct": -0.03128039216968581,
+          "dims": {
+            "heightErrMm": -0.01260256982293928,
+            "longErrMm": -0.021289777509925223,
+            "shortErrMm": -0.009054273571340588
+          },
+          "chamferMm": 0.10550033349318999,
+          "hausdorffMm": 6.966624790124075,
+          "iou": [
+            0.9971738106453132,
+            0.9988016776512882,
+            1
+          ],
+          "ms": 5109,
+          "coverage": 0.3085,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0086526576019776,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9924812030075187,
+              "body": 1,
+              "areaRatio": 1.0022279985146676,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9955357142857143,
+              "areaRatio": 0.9966996699669967,
+              "seenFraction": 0.9814814814814815,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 1,
+              "areaRatio": 0.9867986798679867,
+              "seenFraction": 0.07407407407407407,
+              "seen": false,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.003,
+          "agreement": 0.9941529235382309,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.14837421020671143,
+          "sizeErrPct": -0.2237305289192637,
+          "dims": {
+            "heightErrMm": -0.2513515027875446,
+            "longErrMm": -0.4246132055916174,
+            "shortErrMm": -0.1805826351890527
+          },
+          "chamferMm": 0.14759450933781207,
+          "hausdorffMm": 6.971887898604377,
+          "iou": [
+            0.994815396700707,
+            0.9941529235382309,
+            0.9951338199513382
+          ],
+          "ms": 4767,
+          "coverage": 0.30983333333333335,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.011124845488257,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9864661654135338,
+              "body": 1,
+              "areaRatio": 1.0048273301151132,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9910714285714286,
+              "areaRatio": 1.0132013201320131,
+              "seenFraction": 0.9814814814814815,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9955357142857143,
+              "areaRatio": 1.0066006600660067,
+              "seenFraction": 0.07407407407407407,
+              "seen": false,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.003,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9941529235382309,
+              "heightRatio": 0.9975596953050655,
+              "longestRatio": 0.9975596654460812,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.14837421020671143,
+          "sizeErrPct": -0.2237305289192637,
+          "dims": {
+            "heightErrMm": -0.2513515027875446,
+            "longErrMm": -0.4246132055916174,
+            "shortErrMm": -0.1805826351890527
+          },
+          "chamferMm": 0.14759450933781207,
+          "hausdorffMm": 6.971887898604377,
+          "iou": [
+            0.994815396700707,
+            0.9941529235382309,
+            0.9951338199513382
+          ],
+          "ms": 4767,
+          "coverage": 0.30983333333333335,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.011124845488257,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9864661654135338,
+              "body": 1,
+              "areaRatio": 1.0048273301151132,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9910714285714286,
+              "areaRatio": 1.0132013201320131,
+              "seenFraction": 0.9814814814814815,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9955357142857143,
+              "areaRatio": 1.0066006600660067,
+              "seenFraction": 0.07407407407407407,
+              "seen": false,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 59.003,
+          "centreErrMm": 0.14837421020671143,
+          "sizeErrPct": -0.2237305289192637,
+          "dims": {
+            "heightErrMm": -0.2513515027875446,
+            "longErrMm": -0.4246132055916174,
+            "shortErrMm": -0.1805826351890527
+          },
+          "chamferMm": 0.14759450933781207,
+          "hausdorffMm": 6.971887898604377,
+          "iou": [
+            0.994815396700707,
+            0.9941529235382309,
+            0.9951338199513382
+          ],
+          "ms": 4767,
+          "coverage": 0.30983333333333335,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.011124845488257,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9864661654135338,
+              "body": 1,
+              "areaRatio": 1.0048273301151132,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9910714285714286,
+              "areaRatio": 1.0132013201320131,
+              "seenFraction": 0.9814814814814815,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9955357142857143,
+              "areaRatio": 1.0066006600660067,
+              "seenFraction": 0.07407407407407407,
+              "seen": false,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 10
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 13.70587021866172,
+          "sizeErrPct": -22.682554786244935,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.20689484764073
+          },
+          "chamferMm": 13.890330627199535,
+          "hausdorffMm": 71.17170766563673,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 55.666,
+          "centreErrMm": 0.4626192213235575,
+          "sizeErrPct": -0.1637830474444768,
+          "dims": {
+            "heightErrMm": -0.001525642922661774,
+            "longErrMm": -0.002577299617501083,
+            "shortErrMm": -0.001096092986374586
+          },
+          "chamferMm": 0.14780655592079944,
+          "hausdorffMm": 0.7654838957389744,
+          "iou": [
+            0.986038077969175,
+            0.9911133467471496,
+            0.9971264367816092
+          ],
+          "ms": 5923,
+          "coverage": 0.2055,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1.0013131976362442,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9959016393442623,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9454545454545454,
+              "body": 0.9877049180327869,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.3333333333333333,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8333333333333334,
+              "body": 1,
+              "areaRatio": 0.8333333333333334,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0.9090909090909091,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 55.666,
+          "agreement": 0.9979784366576819,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.09189215080922357,
+          "sizeErrPct": 0.0007576294920541571,
+          "dims": {
+            "heightErrMm": -0.026291812658119085,
+            "longErrMm": -0.04441529384058285,
+            "shortErrMm": -0.018889263684762625
+          },
+          "chamferMm": 0.03212283685147815,
+          "hausdorffMm": 0.150441088897117,
+          "iou": [
+            0.9979941648431802,
+            0.9979784366576819,
+            1
+          ],
+          "ms": 5455,
+          "coverage": 0.20583333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 0.9980302035456337,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9959016393442623,
+              "areaRatio": 1.0034246575342465,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 55.666,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9979784366576819,
+              "heightRatio": 0.9997447408403026,
+              "longestRatio": 0.9997447109159153,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.09189215080922357,
+          "sizeErrPct": 0.0007576294920541571,
+          "dims": {
+            "heightErrMm": -0.026291812658119085,
+            "longErrMm": -0.04441529384058285,
+            "shortErrMm": -0.018889263684762625
+          },
+          "chamferMm": 0.03212283685147815,
+          "hausdorffMm": 0.150441088897117,
+          "iou": [
+            0.9979941648431802,
+            0.9979784366576819,
+            1
+          ],
+          "ms": 5455,
+          "coverage": 0.20583333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 0.9980302035456337,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9959016393442623,
+              "areaRatio": 1.0034246575342465,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 55.666,
+          "centreErrMm": 0.09189215080922357,
+          "sizeErrPct": 0.0007576294920541571,
+          "dims": {
+            "heightErrMm": -0.026291812658119085,
+            "longErrMm": -0.04441529384058285,
+            "shortErrMm": -0.018889263684762625
+          },
+          "chamferMm": 0.03212283685147815,
+          "hausdorffMm": 0.150441088897117,
+          "iou": [
+            0.9979941648431802,
+            0.9979784366576819,
+            1
+          ],
+          "ms": 5455,
+          "coverage": 0.20583333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 0.9980302035456337,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9959016393442623,
+              "areaRatio": 1.0034246575342465,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9166666666666666,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 24.75385088054246,
+          "sizeErrPct": -30.357859338526538,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209704,
+            "shortErrMm": -10.20689484764073
+          },
+          "chamferMm": 11.211416453417453,
+          "hausdorffMm": 70.1183989485779,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.718,
+          "centreErrMm": 0.13533083726104572,
+          "sizeErrPct": -0.04701867821986783,
+          "dims": {
+            "heightErrMm": -0.06615937407694616,
+            "longErrMm": -0.1117643761633369,
+            "shortErrMm": -0.04753197804974185
+          },
+          "chamferMm": 0.05792482012836974,
+          "hausdorffMm": 0.233467654890189,
+          "iou": [
+            0.9976063080822304,
+            0.9984573191635242,
+            0.9904761904761905
+          ],
+          "ms": 5019,
+          "coverage": 0.32183333333333336,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980769230769231,
+              "body": 1,
+              "areaRatio": 1.0104938271604937,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 520
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.001113999257334,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.9433962264150944,
+              "seen": true,
+              "regionProbes": 53
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.995575221238938,
+              "areaRatio": 1.0066225165562914,
+              "seenFraction": 0.41509433962264153,
+              "seen": false,
+              "regionProbes": 53
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.718,
+          "agreement": 0.9943661971830986,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.15332080297689404,
+          "sizeErrPct": -0.21619680205551273,
+          "dims": {
+            "heightErrMm": -0.25183197442768535,
+            "longErrMm": -0.4254248761047519,
+            "shortErrMm": -0.1809278284101712
+          },
+          "chamferMm": 0.09012972735890934,
+          "hausdorffMm": 0.3768346849994081,
+          "iou": [
+            0.9943661971830986,
+            0.9946854105948911,
+            0.9968152866242038
+          ],
+          "ms": 4698,
+          "coverage": 0.322,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961538461538462,
+              "body": 1,
+              "areaRatio": 1.0092592592592593,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 520
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9969924812030075,
+              "body": 1,
+              "areaRatio": 1.0025993316004456,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9911504424778761,
+              "areaRatio": 1.0198675496688743,
+              "seenFraction": 0.9433962264150944,
+              "seen": true,
+              "regionProbes": 53
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.995575221238938,
+              "areaRatio": 1.0033112582781456,
+              "seenFraction": 0.41509433962264153,
+              "seen": false,
+              "regionProbes": 53
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.718,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9943661971830986,
+              "heightRatio": 0.9975550305318603,
+              "longestRatio": 0.9975550006730165,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.15332080297689404,
+          "sizeErrPct": -0.21619680205551273,
+          "dims": {
+            "heightErrMm": -0.25183197442768535,
+            "longErrMm": -0.4254248761047519,
+            "shortErrMm": -0.1809278284101712
+          },
+          "chamferMm": 0.09012972735890934,
+          "hausdorffMm": 0.3768346849994081,
+          "iou": [
+            0.9943661971830986,
+            0.9946854105948911,
+            0.9968152866242038
+          ],
+          "ms": 4698,
+          "coverage": 0.322,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961538461538462,
+              "body": 1,
+              "areaRatio": 1.0092592592592593,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 520
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9969924812030075,
+              "body": 1,
+              "areaRatio": 1.0025993316004456,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9911504424778761,
+              "areaRatio": 1.0198675496688743,
+              "seenFraction": 0.9433962264150944,
+              "seen": true,
+              "regionProbes": 53
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.995575221238938,
+              "areaRatio": 1.0033112582781456,
+              "seenFraction": 0.41509433962264153,
+              "seen": false,
+              "regionProbes": 53
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 52.718,
+          "centreErrMm": 0.15332080297689404,
+          "sizeErrPct": -0.21619680205551273,
+          "dims": {
+            "heightErrMm": -0.25183197442768535,
+            "longErrMm": -0.4254248761047519,
+            "shortErrMm": -0.1809278284101712
+          },
+          "chamferMm": 0.09012972735890934,
+          "hausdorffMm": 0.3768346849994081,
+          "iou": [
+            0.9943661971830986,
+            0.9946854105948911,
+            0.9968152866242038
+          ],
+          "ms": 4698,
+          "coverage": 0.322,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961538461538462,
+              "body": 1,
+              "areaRatio": 1.0092592592592593,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 520
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9969924812030075,
+              "body": 1,
+              "areaRatio": 1.0025993316004456,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9911504424778761,
+              "areaRatio": 1.0198675496688743,
+              "seenFraction": 0.9433962264150944,
+              "seen": true,
+              "regionProbes": 53
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.995575221238938,
+              "areaRatio": 1.0033112582781456,
+              "seenFraction": 0.41509433962264153,
+              "seen": false,
+              "regionProbes": 53
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 27.260737147349445,
+          "sizeErrPct": -29.42211211727014,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.206894847640841
+          },
+          "chamferMm": 11.815776370594122,
+          "hausdorffMm": 67.47843116995293,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 57.844,
+          "centreErrMm": 0.11693557097921738,
+          "sizeErrPct": -0.04290761447311997,
+          "dims": {
+            "heightErrMm": -0.06312076057701788,
+            "longErrMm": -0.1066311845789869,
+            "shortErrMm": -0.045348896480446044
+          },
+          "chamferMm": 0.0459766188609874,
+          "hausdorffMm": 0.2031602524329799,
+          "iou": [
+            0.99728555917481,
+            0.9957898957497995,
+            0.9975669099756691
+          ],
+          "ms": 5302,
+          "coverage": 0.3451666666666667,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0059249506254115,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9939849624060151,
+              "body": 1,
+              "areaRatio": 1.000742666171556,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9818181818181818,
+              "body": 0.9956521739130435,
+              "areaRatio": 1.0067114093959733,
+              "seenFraction": 0.9454545454545454,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9818181818181818,
+              "body": 1,
+              "areaRatio": 0.9966442953020134,
+              "seenFraction": 0.6909090909090909,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.1111111111111112,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 57.844,
+          "agreement": 0.9945794017265609,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.1856429234634688,
+          "sizeErrPct": -0.16106547312808583,
+          "dims": {
+            "heightErrMm": -0.07715154239817945,
+            "longErrMm": -0.13033366966475057,
+            "shortErrMm": -0.055429264120832045
+          },
+          "chamferMm": 0.09089229647745126,
+          "hausdorffMm": 0.5574942758703371,
+          "iou": [
+            0.9957988887383115,
+            0.9945794017265609,
+            0.9975728155339806
+          ],
+          "ms": 4845,
+          "coverage": 0.3451666666666667,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065832784726794,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 1.000742666171556,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9818181818181818,
+              "body": 1,
+              "areaRatio": 0.9932885906040269,
+              "seenFraction": 0.9454545454545454,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9636363636363636,
+              "body": 0.9826086956521739,
+              "areaRatio": 1.023489932885906,
+              "seenFraction": 0.6909090909090909,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1.0909090909090908,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 57.844,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9945794017265609,
+              "heightRatio": 0.9992509570564186,
+              "longestRatio": 0.999250927146811,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.1856429234634688,
+          "sizeErrPct": -0.16106547312808583,
+          "dims": {
+            "heightErrMm": -0.07715154239817945,
+            "longErrMm": -0.13033366966475057,
+            "shortErrMm": -0.055429264120832045
+          },
+          "chamferMm": 0.09089229647745126,
+          "hausdorffMm": 0.5574942758703371,
+          "iou": [
+            0.9957988887383115,
+            0.9945794017265609,
+            0.9975728155339806
+          ],
+          "ms": 4845,
+          "coverage": 0.3451666666666667,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065832784726794,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 1.000742666171556,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9818181818181818,
+              "body": 1,
+              "areaRatio": 0.9932885906040269,
+              "seenFraction": 0.9454545454545454,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9636363636363636,
+              "body": 0.9826086956521739,
+              "areaRatio": 1.023489932885906,
+              "seenFraction": 0.6909090909090909,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1.0909090909090908,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 57.844,
+          "centreErrMm": 0.1856429234634688,
+          "sizeErrPct": -0.16106547312808583,
+          "dims": {
+            "heightErrMm": -0.07715154239817945,
+            "longErrMm": -0.13033366966475057,
+            "shortErrMm": -0.055429264120832045
+          },
+          "chamferMm": 0.09089229647745126,
+          "hausdorffMm": 0.5574942758703371,
+          "iou": [
+            0.9957988887383115,
+            0.9945794017265609,
+            0.9975728155339806
+          ],
+          "ms": 4845,
+          "coverage": 0.3451666666666667,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0065832784726794,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 1.000742666171556,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9818181818181818,
+              "body": 1,
+              "areaRatio": 0.9932885906040269,
+              "seenFraction": 0.9454545454545454,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9636363636363636,
+              "body": 0.9826086956521739,
+              "areaRatio": 1.023489932885906,
+              "seenFraction": 0.6909090909090909,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1.0909090909090908,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 29.640904769582043,
+          "sizeErrPct": -25.548621134844495,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.99999499321015,
+            "shortErrMm": -10.20689484764073
+          },
+          "chamferMm": 10.913666937540864,
+          "hausdorffMm": 58.14150568240706,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.834,
+          "centreErrMm": 0.657544540307353,
+          "sizeErrPct": -0.23520871454131287,
+          "dims": {
+            "heightErrMm": -0.1802092001080835,
+            "longErrMm": -0.3044310667985606,
+            "shortErrMm": -0.12947068897500857
+          },
+          "chamferMm": 0.28707520985337953,
+          "hausdorffMm": 7.393153233666872,
+          "iou": [
+            0.9857766511758908,
+            0.989024829075207,
+            0.9972067039106145
+          ],
+          "ms": 5357,
+          "coverage": 0.3405,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9903660886319846,
+              "body": 1,
+              "areaRatio": 1.0085470085470085,
+              "seenFraction": 0.011560693641618497,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9819548872180451,
+              "body": 1,
+              "areaRatio": 1.0025993316004456,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.8909090909090909,
+              "body": 1,
+              "areaRatio": 0.9655172413793104,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.8909090909090909,
+              "body": 0.9753086419753086,
+              "areaRatio": 1.0379310344827586,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.5555555555555556,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.834,
+          "agreement": 0.9923868602847878,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.33410778559469007,
+          "sizeErrPct": 0.1948379647287224,
+          "dims": {
+            "heightErrMm": 0.15107270488179392,
+            "longErrMm": 0.2552101928408046,
+            "shortErrMm": 0.10853767274160431
+          },
+          "chamferMm": 0.1876456904224837,
+          "hausdorffMm": 6.74191638033202,
+          "iou": [
+            0.9923868602847878,
+            0.9955019791291831,
+            0.9972067039106145
+          ],
+          "ms": 4820,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.011560693641618497,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9958847736625515,
+              "areaRatio": 1.0172413793103448,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9272727272727272,
+              "body": 0.9958847736625515,
+              "areaRatio": 0.9793103448275862,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.3333333333333333,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.834,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9923868602847878,
+              "heightRatio": 1.0014667264474864,
+              "longestRatio": 1.0014666964715568,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.33410778559469007,
+          "sizeErrPct": 0.1948379647287224,
+          "dims": {
+            "heightErrMm": 0.15107270488179392,
+            "longErrMm": 0.2552101928408046,
+            "shortErrMm": 0.10853767274160431
+          },
+          "chamferMm": 0.1876456904224837,
+          "hausdorffMm": 6.74191638033202,
+          "iou": [
+            0.9923868602847878,
+            0.9955019791291831,
+            0.9972067039106145
+          ],
+          "ms": 4820,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.011560693641618497,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9958847736625515,
+              "areaRatio": 1.0172413793103448,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9272727272727272,
+              "body": 0.9958847736625515,
+              "areaRatio": 0.9793103448275862,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.3333333333333333,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 52.834,
+          "centreErrMm": 0.33410778559469007,
+          "sizeErrPct": 0.1948379647287224,
+          "dims": {
+            "heightErrMm": 0.15107270488179392,
+            "longErrMm": 0.2552101928408046,
+            "shortErrMm": 0.10853767274160431
+          },
+          "chamferMm": 0.1876456904224837,
+          "hausdorffMm": 6.74191638033202,
+          "iou": [
+            0.9923868602847878,
+            0.9955019791291831,
+            0.9972067039106145
+          ],
+          "ms": 4820,
+          "coverage": 0.3428333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0.011560693641618497,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9954887218045113,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9958847736625515,
+              "areaRatio": 1.0172413793103448,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9272727272727272,
+              "body": 0.9958847736625515,
+              "areaRatio": 0.9793103448275862,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.3333333333333333,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 10
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 27.363071976793307,
+          "sizeErrPct": -28.933772745536267,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.206894847640841
+          },
+          "chamferMm": 11.402128425475448,
+          "hausdorffMm": 65.67715804209723,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.394,
+          "centreErrMm": 0.04159492356117479,
+          "sizeErrPct": -0.07147391311426166,
+          "dims": {
+            "heightErrMm": 0.0309032665737341,
+            "longErrMm": 0.05220551672713292,
+            "shortErrMm": 0.022202347119248955
+          },
+          "chamferMm": 0.06636970566084,
+          "hausdorffMm": 0.4263701359096077,
+          "iou": [
+            0.995446021966247,
+            0.9940267765190525,
+            0.9975609756097561
+          ],
+          "ms": 5129,
+          "coverage": 0.3263333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1.0013140604467805,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9959153360564427,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9957264957264957,
+              "areaRatio": 0.9966329966329966,
+              "seenFraction": 0.7407407407407407,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9957264957264957,
+              "areaRatio": 1.0033670033670035,
+              "seenFraction": 0.9444444444444444,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8181818181818182,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.394,
+          "agreement": 0.9960816663229531,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.028435544872637806,
+          "sizeErrPct": -0.0929703016270711,
+          "dims": {
+            "heightErrMm": -0.02896327899015727,
+            "longErrMm": -0.048928256247027235,
+            "shortErrMm": -0.020808569615726746
+          },
+          "chamferMm": 0.04346796496135928,
+          "hausdorffMm": 0.27464198708976756,
+          "iou": [
+            0.9967815475392249,
+            0.9960816663229531,
+            0.9975609756097561
+          ],
+          "ms": 5437,
+          "coverage": 0.3263333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0019710906701709,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.000371333085778,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9957264957264957,
+              "areaRatio": 0.9966329966329966,
+              "seenFraction": 0.7407407407407407,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9957264957264957,
+              "areaRatio": 1.0033670033670035,
+              "seenFraction": 0.9444444444444444,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 52.394,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9960816663229531,
+              "heightRatio": 0.9997188042739722,
+              "longestRatio": 0.999718774350361,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.028435544872637806,
+          "sizeErrPct": -0.0929703016270711,
+          "dims": {
+            "heightErrMm": -0.02896327899015727,
+            "longErrMm": -0.048928256247027235,
+            "shortErrMm": -0.020808569615726746
+          },
+          "chamferMm": 0.04346796496135928,
+          "hausdorffMm": 0.27464198708976756,
+          "iou": [
+            0.9967815475392249,
+            0.9960816663229531,
+            0.9975609756097561
+          ],
+          "ms": 5437,
+          "coverage": 0.3263333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0019710906701709,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.000371333085778,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9957264957264957,
+              "areaRatio": 0.9966329966329966,
+              "seenFraction": 0.7407407407407407,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9957264957264957,
+              "areaRatio": 1.0033670033670035,
+              "seenFraction": 0.9444444444444444,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 52.394,
+          "centreErrMm": 0.028435544872637806,
+          "sizeErrPct": -0.0929703016270711,
+          "dims": {
+            "heightErrMm": -0.02896327899015727,
+            "longErrMm": -0.048928256247027235,
+            "shortErrMm": -0.020808569615726746
+          },
+          "chamferMm": 0.04346796496135928,
+          "hausdorffMm": 0.27464198708976756,
+          "iou": [
+            0.9967815475392249,
+            0.9960816663229531,
+            0.9975609756097561
+          ],
+          "ms": 5437,
+          "coverage": 0.3263333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0019710906701709,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.000371333085778,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9814814814814815,
+              "body": 0.9957264957264957,
+              "areaRatio": 0.9966329966329966,
+              "seenFraction": 0.7407407407407407,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9957264957264957,
+              "areaRatio": 1.0033670033670035,
+              "seenFraction": 0.9444444444444444,
+              "seen": true,
+              "regionProbes": 54
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0.9166666666666666,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 12
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 31.27785991398524,
+          "sizeErrPct": -24.49352628548023,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.206894847640784
+          },
+          "chamferMm": 11.656496264740998,
+          "hausdorffMm": 56.906911641974766,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.013,
+          "centreErrMm": 0.16936938151041694,
+          "sizeErrPct": -0.2163917327352216,
+          "dims": {
+            "heightErrMm": -0.2776004725401071,
+            "longErrMm": -0.46895612404052045,
+            "shortErrMm": -0.1994411185333722
+          },
+          "chamferMm": 0.08885692866924486,
+          "hausdorffMm": 0.37559511541707674,
+          "iou": [
+            0.9932033096926713,
+            0.9951456310679612,
+            0.9975369458128078
+          ],
+          "ms": 5150,
+          "coverage": 0.3343333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980732177263969,
+              "body": 1,
+              "areaRatio": 1.0117356392835084,
+              "seenFraction": 0.08092485549132948,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9849624060150376,
+              "body": 1,
+              "areaRatio": 1.0025993316004456,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9916317991631799,
+              "areaRatio": 1.0102739726027397,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9636363636363636,
+              "body": 0.9874476987447699,
+              "areaRatio": 1.0136986301369864,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.013,
+          "agreement": 0.9962097283638661,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.1896849192215298,
+          "sizeErrPct": 0.08368034008268133,
+          "dims": {
+            "heightErrMm": 0.11288487910066092,
+            "longErrMm": 0.19069872209342975,
+            "shortErrMm": 0.08110175875175596
+          },
+          "chamferMm": 0.07383925729351125,
+          "hausdorffMm": 0.2906220981336396,
+          "iou": [
+            0.9966076696165191,
+            0.9962097283638661,
+            1
+          ],
+          "ms": 4874,
+          "coverage": 0.3343333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0055589870290302,
+              "seenFraction": 0.08092485549132948,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9966580022279985,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9454545454545454,
+              "body": 1,
+              "areaRatio": 0.9863013698630136,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.99581589958159,
+              "areaRatio": 1.0068493150684932,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8181818181818182,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 59.013,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9962097283638661,
+              "heightRatio": 1.0010959708573781,
+              "longestRatio": 1.0010959408925475,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.1896849192215298,
+          "sizeErrPct": 0.08368034008268133,
+          "dims": {
+            "heightErrMm": 0.11288487910066092,
+            "longErrMm": 0.19069872209342975,
+            "shortErrMm": 0.08110175875175596
+          },
+          "chamferMm": 0.07383925729351125,
+          "hausdorffMm": 0.2906220981336396,
+          "iou": [
+            0.9966076696165191,
+            0.9962097283638661,
+            1
+          ],
+          "ms": 4874,
+          "coverage": 0.3343333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0055589870290302,
+              "seenFraction": 0.08092485549132948,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9966580022279985,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9454545454545454,
+              "body": 1,
+              "areaRatio": 0.9863013698630136,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.99581589958159,
+              "areaRatio": 1.0068493150684932,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8181818181818182,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 59.013,
+          "centreErrMm": 0.1896849192215298,
+          "sizeErrPct": 0.08368034008268133,
+          "dims": {
+            "heightErrMm": 0.11288487910066092,
+            "longErrMm": 0.19069872209342975,
+            "shortErrMm": 0.08110175875175596
+          },
+          "chamferMm": 0.07383925729351125,
+          "hausdorffMm": 0.2906220981336396,
+          "iou": [
+            0.9966076696165191,
+            0.9962097283638661,
+            1
+          ],
+          "ms": 4874,
+          "coverage": 0.3343333333333333,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9961464354527938,
+              "body": 1,
+              "areaRatio": 1.0055589870290302,
+              "seenFraction": 0.08092485549132948,
+              "seen": false,
+              "regionProbes": 519
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 0.9774436090225563,
+              "body": 1,
+              "areaRatio": 0.9966580022279985,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9454545454545454,
+              "body": 1,
+              "areaRatio": 0.9863013698630136,
+              "seenFraction": 0.7818181818181819,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.99581589958159,
+              "areaRatio": 1.0068493150684932,
+              "seenFraction": 0.9272727272727272,
+              "seen": true,
+              "regionProbes": 55
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.8181818181818182,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "standard",
+      "conditions": {
+        "naive": {
+          "centreErrMm": 16.23424965151159,
+          "sizeErrPct": -26.482360070143173,
+          "dims": {
+            "heightErrMm": -14.206894013175763,
+            "longErrMm": -23.999994993209928,
+            "shortErrMm": -10.20689484764073
+          },
+          "chamferMm": 13.661105304705808,
+          "hausdorffMm": 73.71586306954076,
+          "failed": true
+        },
+        "A": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 53.419,
+          "centreErrMm": 0.07712945899559966,
+          "sizeErrPct": -0.11201723311003997,
+          "dims": {
+            "heightErrMm": -0.04939617639809768,
+            "longErrMm": -0.0834459653980546,
+            "shortErrMm": -0.035488515498283135
+          },
+          "chamferMm": 0.038598657022710745,
+          "hausdorffMm": 0.2527375396371953,
+          "iou": [
+            0.9985768500948766,
+            0.9979485560991005,
+            1
+          ],
+          "ms": 5145,
+          "coverage": 0.30033333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.0092707045735476,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 0.9958333333333333,
+              "areaRatio": 1,
+              "seenFraction": 0.9824561403508771,
+              "seen": true,
+              "regionProbes": 57
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9473684210526315,
+              "body": 0.9916666666666667,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 57
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "recovered",
+              "recall": 0.9090909090909091,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 1,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "B": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 53.419,
+          "agreement": 0.9946507237256136,
+          "dimsOk": true,
+          "verified": true,
+          "centreErrMm": 0.07618705999714113,
+          "sizeErrPct": 0.05473612411170947,
+          "dims": {
+            "heightErrMm": 0.089113593662149,
+            "longErrMm": 0.15054140614650935,
+            "shortErrMm": 0.06402335930433267
+          },
+          "chamferMm": 0.1063382263146755,
+          "hausdorffMm": 6.98026254902761,
+          "iou": [
+            0.9984204706997315,
+            0.9946507237256136,
+            0.9970238095238095
+          ],
+          "ms": 5140,
+          "coverage": 0.30383333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980694980694981,
+              "body": 1,
+              "areaRatio": 1.0018541409147095,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9824561403508771,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9824561403508771,
+              "seen": true,
+              "regionProbes": 57
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9649122807017544,
+              "body": 0.9916666666666667,
+              "areaRatio": 0.9965753424657534,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 57
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "C": {
+          "view": "inspection",
+          "generations": 1,
+          "generationSeconds": 53.419,
+          "unverified": false,
+          "decisions": [
+            {
+              "view": "inspection",
+              "generated": true,
+              "agreement": 0.9946507237256136,
+              "heightRatio": 1.0008651816783636,
+              "longestRatio": 1.0008651517204388,
+              "verified": true,
+              "decision": "accept"
+            }
+          ],
+          "centreErrMm": 0.07618705999714113,
+          "sizeErrPct": 0.05473612411170947,
+          "dims": {
+            "heightErrMm": 0.089113593662149,
+            "longErrMm": 0.15054140614650935,
+            "shortErrMm": 0.06402335930433267
+          },
+          "chamferMm": 0.1063382263146755,
+          "hausdorffMm": 6.98026254902761,
+          "iou": [
+            0.9984204706997315,
+            0.9946507237256136,
+            0.9970238095238095
+          ],
+          "ms": 5140,
+          "coverage": 0.30383333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980694980694981,
+              "body": 1,
+              "areaRatio": 1.0018541409147095,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9824561403508771,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9824561403508771,
+              "seen": true,
+              "regionProbes": 57
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9649122807017544,
+              "body": 0.9916666666666667,
+              "areaRatio": 0.9965753424657534,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 57
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        },
+        "D": {
+          "view": "inspection",
+          "generations": 3,
+          "generationSeconds": 53.419,
+          "centreErrMm": 0.07618705999714113,
+          "sizeErrPct": 0.05473612411170947,
+          "dims": {
+            "heightErrMm": 0.089113593662149,
+            "longErrMm": 0.15054140614650935,
+            "shortErrMm": 0.06402335930433267
+          },
+          "chamferMm": 0.1063382263146755,
+          "hausdorffMm": 6.98026254902761,
+          "iou": [
+            0.9984204706997315,
+            0.9946507237256136,
+            0.9970238095238095
+          ],
+          "ms": 5140,
+          "coverage": 0.30383333333333334,
+          "features": [
+            {
+              "id": "bore-bearing",
+              "type": "through-hole",
+              "outcome": "recovered",
+              "recall": 0.9980694980694981,
+              "body": 1,
+              "areaRatio": 1.0018541409147095,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 518
+            },
+            {
+              "id": "rear-seal-recess",
+              "type": "counterbore",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 0.9977720014853323,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 665
+            },
+            {
+              "id": "mount-slot--66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9824561403508771,
+              "body": 1,
+              "areaRatio": 0.9931506849315068,
+              "seenFraction": 0.9824561403508771,
+              "seen": true,
+              "regionProbes": 57
+            },
+            {
+              "id": "mount-slot-66",
+              "type": "slot",
+              "outcome": "recovered",
+              "recall": 0.9649122807017544,
+              "body": 0.9916666666666667,
+              "areaRatio": 0.9965753424657534,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 57
+            },
+            {
+              "id": "lubrication-port",
+              "type": "cross-port",
+              "outcome": "recovered",
+              "recall": 1,
+              "body": 1,
+              "areaRatio": 1.2222222222222223,
+              "seenFraction": 1,
+              "seen": true,
+              "regionProbes": 9
+            },
+            {
+              "id": "cover-fixing--38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            },
+            {
+              "id": "cover-fixing-38",
+              "type": "blind-hole",
+              "outcome": "missing",
+              "recall": 0,
+              "body": 1,
+              "areaRatio": 0,
+              "seenFraction": 0,
+              "seen": false,
+              "regionProbes": 11
+            }
+          ],
+          "failed": false
+        }
+      }
+    }
+  ]
+}

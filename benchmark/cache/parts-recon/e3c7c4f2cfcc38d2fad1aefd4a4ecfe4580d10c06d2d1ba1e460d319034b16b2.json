@@ -1,0 +1,19 @@
+{
+  "sha": "e3c7c4f2cfcc38d2fad1aefd4a4ecfe4580d10c06d2d1ba1e460d319034b16b2",
+  "crop": "parts/pilot-sheet-metal-mount/t2/standard-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 66.887,
+  "job": "acec0751-57a0-4f84-9e83-ac896e7b823c",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T19:44:40.068Z"
+}

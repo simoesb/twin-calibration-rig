@@ -1,0 +1,19 @@
+{
+  "sha": "5eb00fc5eb941b0312f8174064363e5b08a1c0fe82706312acf5108c4f000666",
+  "crop": "parts/pilot-bearing-housing/t7/limited-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 60.929,
+  "job": "be294432-2372-404f-ba24-3ee4e4f91e5f",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:58:50.055Z"
+}

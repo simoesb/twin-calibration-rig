@@ -1,0 +1,2607 @@
+{
+  "part": "pilot-sheet-metal-mount",
+  "protocol": "protocol/PROTOCOL.md",
+  "tau": 0.9,
+  "rows": [
+    {
+      "trial": 0,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "d9600c11bce59ac2ef16dee117de0b3435340c0adda06b6f9135615a71ede953",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9183576410906785,
+            0.9608938547486033
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9368809477568459,
+          "heldFlag": false,
+          "ms": 15224,
+          "centreErrMm": 1.4122667274968663,
+          "sizeErrPct": -1.3251162203733236,
+          "chamferMm": 0.8748810482124427,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9626240996690676,
+            0.9638888888888889
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8986486486486487,
+          "heldFlag": true,
+          "ms": 11113,
+          "centreErrMm": 1.7240951656892831,
+          "sizeErrPct": -0.22346545149974917,
+          "chamferMm": 0.650544035346465,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9540073743450417,
+            0.9084617804340988
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9555555555555556,
+          "heldFlag": false,
+          "ms": 11536,
+          "centreErrMm": 1.523518952775746,
+          "sizeErrPct": -0.30573668798379305,
+          "chamferMm": 0.7210927723596443,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "fa4e52699699d94bc23d6033befa058a15cd2d6c7f1dd232eaabf34806dc37ba",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7267505045800342,
+            0.6720430107526881
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9178928781636256,
+          "heldFlag": false,
+          "ms": 12292,
+          "centreErrMm": 3.395860441204094,
+          "sizeErrPct": 1.4187081121677103,
+          "chamferMm": 1.7264440732177733,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9207424867413082,
+            0.6702702702702703
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7229792505419634,
+          "heldFlag": true,
+          "ms": 13481,
+          "centreErrMm": 3.392940796241732,
+          "sizeErrPct": 1.4246957576865782,
+          "chamferMm": 1.7724958599391174,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9228495418267809,
+            0.7275556247082621
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.6577540106951871,
+          "heldFlag": true,
+          "ms": 9088,
+          "centreErrMm": 3.3150140526048864,
+          "sizeErrPct": 1.393844222187024,
+          "chamferMm": 1.7345793377963026,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "618f3b2f842742fa05b992381de2e683bfa800c7fcd250c0a6b6799ecdefe8a7",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.30215716486902927,
+            0.3955431754874652
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6163486186271717,
+          "heldFlag": true,
+          "ms": 10752,
+          "centreErrMm": 47.858990566238546,
+          "sizeErrPct": 4.099686175618733,
+          "chamferMm": 14.563166000905541,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.902262443438914,
+            0.4739583333333333
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.38419851682829437,
+          "heldFlag": true,
+          "ms": 11241,
+          "centreErrMm": 60.355224680753864,
+          "sizeErrPct": 29.482956870747312,
+          "chamferMm": 14.283343335225874,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8917933130699088,
+            0.38374426605504586
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.46736292428198434,
+          "heldFlag": true,
+          "ms": 8559,
+          "centreErrMm": 59.76039783031394,
+          "sizeErrPct": 28.037239164614626,
+          "chamferMm": 14.097427815229327,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "249a25c73d4d9fb449e8e18bf14bb8aac028a5f1203e8ac42bcda6e686efc90f",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9101212025814576,
+            0.9611111111111111
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9453838678328474,
+          "heldFlag": false,
+          "ms": 12435,
+          "centreErrMm": 1.6578372569416695,
+          "sizeErrPct": -1.846768259632181,
+          "chamferMm": 0.7642036876715744,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9625097125097125,
+            0.9584487534626038
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8867308887507769,
+          "heldFlag": true,
+          "ms": 12511,
+          "centreErrMm": 2.624312291595197,
+          "sizeErrPct": -1.0798138460927587,
+          "chamferMm": 0.9253701261227353,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9490073958738808,
+            0.9143895119254463
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9527777777777777,
+          "heldFlag": false,
+          "ms": 12029,
+          "centreErrMm": 1.5546924118235281,
+          "sizeErrPct": -1.7884331149143562,
+          "chamferMm": 0.7835573381718671,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "4d23d55594a130794305480a76b63ca44edbb4a650e857580c91cd96690953d0",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6021904257198375,
+            0.6555023923444976
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.5908065090865898,
+          "heldFlag": true,
+          "ms": 11331,
+          "centreErrMm": 8.086109732655714,
+          "sizeErrPct": 17.90901456437912,
+          "chamferMm": 11.345912451087452,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.949511645379414,
+            0.9044776119402985
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.830781627719581,
+          "heldFlag": true,
+          "ms": 11136,
+          "centreErrMm": 2.3092762245092495,
+          "sizeErrPct": 1.4474796971550852,
+          "chamferMm": 1.1911700627643822,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9423486461819288,
+            0.8640232509860909
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8952095808383234,
+          "heldFlag": true,
+          "ms": 13375,
+          "centreErrMm": 2.335582845969445,
+          "sizeErrPct": 0.4087589507416389,
+          "chamferMm": 1.0808300744058346,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "03f85bb44810ad4b4142c70d1c217ef23a009dd5154e43667a5d322abf7b4776",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.4594499912418988,
+            0.6883116883116883
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7054024255788313,
+          "heldFlag": true,
+          "ms": 12793,
+          "centreErrMm": 25.378562865875452,
+          "sizeErrPct": 6.244331175189677,
+          "chamferMm": 21.875118399508654,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8627495462794919,
+            0.7212121212121212
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5057622653934805,
+          "heldFlag": true,
+          "ms": 7784,
+          "centreErrMm": 33.100916677144426,
+          "sizeErrPct": 8.141529858920427,
+          "chamferMm": 9.334836968576349,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8638790035587188,
+            0.5262560777957861
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6878612716763006,
+          "heldFlag": true,
+          "ms": 12213,
+          "centreErrMm": 32.54592051072289,
+          "sizeErrPct": 11.619598608116366,
+          "chamferMm": 9.043944158417586,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "f6a4d6a71a32e141b0838cbe8bd516827de129fecc263342092e80a3525a76a9",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.5587407667956384,
+            0.7513966480446927
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7263000213995292,
+          "heldFlag": true,
+          "ms": 11812,
+          "centreErrMm": 19.5719766751034,
+          "sizeErrPct": -12.700722931464991,
+          "chamferMm": 8.751234286239342,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9215901603338458,
+            0.7633136094674556
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.4345217084362866,
+          "heldFlag": true,
+          "ms": 13127,
+          "centreErrMm": 24.94850815343387,
+          "sizeErrPct": -17.081075948398684,
+          "chamferMm": 8.800575041960215,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9169900819318672,
+            0.5114993760028526
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.6894586894586895,
+          "heldFlag": true,
+          "ms": 9050,
+          "centreErrMm": 27.77344467934256,
+          "sizeErrPct": -15.504647736338361,
+          "chamferMm": 11.438865508467982,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "7485f047539cc4a64352e52c907b182840bbed3397b7e1c6fd9af8d6afb253e3",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8126215690512211,
+            0.8819875776397516
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9216686674669868,
+          "heldFlag": false,
+          "ms": 8968,
+          "centreErrMm": 19.45441464741319,
+          "sizeErrPct": 10.692615967561103,
+          "chamferMm": 1.4850693724459267,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9430208019294544,
+            0.8878504672897196
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.786934244235696,
+          "heldFlag": true,
+          "ms": 10682,
+          "centreErrMm": 18.722549396421353,
+          "sizeErrPct": 10.855032087335426,
+          "chamferMm": 1.3682547229480355,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9323524950705293,
+            0.8107815544490149
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8753894080996885,
+          "heldFlag": true,
+          "ms": 9853,
+          "centreErrMm": 18.82364889317018,
+          "sizeErrPct": 10.286756688387232,
+          "chamferMm": 1.4438140679347902,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "ee3d5438ad1a4c01d7868ca963e0fa059dcc301c24fab851d0a79c9b3b28c15a",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7882876417396297,
+            0.9147540983606557
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8834829818333682,
+          "heldFlag": true,
+          "ms": 11989,
+          "centreErrMm": 3.3003683552921417,
+          "sizeErrPct": -1.4412285472195863,
+          "chamferMm": 1.310669627246454,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9238297872340425,
+            0.9049180327868852
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.7840613248481342,
+          "heldFlag": true,
+          "ms": 10488,
+          "centreErrMm": 2.9047765996394794,
+          "sizeErrPct": -1.4034272062478537,
+          "chamferMm": 1.0521352706480305,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9397972116603295,
+            0.786550542547116
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8935483870967742,
+          "heldFlag": true,
+          "ms": 15612,
+          "centreErrMm": 4.254137506256263,
+          "sizeErrPct": -0.08198086753358202,
+          "chamferMm": 1.2068642328245416,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "260a8a83a08afe4c434a4e1edcca951c634cc5c9980bb1fa5a87519c3545cc52",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.454832995951417,
+            0.6628571428571428
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.46800433839479394,
+          "heldFlag": true,
+          "ms": 9379,
+          "centreErrMm": 38.20535469831338,
+          "sizeErrPct": 29.898894180007108,
+          "chamferMm": 12.742120559221199,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.5749680715197957,
+            0.5680473372781065
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.2926167209554832,
+          "heldFlag": true,
+          "ms": 13027,
+          "centreErrMm": 27.518931737923364,
+          "sizeErrPct": 1.750264584816641,
+          "chamferMm": 20.747889878758123,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.6367980884109916,
+            0.44812680115273773
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.42857142857142855,
+          "heldFlag": true,
+          "ms": 12749,
+          "centreErrMm": 23.827041154215962,
+          "sizeErrPct": 8.667258900684761,
+          "chamferMm": 12.677572940002802,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "a2b52b507702295b59adba9035a84c602f2bc7d3e2aff6881f3d6de5ebdf35fa",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.4426416529344657,
+            0.5950155763239875
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.3149955634427684,
+          "heldFlag": true,
+          "ms": 11216,
+          "centreErrMm": 28.784153702197816,
+          "sizeErrPct": -16.757336043622374,
+          "chamferMm": 16.22449409661926,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7409929078014185,
+            0.6020671834625323
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.1328492097394276,
+          "heldFlag": true,
+          "ms": 12006,
+          "centreErrMm": 49.031714165282,
+          "sizeErrPct": -7.627073949809016,
+          "chamferMm": 30.684333616387846,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8659825870646766,
+            0.3961090524086818
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.24919093851132687,
+          "heldFlag": true,
+          "ms": 10134,
+          "centreErrMm": 33.71887360609782,
+          "sizeErrPct": -17.920648198859002,
+          "chamferMm": 12.599850513291967,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "7afec71a663d4d5412191c05c2e97b02ae34d40d4af9ec4d4fc61f8e2b2213c1",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7397001385914074,
+            0.8264705882352941
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.8474214811942613,
+          "heldFlag": true,
+          "ms": 11252,
+          "centreErrMm": 9.18721496016981,
+          "sizeErrPct": 8.643068788894869,
+          "chamferMm": 1.6676837560009181,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8996676360614874,
+            0.8138138138138138
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7173660426081343,
+          "heldFlag": true,
+          "ms": 13825,
+          "centreErrMm": 7.483566580774835,
+          "sizeErrPct": 3.7534299142591765,
+          "chamferMm": 2.2106539290802076,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8900020036064917,
+            0.735423197492163
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.8011363636363636,
+          "heldFlag": true,
+          "ms": 11031,
+          "centreErrMm": 10.077559251902073,
+          "sizeErrPct": 7.0443421844123,
+          "chamferMm": 1.66921346318064,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "1631c115b236030ff65e4045a8151a9364b9816f49d59982cb93ea81a6ccedc8",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7704200700116686,
+            0.9031339031339032
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.826171875,
+          "heldFlag": true,
+          "ms": 10718,
+          "centreErrMm": 6.05323686331129,
+          "sizeErrPct": 1.886547545509032,
+          "chamferMm": 3.2043364648419064,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8831378892033966,
+            0.8670360110803325
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7709677419354839,
+          "heldFlag": true,
+          "ms": 13583,
+          "centreErrMm": 6.905121080540201,
+          "sizeErrPct": 2.329201258638247,
+          "chamferMm": 2.321736786122782,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8848790322580645,
+            0.7740610328638498
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.8543956043956044,
+          "heldFlag": true,
+          "ms": 11313,
+          "centreErrMm": 6.645599540785946,
+          "sizeErrPct": 2.9198691688113065,
+          "chamferMm": 2.3189162967958326,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "e65fbb9b089e2055a47ee34727063e34c9a8ba74a14cc3833f7eb5c5af4bf9d9",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6466657385493526,
+            0.8231511254019293
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7025503355704698,
+          "heldFlag": true,
+          "ms": 10611,
+          "centreErrMm": 10.591607525701265,
+          "sizeErrPct": 10.072753914156674,
+          "chamferMm": 7.3746559597868515,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9296124031007752,
+            0.7728706624605678
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6344943348720101,
+          "heldFlag": true,
+          "ms": 13073,
+          "centreErrMm": 12.468959653779736,
+          "sizeErrPct": 7.327121039464535,
+          "chamferMm": 5.6398103307631136,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9341983317886933,
+            0.6357212138007482
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7632398753894081,
+          "heldFlag": true,
+          "ms": 10554,
+          "centreErrMm": 12.114121854032744,
+          "sizeErrPct": 8.00982728044608,
+          "chamferMm": 5.494286283404788,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "eb2025bee83c14584e860ee7c66e4074960c6df4d82c0297e24a0e30f50a480e",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.09634664401019541,
+            0.16119402985074627
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.23606662395900063,
+          "heldFlag": true,
+          "ms": 11658,
+          "centreErrMm": 45.517612435224216,
+          "sizeErrPct": -20.227725898995196,
+          "chamferMm": 28.03294134397878,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.40985613712886443,
+            0.23880597014925373
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.13379129865881584,
+          "heldFlag": true,
+          "ms": 8821,
+          "centreErrMm": 43.37791968489814,
+          "sizeErrPct": 5.546384065845333,
+          "chamferMm": 31.74884467416625,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.31643924626380765,
+            0.09710535173342309
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.14114114114114115,
+          "heldFlag": true,
+          "ms": 6405,
+          "centreErrMm": 42.475079012075,
+          "sizeErrPct": -17.66025001299827,
+          "chamferMm": 28.141370460624106,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "47f05d6a63186fd91a6d952538e474d653cee4dcb419f6715aeccd38b237343c",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.584333288391533,
+            0.8068181818181818
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6474461647980068,
+          "heldFlag": true,
+          "ms": 10184,
+          "centreErrMm": 17.208489976313082,
+          "sizeErrPct": -2.416358894783699,
+          "chamferMm": 8.824215135333993,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8886707245238563,
+            0.7455012853470437
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5848375451263538,
+          "heldFlag": true,
+          "ms": 14924,
+          "centreErrMm": 20.48572278429781,
+          "sizeErrPct": 7.867219419202454,
+          "chamferMm": 6.2679652382166555,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.887995292271479,
+            0.5931568754034862
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7379134860050891,
+          "heldFlag": true,
+          "ms": 10362,
+          "centreErrMm": 18.83435673287357,
+          "sizeErrPct": 6.9662776202000565,
+          "chamferMm": 5.866180959621662,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "248b40f156f70520667cc48b746eb5dbc589cf07f5da74bbb9f28966f6d599c8",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9171773077683336,
+            0.8413461538461539
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9092214880781385,
+          "heldFlag": false,
+          "ms": 12742,
+          "centreErrMm": 0.44112400095899623,
+          "sizeErrPct": -2.4818294046655587,
+          "chamferMm": 0.8677198380319548,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9339326484018264,
+            0.8215962441314554
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8963650425367363,
+          "heldFlag": true,
+          "ms": 17074,
+          "centreErrMm": 1.8262629074835648,
+          "sizeErrPct": -1.141402041592321,
+          "chamferMm": 1.1686225677935325,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9218882903317267,
+            0.9221767115272089
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.7981651376146789,
+          "heldFlag": true,
+          "ms": 18689,
+          "centreErrMm": 1.5734749332839162,
+          "sizeErrPct": -0.9319750524490522,
+          "chamferMm": 1.0565020848293003,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "308e6e95b7969cdf3ddc2fc7bf8874ce2090c57d72ddb7cd426e73040b8eb139",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6638282117734172,
+            0.6238095238095238
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.8801920267167606,
+          "heldFlag": true,
+          "ms": 8723,
+          "centreErrMm": 23.576056492723517,
+          "sizeErrPct": 15.557272289994884,
+          "chamferMm": 6.816107861494287,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9274035317200785,
+            0.6354679802955665
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6463367855772919,
+          "heldFlag": true,
+          "ms": 12469,
+          "centreErrMm": 19.708940962155367,
+          "sizeErrPct": 10.321932644721432,
+          "chamferMm": 6.844833480078601,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9269297484822203,
+            0.668098399062866
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5990338164251208,
+          "heldFlag": true,
+          "ms": 12581,
+          "centreErrMm": 20.14441088504836,
+          "sizeErrPct": 10.667858589719836,
+          "chamferMm": 6.72230697097896,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "0965c92514a97e806a5182f40ff110d1ec669425d995203a3b0b332d0771cbdd",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6841539838854074,
+            0.7961630695443646
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7868671235905372,
+          "heldFlag": true,
+          "ms": 12144,
+          "centreErrMm": 8.596052241599855,
+          "sizeErrPct": -4.647394619100309,
+          "chamferMm": 8.059679543991004,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8193676763210259,
+            0.7956730769230769
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.676159770732581,
+          "heldFlag": true,
+          "ms": 16664,
+          "centreErrMm": 8.122401342120929,
+          "sizeErrPct": -4.729213530079301,
+          "chamferMm": 7.818386452913565,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.7948927477017365,
+            0.7065677966101694
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6716738197424893,
+          "heldFlag": true,
+          "ms": 10557,
+          "centreErrMm": 8.438660788316914,
+          "sizeErrPct": -1.7999190357896766,
+          "chamferMm": 4.21377730988021,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "fc3b7f729e190fcb2c5bc5e8479790e4e03810cfbc7ab2cc832915539f376be9",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9041368337311058,
+            0.9173333333333333
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8953471517611248,
+          "heldFlag": true,
+          "ms": 12213,
+          "centreErrMm": 0.5991601894347118,
+          "sizeErrPct": -2.193998252464502,
+          "chamferMm": 0.7287730799497701,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9152394775036284,
+            0.8958333333333334
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8830432231566595,
+          "heldFlag": true,
+          "ms": 13255,
+          "centreErrMm": 1.4956763807911957,
+          "sizeErrPct": -1.597878213824,
+          "chamferMm": 1.0323663437794643,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9091693015234262,
+            0.9181943623102701
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8469135802469135,
+          "heldFlag": true,
+          "ms": 19348,
+          "centreErrMm": 1.4023530409214349,
+          "sizeErrPct": -0.7430585695955783,
+          "chamferMm": 0.870359658441301,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "1b430c1ec38775c7160fdd9ddef2a06c3b018ae8d5aaa9440c24db886597afd1",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7488970588235294,
+            0.7894736842105263
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8332888057707721,
+          "heldFlag": true,
+          "ms": 15646,
+          "centreErrMm": 12.782021360977186,
+          "sizeErrPct": -1.7379052180474863,
+          "chamferMm": 2.5783041993596174,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8626730714891212,
+            0.8223495702005731
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.6822218023805026,
+          "heldFlag": true,
+          "ms": 14945,
+          "centreErrMm": 13.152764795471802,
+          "sizeErrPct": -8.000786071505427,
+          "chamferMm": 2.627107311625141,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8603405657786323,
+            0.7447121574397646
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7821229050279329,
+          "heldFlag": true,
+          "ms": 14600,
+          "centreErrMm": 13.897095100727178,
+          "sizeErrPct": -2.4138794873926894,
+          "chamferMm": 2.4937105448242893,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "d51ffc8fd2b8496a114223a1ed90305f92cb80f8fc3797c09dbef32839f64478",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.4284266531542944,
+            0.7388059701492538
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.2081818181818182,
+          "heldFlag": true,
+          "ms": 13254,
+          "centreErrMm": 16.534349562893077,
+          "sizeErrPct": 13.182691231723155,
+          "chamferMm": 22.73547595972499,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8529348986125934,
+            0.6690140845070423
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.04284377923292797,
+          "heldFlag": true,
+          "ms": 12049,
+          "centreErrMm": 19.196327102986533,
+          "sizeErrPct": -8.990092060641143,
+          "chamferMm": 26.562993501098173,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.6257354336686278,
+            0.4824320614877848
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.31785714285714284,
+          "heldFlag": true,
+          "ms": 11478,
+          "centreErrMm": 15.714685462015282,
+          "sizeErrPct": 17.959577694757932,
+          "chamferMm": 30.220582749060345,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "a28e3e52dd02492ab5253c88ab6e0e458a99d50300040dc94e60ddf2ebf2afa6",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.5934544362708302,
+            0.7766497461928934
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7908303401648004,
+          "heldFlag": true,
+          "ms": 14681,
+          "centreErrMm": 16.51233990693163,
+          "sizeErrPct": -13.128192028971153,
+          "chamferMm": 8.295307412038337,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9616438356164384,
+            0.7859154929577464
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.4450458577657495,
+          "heldFlag": true,
+          "ms": 13409,
+          "centreErrMm": 18.76623308723038,
+          "sizeErrPct": -19.202856190567385,
+          "chamferMm": 8.798548842626351,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9035522066738428,
+            0.5707748627211714
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7552631578947369,
+          "heldFlag": true,
+          "ms": 18847,
+          "centreErrMm": 21.566037243427548,
+          "sizeErrPct": -14.381145175966125,
+          "chamferMm": 9.797158824764981,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "7fc96a457e662452dca07f8ceaa41cd06a7f9003694089b8b4665ebd3d34ce74",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7432681667281446,
+            0.8319327731092437
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.853406652360515,
+          "heldFlag": true,
+          "ms": 16454,
+          "centreErrMm": 10.390342793853314,
+          "sizeErrPct": -2.4523120134750664,
+          "chamferMm": 2.4923699944727606,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7466115915838389,
+            0.6683804627249358
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.4512096119499919,
+          "heldFlag": true,
+          "ms": 14443,
+          "centreErrMm": 30.535081324077108,
+          "sizeErrPct": -8.894768472742209,
+          "chamferMm": 14.326399124425159,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.890937019969278,
+            0.7454077883908891
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8096590909090909,
+          "heldFlag": true,
+          "ms": 16241,
+          "centreErrMm": 12.001813706504896,
+          "sizeErrPct": -2.30824353885003,
+          "chamferMm": 2.2867647031743834,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "5d9b02df98d8c35feb3d03509e02731d7ade2c71bd05b040a7a2346d58be5fbe",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9096228868660599,
+            0.9638888888888889
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9227362956176516,
+          "heldFlag": false,
+          "ms": 9774,
+          "centreErrMm": 2.392939152795769,
+          "sizeErrPct": -0.3050772807291602,
+          "chamferMm": 1.0685568348906462,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9603823030676738,
+            0.961218836565097
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8566021867115223,
+          "heldFlag": true,
+          "ms": 11648,
+          "centreErrMm": 1.995107344463093,
+          "sizeErrPct": 0.512839720343572,
+          "chamferMm": 1.2118374528156726,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9366656317913692,
+            0.9145673603504929
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9554317548746518,
+          "heldFlag": false,
+          "ms": 11415,
+          "centreErrMm": 2.0011578288147995,
+          "sizeErrPct": -1.0785610418586389,
+          "chamferMm": 0.7021184682138946,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "fd6e613f32386420bd2ba8f3bb4c1a04623027827181c97b980792619393d1d7",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.3810395314787701,
+            0.8506493506493507
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6524476944952264,
+          "heldFlag": true,
+          "ms": 8677,
+          "centreErrMm": 14.143541410944689,
+          "sizeErrPct": -11.0624999014168,
+          "chamferMm": 24.162994513715432,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8588929219600726,
+            0.6620689655172414
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.596948628814214,
+          "heldFlag": true,
+          "ms": 11086,
+          "centreErrMm": 9.812324093327058,
+          "sizeErrPct": 3.427565032012958,
+          "chamferMm": 4.984359280976637,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8654571159283695,
+            0.6449654594934059
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6458333333333334,
+          "heldFlag": true,
+          "ms": 9767,
+          "centreErrMm": 10.860689822358442,
+          "sizeErrPct": -1.5708558644994541,
+          "chamferMm": 5.184240848635113,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "70905d00f6c63c817fe42434fbb89f2e9c98963522b93b7ae2ecd89582620a03",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6168048229088169,
+            0.45985401459854014
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.24870709920075224,
+          "heldFlag": true,
+          "ms": 9637,
+          "centreErrMm": 24.100667492148848,
+          "sizeErrPct": -13.006646220420116,
+          "chamferMm": 12.209049102383702,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7975324961445253,
+            0.4907161803713528
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.32036998108051296,
+          "heldFlag": true,
+          "ms": 9400,
+          "centreErrMm": 32.19724737204257,
+          "sizeErrPct": -22.959162143901978,
+          "chamferMm": 10.142182653435187,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.7715759849906192,
+            0.4047826086956522
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.45609065155807366,
+          "heldFlag": true,
+          "ms": 10940,
+          "centreErrMm": 32.88535298835183,
+          "sizeErrPct": -27.18995256896465,
+          "chamferMm": 9.403094115340057,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "4e5ee3c33e64e3bf7e7f3353a1396672d42288c2fc6078375364282b47c582c2",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.37733732236350037,
+            0.7444444444444445
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5627578078962876,
+          "heldFlag": true,
+          "ms": 7628,
+          "centreErrMm": 75.88435294648595,
+          "sizeErrPct": 21.087933012509996,
+          "chamferMm": 19.979176317695845,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6506511001347104,
+            0.7589041095890411
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.3826951951951952,
+          "heldFlag": true,
+          "ms": 12261,
+          "centreErrMm": 75.15149396805297,
+          "sizeErrPct": 24.730944979382507,
+          "chamferMm": 19.55145964585259,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.6477821011673152,
+            0.407042786823173
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6621983914209115,
+          "heldFlag": true,
+          "ms": 7616,
+          "centreErrMm": 69.73062500003584,
+          "sizeErrPct": 21.483746040768924,
+          "chamferMm": 20.058547108894654,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "eed4d4c08d0447191e6d650f54ebbbf4082ebcccc27e07af91c1e8f570cdea96",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.863490117971503,
+            0.9186046511627907
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9121530128639134,
+          "heldFlag": false,
+          "ms": 12210,
+          "centreErrMm": 1.6387230217779905,
+          "sizeErrPct": 0.2795822748934196,
+          "chamferMm": 1.1352738633767947,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9321976149914821,
+            0.9254079254079254
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.829364477476111,
+          "heldFlag": true,
+          "ms": 11751,
+          "centreErrMm": 2.4630913563575243,
+          "sizeErrPct": 0.3098892360380745,
+          "chamferMm": 0.721693039872824,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9236499068901304,
+            0.862174111907303
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9164733178654292,
+          "heldFlag": false,
+          "ms": 12694,
+          "centreErrMm": 1.6219912005885304,
+          "sizeErrPct": 0.5908851587991037,
+          "chamferMm": 0.9590075002551792,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "ab64b4a4b0d6850f34b4c59a12a43cfbdbe67c5bd8f218ae94ac3f68e8614878",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8027220840040977,
+            0.9124423963133641
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8151571164510166,
+          "heldFlag": true,
+          "ms": 14396,
+          "centreErrMm": 3.6529200307619294,
+          "sizeErrPct": -3.645838226187026,
+          "chamferMm": 4.42010132092291,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8253926701570681,
+            0.9216589861751152
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7949051961210016,
+          "heldFlag": true,
+          "ms": 10780,
+          "centreErrMm": 4.740865308331593,
+          "sizeErrPct": -2.9317127741206317,
+          "chamferMm": 4.872087633821062,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8454056821090351,
+            0.8486948827606547
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8024193548387096,
+          "heldFlag": true,
+          "ms": 11285,
+          "centreErrMm": 5.477078931237349,
+          "sizeErrPct": 1.8660694366247288,
+          "chamferMm": 4.226527862353043,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "96bf05658dee3e4e0fa226d520c4d3f29116d73084944d400213338f6f548a9f",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.5898529411764706,
+            0.5621181262729125
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.4721657862657456,
+          "heldFlag": true,
+          "ms": 10962,
+          "centreErrMm": 15.266769137494835,
+          "sizeErrPct": -1.85509704277943,
+          "chamferMm": 10.855991980775915,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6378999549346552,
+            0.6399132321041214
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5098483944132745,
+          "heldFlag": true,
+          "ms": 11070,
+          "centreErrMm": 14.01501597650788,
+          "sizeErrPct": -11.29638824955329,
+          "chamferMm": 10.40796429387832,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.6398891966759003,
+            0.5268660667019587
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5370786516853933,
+          "heldFlag": true,
+          "ms": 11221,
+          "centreErrMm": 16.635485298491375,
+          "sizeErrPct": -20.148354610118147,
+          "chamferMm": 13.272526036834957,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "0d41fc9a9a8966921b7fa8e2e970c687fcb9a5802a3fdfdb7446b6537197f3db",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9037340475815346,
+            0.9593301435406698
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9532011134307585,
+          "heldFlag": false,
+          "ms": 10528,
+          "centreErrMm": 0.4525352727133113,
+          "sizeErrPct": 0.053419475418081674,
+          "chamferMm": 0.46500825625888603,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9589376201293028,
+            0.9569377990430622
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9005021971123666,
+          "heldFlag": false,
+          "ms": 15446,
+          "centreErrMm": 0.5215807226417973,
+          "sizeErrPct": -0.06922584105767404,
+          "chamferMm": 0.37932785151580073,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9620894479385046,
+            0.9039246467817896
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9498806682577565,
+          "heldFlag": false,
+          "ms": 15521,
+          "centreErrMm": 0.1513388374269691,
+          "sizeErrPct": 0.09152324884529328,
+          "chamferMm": 0.44500888679675604,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "e80e47f3784b70364854394a719474a0436fab38f09efa3f7df94aed31ea25ee",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9325167552576843,
+            0.9359267734553776
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.923354735152488,
+          "heldFlag": false,
+          "ms": 12606,
+          "centreErrMm": 2.0518694072274792,
+          "sizeErrPct": 0.5388949518398745,
+          "chamferMm": 0.9545091280059206,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9392674387287907,
+            0.9422632794457275
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8976882581826505,
+          "heldFlag": true,
+          "ms": 22536,
+          "centreErrMm": 2.1293072779663964,
+          "sizeErrPct": 0.2500686704583588,
+          "chamferMm": 1.0628487876067332,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9225210758731434,
+            0.9460853258321613
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9246575342465754,
+          "heldFlag": false,
+          "ms": 91928,
+          "centreErrMm": 1.8006659807096874,
+          "sizeErrPct": -0.039349484517181565,
+          "chamferMm": 0.7563829562557628,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "b7fc1f4a4c4716e9cf05a15c18cec4d53d46bf6bbf6eb756f2be84deef4cbaf7",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.6973807296538821,
+            0.48497854077253216
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.9380623561414522,
+          "heldFlag": false,
+          "ms": 14345,
+          "centreErrMm": 21.270491221629495,
+          "sizeErrPct": -6.400284339772555,
+          "chamferMm": 9.806461640944136,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8010978956999085,
+            0.5437262357414449
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.5440852314474651,
+          "heldFlag": true,
+          "ms": 16375,
+          "centreErrMm": 19.503762554177356,
+          "sizeErrPct": 6.880309768240123,
+          "chamferMm": 13.786982166072136,
+          "failed": true
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.949220396123051,
+            0.6928335690711929
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.4851063829787234,
+          "heldFlag": true,
+          "ms": 16151,
+          "centreErrMm": 21.341918332064832,
+          "sizeErrPct": -7.602070592861687,
+          "chamferMm": 9.616380584887962,
+          "failed": true
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "0b2a76757132cd4456becf1cc53116aabbb0872450d76a4d616f9e10368cead8",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7399662019433882,
+            0.7375
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.6951971594094561,
+          "heldFlag": true,
+          "ms": 10358,
+          "centreErrMm": 9.681451528809365,
+          "sizeErrPct": 1.4757204107354482,
+          "chamferMm": 1.4743463249141135,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8758080313418217,
+            0.7572383073496659
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7122302158273381,
+          "heldFlag": true,
+          "ms": 9985,
+          "centreErrMm": 9.446613738533944,
+          "sizeErrPct": -3.7546965937258148,
+          "chamferMm": 2.9641308503605126,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8530028598665396,
+            0.7342763873775844
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7173447537473233,
+          "heldFlag": true,
+          "ms": 8953,
+          "centreErrMm": 8.489161658984816,
+          "sizeErrPct": 0.13452354922673937,
+          "chamferMm": 2.0171169142272114,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "5e66b9a8d89678b2fae66af3ede7ae6124e9cad5d83b4a506b319087c729a21c",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9343269678621332,
+            0.908256880733945
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8846460883448642,
+          "heldFlag": true,
+          "ms": 16319,
+          "centreErrMm": 2.1420032265880105,
+          "sizeErrPct": 0.004348241901919181,
+          "chamferMm": 1.2457947892143704,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9075090349350823,
+            0.9057471264367816
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.9017103762827822,
+          "heldFlag": false,
+          "ms": 10408,
+          "centreErrMm": 2.2914895507630777,
+          "sizeErrPct": 0.4991398213204379,
+          "chamferMm": 1.3691581764120508,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8947368421052632,
+            0.9295807273569608
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8861047835990888,
+          "heldFlag": true,
+          "ms": 8377,
+          "centreErrMm": 2.1557546965186827,
+          "sizeErrPct": 0.46310450929500924,
+          "chamferMm": 1.2275152271126293,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "standard",
+      "candidateView": "inspection",
+      "sha": "780f3cd67fba1505051e7489bd1a5eeb39763f8a3f1ed486438ddeec7e3cad09",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8664684014869889,
+            0.9113082039911308
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.911811272957568,
+          "heldFlag": false,
+          "ms": 9653,
+          "centreErrMm": 1.5027624499041974,
+          "sizeErrPct": 0.10070153645751478,
+          "chamferMm": 1.0676274540951873,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9304403318442884,
+            0.9092920353982301
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8558410516880789,
+          "heldFlag": true,
+          "ms": 4635,
+          "centreErrMm": 1.0165015026925142,
+          "sizeErrPct": -0.040940009891110574,
+          "chamferMm": 0.8102336307235002,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9256756756756757,
+            0.867680264940539
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8844444444444445,
+          "heldFlag": true,
+          "ms": 3775,
+          "centreErrMm": 0.8248643308918016,
+          "sizeErrPct": -0.9562184721810585,
+          "chamferMm": 0.6795246451801101,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "occlusion",
+      "candidateView": "inspection",
+      "sha": "1e671e97f2b50354575a500f17d136ef4ff4a42c695a2738cebeb3b6d7e61ca7",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7278010541965131,
+            0.812
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.6728310502283105,
+          "heldFlag": true,
+          "ms": 3622,
+          "centreErrMm": 10.092585290422418,
+          "sizeErrPct": 0.07786166401302363,
+          "chamferMm": 4.677569747783325,
+          "failed": true
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.859727385377943,
+            0.8228346456692913
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7202494590810742,
+          "heldFlag": true,
+          "ms": 6540,
+          "centreErrMm": 2.8531910399882983,
+          "sizeErrPct": 0.25085375240476715,
+          "chamferMm": 4.016905582098769,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.8679065331425846,
+            0.7681556948798328
+          ],
+          "dimsOk": false,
+          "fittedOk": false,
+          "heldIoU": 0.7259786476868327,
+          "heldFlag": true,
+          "ms": 5425,
+          "centreErrMm": 3.010549629141284,
+          "sizeErrPct": 4.497132609181964,
+          "chamferMm": 4.336062814977568,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "limited",
+      "candidateView": "inspection",
+      "sha": "678134116c121f98445c9ac140e6ef8e186f5fbcf4e8b5c6a06f70bf97de3e4a",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7890009672516236,
+            0.8648068669527897
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7525296964364276,
+          "heldFlag": true,
+          "ms": 4278,
+          "centreErrMm": 7.646846121627982,
+          "sizeErrPct": -2.245799690328487,
+          "chamferMm": 7.409299634353008,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.7985611510791367,
+            0.9139072847682119
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.7436305732484076,
+          "heldFlag": true,
+          "ms": 6305,
+          "centreErrMm": 7.577302370164835,
+          "sizeErrPct": -3.2404213119011316,
+          "chamferMm": 7.165304446772371,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.7994840525328331,
+            0.7622995379179125
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.8783185840707964,
+          "heldFlag": true,
+          "ms": 4331,
+          "centreErrMm": 6.696386016443847,
+          "sizeErrPct": -4.854166664797354,
+          "chamferMm": 7.170559818628815,
+          "failed": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "reflective",
+      "candidateView": "inspection",
+      "sha": "3dfad0f019a82ee97a3aa057fe6b3b19a37111714f091ee78bf93e99e99eee39",
+      "folds": {
+        "inspection": {
+          "fitViews": [
+            "side",
+            "cell"
+          ],
+          "fitIoU": [
+            0.8864675403840293,
+            0.9387755102040817
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.9107171635777599,
+          "heldFlag": false,
+          "ms": 4653,
+          "centreErrMm": 2.0096284119336905,
+          "sizeErrPct": -1.692877386810887,
+          "chamferMm": 1.3426026568567477,
+          "failed": false
+        },
+        "side": {
+          "fitViews": [
+            "inspection",
+            "cell"
+          ],
+          "fitIoU": [
+            0.9548933398469305,
+            0.9395973154362416
+          ],
+          "dimsOk": true,
+          "fittedOk": true,
+          "heldIoU": 0.8573116691285081,
+          "heldFlag": true,
+          "ms": 4971,
+          "centreErrMm": 2.370695490302867,
+          "sizeErrPct": -0.5516647842244149,
+          "chamferMm": 1.2208115679053408,
+          "failed": false
+        },
+        "cell": {
+          "fitViews": [
+            "inspection",
+            "side"
+          ],
+          "fitIoU": [
+            0.9337630942788074,
+            0.8837663312809731
+          ],
+          "dimsOk": true,
+          "fittedOk": false,
+          "heldIoU": 0.92152466367713,
+          "heldFlag": false,
+          "ms": 6318,
+          "centreErrMm": 2.192677030417932,
+          "sizeErrPct": -0.5185594407975835,
+          "chamferMm": 1.2024691826348564,
+          "failed": false
+        }
+      }
+    }
+  ]
+}

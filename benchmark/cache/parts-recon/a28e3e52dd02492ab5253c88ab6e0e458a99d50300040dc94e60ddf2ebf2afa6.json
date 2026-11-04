@@ -1,0 +1,19 @@
+{
+  "sha": "a28e3e52dd02492ab5253c88ab6e0e458a99d50300040dc94e60ddf2ebf2afa6",
+  "crop": "parts/pilot-sheet-metal-mount/t5/limited-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 83.242,
+  "job": "1e19d333-dd84-4205-a17c-01eaa895a6ed",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:25:48.587Z"
+}

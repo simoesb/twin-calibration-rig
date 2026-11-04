@@ -1,0 +1,28 @@
+{
+  "feature": "bore-central",
+  "diameterMm": 48,
+  "depthMm": 40,
+  "variants": {
+    "plugged": {
+      "expected": "missing"
+    },
+    "enlarged": {
+      "expected": "recovered",
+      "expectedAreaRatioAbove": 1.4,
+      "diameterMm": 76.80000000000001
+    },
+    "shifted": {
+      "expected": [
+        "partial",
+        "missing"
+      ],
+      "offsetMm": 48,
+      "direction": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    }
+  },
+  "note": "Measurement validation only; CAD frame (mm, Z up) for the feature, GLB metric +Y up."
+}

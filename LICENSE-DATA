@@ -1,0 +1,22 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Vicomtech and Bruno Simoes
+
+The following are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/):
+
+- the reference parts in parts/ (CAD, meshes, renders, metadata);
+- the rendered images, crops, observation sets and results in benchmark/out/;
+- the stored reconstructions in benchmark/cache/ and the release assets of this repository;
+- the protocol and documentation (protocol/, README.md, parts/README.md).
+
+You may share and adapt them for any purpose, provided you give appropriate credit, for example
+by citing the paper given in README.md, link to the licence, and indicate if changes were made.
+The full legal code is at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Third-party material keeps its own licence: the HDR environment "Empty Warehouse 01" (Poly Haven,
+CC0) in benchmark/cache/, and the npm packages restored into assets/node_modules/.
+
+The reconstructions were produced with Hunyuan3D 2.1; their use is also subject to that model's
+licence terms.
+
+Source code (all other files) is licensed under the MIT License in LICENSE.

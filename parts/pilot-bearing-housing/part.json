@@ -1,0 +1,190 @@
+{
+  "id": "pilot-bearing-housing",
+  "name": "Ribbed bearing housing",
+  "category": "cast",
+  "units": "mm",
+  "declaredSize": {
+    "length": 174,
+    "width": 74,
+    "height": 103
+  },
+  "declaredSizeSource": "original design parameters; synthetic nominal dimensions, not independently measured AAS values",
+  "material": "cast iron, blue enamel with machined seats",
+  "restingFaces": [
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "features": [
+    {
+      "id": "bore-bearing",
+      "type": "through-hole",
+      "center": [
+        0,
+        -26,
+        53
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "diameter": 52,
+      "depth": 52,
+      "entryChamfer": 0.35,
+      "counterbore": {
+        "diameter": 58,
+        "depth": 8
+      },
+      "note": "bearing seat for a 52 mm OD bearing; front counterbore is a seal/cover recess"
+    },
+    {
+      "id": "front-seal-groove",
+      "type": "annular-groove",
+      "center": [
+        0,
+        -26,
+        53
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "innerDiameter": 62,
+      "outerDiameter": 66,
+      "depth": 1.8
+    },
+    {
+      "id": "rear-seal-recess",
+      "type": "counterbore",
+      "center": [
+        0,
+        26,
+        53
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "diameter": 58,
+      "depth": 6
+    },
+    {
+      "id": "mount-slot--66",
+      "type": "slot",
+      "center": [
+        -66,
+        0,
+        19
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 30,
+      "width": 11,
+      "depth": 19,
+      "counterboreWidth": 19,
+      "counterboreDepth": 4
+    },
+    {
+      "id": "mount-slot-66",
+      "type": "slot",
+      "center": [
+        66,
+        0,
+        19
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 30,
+      "width": 11,
+      "depth": 19,
+      "counterboreWidth": 19,
+      "counterboreDepth": 4
+    },
+    {
+      "id": "lubrication-port",
+      "type": "cross-port",
+      "center": [
+        0,
+        0,
+        103
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 5,
+      "depth": 26,
+      "entryChamfer": 0.35,
+      "opensInto": "bore-bearing"
+    },
+    {
+      "id": "cover-fixing--38",
+      "type": "blind-hole",
+      "center": [
+        -38,
+        -26,
+        53
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "diameter": 4,
+      "depth": 10,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "cover-fixing-38",
+      "type": "blind-hole",
+      "center": [
+        38,
+        -26,
+        53
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "diameter": 4,
+      "depth": 10,
+      "entryChamfer": 0.35
+    }
+  ],
+  "release": "public",
+  "source": "Original parametric synthetic design created for this evaluation; not a manufacturer model or certified standard part.",
+  "notes": "Held-out test part, reviewed against common design rules before any reconstruction existed.",
+  "cadCoordinateSystem": {
+    "up": "Z",
+    "units": "mm",
+    "origin": "XY center, resting base Z=0"
+  },
+  "meshCoordinateSystem": {
+    "file": "model.glb",
+    "up": "Y",
+    "units": "m",
+    "fromCad": "[x,y,z] mm -> [x,z,-y] / 1000 m"
+  },
+  "evaluationStatus": "held-out test part (protocol/PROTOCOL.md); not used for method development",
+  "modelFiles": {
+    "cad": "model.step",
+    "mesh": "model.glb",
+    "triangulatedCad": "model.stl",
+    "preview": "preview.png"
+  },
+  "annotationsPolicy": "CAD and feature inventory are evaluator-only; explicitly specify any fields made available to the agent.",
+  "threadPolicy": "Ports are modeled as smooth bores; no thread standard or thread accuracy is asserted."
+}

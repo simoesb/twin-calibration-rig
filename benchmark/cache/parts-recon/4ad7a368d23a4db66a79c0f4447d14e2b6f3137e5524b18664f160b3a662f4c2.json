@@ -1,0 +1,19 @@
+{
+  "sha": "4ad7a368d23a4db66a79c0f4447d14e2b6f3137e5524b18664f160b3a662f4c2",
+  "crop": "parts/pilot-bearing-housing/t9/reflective-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 58.171,
+  "job": "015d2731-7a65-4d4c-8442-e2477f1459ae",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T20:42:30.023Z"
+}

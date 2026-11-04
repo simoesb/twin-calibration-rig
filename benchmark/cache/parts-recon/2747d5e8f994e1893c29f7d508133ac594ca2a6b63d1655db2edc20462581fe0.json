@@ -1,0 +1,19 @@
+{
+  "sha": "2747d5e8f994e1893c29f7d508133ac594ca2a6b63d1655db2edc20462581fe0",
+  "crop": "parts/pilot-sheet-metal-mount/t2/occlusion-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 66.046,
+  "job": "78e4e639-7a5f-4a2c-9179-180c370fccb5",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T20:25:35.440Z"
+}

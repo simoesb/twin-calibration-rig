@@ -1,0 +1,19 @@
+{
+  "sha": "07b517f34df56f3bc0ca05a0884a4da16fc25a0589e604a32fa284eac66f30c4",
+  "crop": "parts/pilot-flange-adapter/t1/occlusion-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 65.648,
+  "job": "8bba29e3-596d-456f-966f-6e0eefc36253",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T20:13:20.483Z"
+}

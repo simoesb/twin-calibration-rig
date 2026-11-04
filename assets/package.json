@@ -1,0 +1,19 @@
+{
+  "name": "eval-harness-assets",
+  "private": true,
+  "type": "module",
+  "description": "Procedural PBR GLB assets for the demo twin (DemoCell + reconstructed bracket draft).",
+  "scripts": {
+    "build": "node build-assets.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "three-gpu-pathtracer": "^0.0.24",
+    "three-mesh-bvh": "^0.9.15"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.5"
+  }
+}

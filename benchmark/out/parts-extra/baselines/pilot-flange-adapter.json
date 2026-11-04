@@ -1,0 +1,1871 @@
+{
+  "part": "pilot-flange-adapter",
+  "protocol": "protocol/PROTOCOL.md",
+  "rows": [
+    {
+      "trial": 0,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "18871236274133a3a889866410a866b36d602dc45be89b377cd7ca0fbceb7161",
+          "generations": 1,
+          "iou": [
+            0.8169753939729058,
+            0.7263371503116394,
+            0.9923664122137404
+          ],
+          "ms": 20605,
+          "centreErrMm": 16.676206698422106,
+          "sizeErrPct": 0.16165017961722317,
+          "chamferMm": 7.051594120186689,
+          "failed": true,
+          "stored": {
+            "centreErrMm": 16.676206698422106,
+            "sizeErrPct": 0.16165017961722317,
+            "chamferMm": 7.051594120186689,
+            "failed": true
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "c7513450a25f61ce5325c306d721ac03c2a4c00ef658b9e9c182f770923f870b",
+          "generations": 1,
+          "iou": [
+            0.9640102827763496,
+            0.9397667359003036,
+            0.9974358974358974
+          ],
+          "ms": 11240,
+          "centreErrMm": 3.431414223560746,
+          "sizeErrPct": -0.02766300233343344,
+          "chamferMm": 2.199282613848749,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.431414223560746,
+            "sizeErrPct": -0.02766300233343344,
+            "chamferMm": 2.199282613848749,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "4f722cdb267add72140d6db544e9f744cc01be3ce4c167cc58a4760367e20c8f",
+          "generations": 1,
+          "iou": [
+            0.9724857685009488,
+            0.9261787585331005,
+            1
+          ],
+          "ms": 14315,
+          "centreErrMm": 3.796045283148557,
+          "sizeErrPct": -0.047119185276278674,
+          "chamferMm": 2.3817168224571876,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.796045283148557,
+            "sizeErrPct": -0.047119185276278674,
+            "chamferMm": 2.3817168224571876,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "4f722cdb267add72140d6db544e9f744cc01be3ce4c167cc58a4760367e20c8f",
+          "generations": 1,
+          "iou": [
+            0.9724857685009488,
+            0.9261787585331005,
+            1
+          ],
+          "ms": 8402,
+          "centreErrMm": 3.796045283148557,
+          "sizeErrPct": -0.047119185276278674,
+          "chamferMm": 2.3817168224571876,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.796045283148557,
+            "sizeErrPct": -0.047119185276278674,
+            "chamferMm": 2.3817168224571876,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "c7513450a25f61ce5325c306d721ac03c2a4c00ef658b9e9c182f770923f870b",
+          "generations": 1,
+          "iou": [
+            0.9585003536901674,
+            0.9469341530496683,
+            0.9948717948717949
+          ],
+          "ms": 15828,
+          "centreErrMm": 3.750527910849996,
+          "sizeErrPct": -1.0053065367497172,
+          "chamferMm": 2.1781310765953914,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.750527910849996,
+            "sizeErrPct": -1.0053065367497172,
+            "chamferMm": 2.1781310765953914,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "c7513450a25f61ce5325c306d721ac03c2a4c00ef658b9e9c182f770923f870b",
+          "generations": 1,
+          "iou": [
+            0.9585003536901674,
+            0.9469341530496683,
+            0.9948717948717949
+          ],
+          "ms": 19160,
+          "centreErrMm": 3.750527910849996,
+          "sizeErrPct": -1.0053065367497172,
+          "chamferMm": 2.1781310765953914,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.750527910849996,
+            "sizeErrPct": -1.0053065367497172,
+            "chamferMm": 2.1781310765953914,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "968f490e54d8e8e76e600068ada8d5e0d0c4317072bd4d26560b9a686cb9b4fe",
+          "generations": 1,
+          "iou": [
+            0.8170124481327801,
+            0.7256637168141593,
+            0.989821882951654
+          ],
+          "ms": 19312,
+          "centreErrMm": 16.753824476416042,
+          "sizeErrPct": 0.00514195742051804,
+          "chamferMm": 7.145375271302762,
+          "failed": true,
+          "stored": {
+            "centreErrMm": 16.753824476416042,
+            "sizeErrPct": 0.00514195742051804,
+            "chamferMm": 7.145375271302762,
+            "failed": true
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e2662e3c63abfc147783ea7d30bf0255a2101e017d4b2d1c93310604468df01a",
+          "generations": 1,
+          "iou": [
+            0.9694063926940639,
+            0.9425952725518573,
+            0.9974358974358974
+          ],
+          "ms": 17067,
+          "centreErrMm": 3.008348076022134,
+          "sizeErrPct": -0.48940144130680263,
+          "chamferMm": 1.8407547592501037,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.008348076022134,
+            "sizeErrPct": -0.48940144130680263,
+            "chamferMm": 1.8407547592501037,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "868a03972593635680d22aacaec9f7180305c5ac991d00a71fabbce75c12c5f8",
+          "generations": 1,
+          "iou": [
+            0.9507731593133778,
+            0.9023283346487766,
+            0.9841688654353562
+          ],
+          "ms": 15860,
+          "centreErrMm": 4.712683999054592,
+          "sizeErrPct": 0.16845829027738457,
+          "chamferMm": 2.8172371843430586,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 4.712683999054592,
+            "sizeErrPct": 0.16845829027738457,
+            "chamferMm": 2.8172371843430586,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "31bb3ac2d4c6d35f0218f73af132c8c731a40307a1cd7f8590d663c1ddb26efb",
+          "generations": 1,
+          "iou": [
+            0.9762042111335448,
+            0.9308276689324271,
+            0.9816272965879265
+          ],
+          "ms": 17859,
+          "centreErrMm": 3.2025650247997497,
+          "sizeErrPct": -0.6084521854947456,
+          "chamferMm": 2.146060390098717,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.2025650247997497,
+            "sizeErrPct": -0.6084521854947456,
+            "chamferMm": 2.146060390098717,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "07b517f34df56f3bc0ca05a0884a4da16fc25a0589e604a32fa284eac66f30c4",
+          "generations": 1,
+          "iou": [
+            0.9538494716411473,
+            0.9513039934800326,
+            0.9765100671140939
+          ],
+          "ms": 19968,
+          "centreErrMm": 3.023584618876338,
+          "sizeErrPct": -1.8081478300170706,
+          "chamferMm": 2.023587056928753,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.023584618876338,
+            "sizeErrPct": -1.8081478300170706,
+            "chamferMm": 2.023587056928753,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "07b517f34df56f3bc0ca05a0884a4da16fc25a0589e604a32fa284eac66f30c4",
+          "generations": 1,
+          "iou": [
+            0.9538494716411473,
+            0.9513039934800326,
+            0.9765100671140939
+          ],
+          "ms": 16472,
+          "centreErrMm": 3.023584618876338,
+          "sizeErrPct": -1.8081478300170706,
+          "chamferMm": 2.023587056928753,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.023584618876338,
+            "sizeErrPct": -1.8081478300170706,
+            "chamferMm": 2.023587056928753,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "31bb3ac2d4c6d35f0218f73af132c8c731a40307a1cd7f8590d663c1ddb26efb",
+          "generations": 1,
+          "iou": [
+            0.9795018734846815,
+            0.9280733213787608,
+            0.984251968503937
+          ],
+          "ms": 15653,
+          "centreErrMm": 3.386345648603636,
+          "sizeErrPct": -0.46605540247808275,
+          "chamferMm": 2.0584165138704407,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.386345648603636,
+            "sizeErrPct": -0.46605540247808275,
+            "chamferMm": 2.0584165138704407,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "31bb3ac2d4c6d35f0218f73af132c8c731a40307a1cd7f8590d663c1ddb26efb",
+          "generations": 1,
+          "iou": [
+            0.9795018734846815,
+            0.9280733213787608,
+            0.984251968503937
+          ],
+          "ms": 16379,
+          "centreErrMm": 3.386345648603636,
+          "sizeErrPct": -0.46605540247808275,
+          "chamferMm": 2.0584165138704407,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.386345648603636,
+            "sizeErrPct": -0.46605540247808275,
+            "chamferMm": 2.0584165138704407,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "db1607bcac26d605e90f26c80f65a3c2aad1f61db9a006ec270281c57ab3d790",
+          "generations": 1,
+          "iou": [
+            0.9804092294296909,
+            0.9805624483043838,
+            0.9893617021276596
+          ],
+          "ms": 17258,
+          "centreErrMm": 0.991662622047515,
+          "sizeErrPct": 0.015649504176984408,
+          "chamferMm": 1.1383568354189304,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.991662622047515,
+            "sizeErrPct": 0.015649504176984408,
+            "chamferMm": 1.1383568354189304,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "c9d6386009da7cc4a60efe593c9701927fae5c6ddd4cf2928677f8eee6a2f010",
+          "generations": 1,
+          "iou": [
+            0.9740895350511012,
+            0.9350779065121854,
+            0.9894459102902374
+          ],
+          "ms": 18712,
+          "centreErrMm": 3.1873512902452967,
+          "sizeErrPct": -0.6223570394463418,
+          "chamferMm": 2.103076897094086,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "af89d76ad7693ff64928a4b753512f42105404871811a8e93d35cbb89244c8d8",
+          "generations": 1,
+          "iou": [
+            0.9876260311640697,
+            0.9873672647381911,
+            0.9974160206718347
+          ],
+          "ms": 13980,
+          "centreErrMm": 0.8477351367341843,
+          "sizeErrPct": 0.02106835710724564,
+          "chamferMm": 1.1084634022216453,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.8477351367341843,
+            "sizeErrPct": 0.02106835710724564,
+            "chamferMm": 1.1084634022216453,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "4b9c548421e7d88dfe2a611938704019dca310a327f047408f453896f0dc46f6",
+          "generations": 1,
+          "iou": [
+            0.9591072498502097,
+            0.943609687113311,
+            0.9769820971867008
+          ],
+          "ms": 15894,
+          "centreErrMm": 3.3402970638188334,
+          "sizeErrPct": -0.3976933138981176,
+          "chamferMm": 2.0722000288877362,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "f6a23a395c9f1d3ce640fe5e680133784967e85d6f0fd7995fc53cad1ead4a3d",
+          "generations": 1,
+          "iou": [
+            0.9723588662450222,
+            0.9466620184765557,
+            0.9740932642487047
+          ],
+          "ms": 17888,
+          "centreErrMm": 3.0289410757829764,
+          "sizeErrPct": 1.1938354550627528,
+          "chamferMm": 1.877501379478844,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.0289410757829764,
+            "sizeErrPct": 1.1938354550627528,
+            "chamferMm": 1.877501379478844,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "f6a23a395c9f1d3ce640fe5e680133784967e85d6f0fd7995fc53cad1ead4a3d",
+          "generations": 1,
+          "iou": [
+            0.9723588662450222,
+            0.9466620184765557,
+            0.9740932642487047
+          ],
+          "ms": 13539,
+          "centreErrMm": 3.0289410757829764,
+          "sizeErrPct": 1.1938354550627528,
+          "chamferMm": 1.877501379478844,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.0289410757829764,
+            "sizeErrPct": 1.1938354550627528,
+            "chamferMm": 1.877501379478844,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "4b9c548421e7d88dfe2a611938704019dca310a327f047408f453896f0dc46f6",
+          "generations": 1,
+          "iou": [
+            0.9621609300205152,
+            0.9421006178287732,
+            0.979539641943734
+          ],
+          "ms": 17921,
+          "centreErrMm": 3.353915093014381,
+          "sizeErrPct": -0.4080297570933755,
+          "chamferMm": 2.1132636279818895,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.353915093014381,
+            "sizeErrPct": -0.4080297570933755,
+            "chamferMm": 2.1132636279818895,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "4b9c548421e7d88dfe2a611938704019dca310a327f047408f453896f0dc46f6",
+          "generations": 1,
+          "iou": [
+            0.9621609300205152,
+            0.9421006178287732,
+            0.979539641943734
+          ],
+          "ms": 14722,
+          "centreErrMm": 3.353915093014381,
+          "sizeErrPct": -0.4080297570933755,
+          "chamferMm": 2.1132636279818895,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.353915093014381,
+            "sizeErrPct": -0.4080297570933755,
+            "chamferMm": 2.1132636279818895,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "56796642daefcfaf6092efa23116ad86bc7db6cea88d087761c5a0d10fabf41a",
+          "generations": 1,
+          "iou": [
+            0.9855160847690196,
+            0.9848152213684596,
+            1
+          ],
+          "ms": 14769,
+          "centreErrMm": 0.8615158986522957,
+          "sizeErrPct": 0.1908658227077087,
+          "chamferMm": 1.1055100845161114,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.8615158986522957,
+            "sizeErrPct": 0.1908658227077087,
+            "chamferMm": 1.1055100845161114,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e73951a14632fd18c49c3ee22daa37e7cd455e6ae8cc890af815eae5d2324aff",
+          "generations": 1,
+          "iou": [
+            0.9686280396277395,
+            0.9409685401201838,
+            0.9770992366412213
+          ],
+          "ms": 17361,
+          "centreErrMm": 3.1090516295455206,
+          "sizeErrPct": -0.44377811637926756,
+          "chamferMm": 1.9693868122375802,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "8dd8bdba6a9ab09e8ed80f71ef979b4ea852cf7bf1975632bee972be458eb3f0",
+          "generations": 1,
+          "iou": [
+            0.8234889164257194,
+            0.7272859216255443,
+            0.9799498746867168
+          ],
+          "ms": 15214,
+          "centreErrMm": 15.042625287982961,
+          "sizeErrPct": 0.2765989290298254,
+          "chamferMm": 6.884930768471475,
+          "failed": true,
+          "stored": {
+            "centreErrMm": 15.042625287982961,
+            "sizeErrPct": 0.2765989290298254,
+            "chamferMm": 6.884930768471475,
+            "failed": true
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "6fb0b17950e6b1d5bfd47039458a9454af9baaef4c319425532a2e3d6e2b9990",
+          "generations": 1,
+          "iou": [
+            0.921656976744186,
+            0.8591291061879297,
+            0.9949494949494949
+          ],
+          "ms": 21375,
+          "centreErrMm": 7.774690871345913,
+          "sizeErrPct": -0.34862145031515634,
+          "chamferMm": 3.618484947402206,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 7.774690871345913,
+            "sizeErrPct": -0.34862145031515634,
+            "chamferMm": 3.618484947402206,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "e1e1cb6e144d81ef2bc143c8d3280e69e26e627ba084305fcc59e62ab04741af",
+          "generations": 1,
+          "iou": [
+            0.9725545390570021,
+            0.9404533844189017,
+            0.9841269841269841
+          ],
+          "ms": 19193,
+          "centreErrMm": 3.3839088997329956,
+          "sizeErrPct": 0.22199232815600656,
+          "chamferMm": 2.1145258865618968,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3839088997329956,
+            "sizeErrPct": 0.22199232815600656,
+            "chamferMm": 2.1145258865618968,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e1e1cb6e144d81ef2bc143c8d3280e69e26e627ba084305fcc59e62ab04741af",
+          "generations": 1,
+          "iou": [
+            0.9725545390570021,
+            0.9404533844189017,
+            0.9841269841269841
+          ],
+          "ms": 18209,
+          "centreErrMm": 3.3839088997329956,
+          "sizeErrPct": 0.22199232815600656,
+          "chamferMm": 2.1145258865618968,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3839088997329956,
+            "sizeErrPct": 0.22199232815600656,
+            "chamferMm": 2.1145258865618968,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "6fb0b17950e6b1d5bfd47039458a9454af9baaef4c319425532a2e3d6e2b9990",
+          "generations": 1,
+          "iou": [
+            0.9178722457155576,
+            0.8709927210778999,
+            0.9873737373737373
+          ],
+          "ms": 19489,
+          "centreErrMm": 7.620549852672618,
+          "sizeErrPct": -1.2133827058267599,
+          "chamferMm": 3.573699851416233,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 7.620549852672618,
+            "sizeErrPct": -1.2133827058267599,
+            "chamferMm": 3.573699851416233,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "6fb0b17950e6b1d5bfd47039458a9454af9baaef4c319425532a2e3d6e2b9990",
+          "generations": 1,
+          "iou": [
+            0.9178722457155576,
+            0.8709927210778999,
+            0.9873737373737373
+          ],
+          "ms": 15346,
+          "centreErrMm": 7.620549852672618,
+          "sizeErrPct": -1.2133827058267599,
+          "chamferMm": 3.573699851416233,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 7.620549852672618,
+            "sizeErrPct": -1.2133827058267599,
+            "chamferMm": 3.573699851416233,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "00446699fcba0cca8b7a4fdd7046652aafa2d8040c14610cb3cd340b918ec398",
+          "generations": 1,
+          "iou": [
+            0.8336807002917882,
+            0.7197146185206756,
+            0.9848101265822785
+          ],
+          "ms": 16420,
+          "centreErrMm": 15.494406313286367,
+          "sizeErrPct": -0.4207536724896377,
+          "chamferMm": 6.9084295375654055,
+          "failed": true,
+          "stored": {
+            "centreErrMm": 15.494406313286367,
+            "sizeErrPct": -0.4207536724896377,
+            "chamferMm": 6.9084295375654055,
+            "failed": true
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "6353516bcd3eb0661821a4b409d69328920b5b080d6c6d833f6ae1b963b7144b",
+          "generations": 1,
+          "iou": [
+            0.9617757712565839,
+            0.9397901533494754,
+            0.9873737373737373
+          ],
+          "ms": 14509,
+          "centreErrMm": 3.4013082404600388,
+          "sizeErrPct": -0.7222080927097974,
+          "chamferMm": 2.109724927827575,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.4013082404600388,
+            "sizeErrPct": -0.7222080927097974,
+            "chamferMm": 2.109724927827575,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "a6554ed2dd199de044c229b5ea68c1a3d9a010132066bf4d8ad759016b716cdc",
+          "generations": 1,
+          "iou": [
+            0.9453661327231121,
+            0.9045470949115842,
+            0.989821882951654
+          ],
+          "ms": 14584,
+          "centreErrMm": 4.3755635070154835,
+          "sizeErrPct": 0.3235468408500308,
+          "chamferMm": 2.7703523869619495,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 4.3755635070154835,
+            "sizeErrPct": 0.3235468408500308,
+            "chamferMm": 2.7703523869619495,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e2e40b92a6df3472b94e1599f68b56d69e0638f277ecd1a0a114fb0961667310",
+          "generations": 1,
+          "iou": [
+            0.9684560845029663,
+            0.931656642974303,
+            0.9846547314578005
+          ],
+          "ms": 16300,
+          "centreErrMm": 3.283704596414684,
+          "sizeErrPct": -0.11598960487558818,
+          "chamferMm": 2.2743735775034875,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.283704596414684,
+            "sizeErrPct": -0.11598960487558818,
+            "chamferMm": 2.2743735775034875,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "e783763c846986332634b1144195341595e7f822c207802dacd98770d7dcdb2d",
+          "generations": 1,
+          "iou": [
+            0.9772416932180246,
+            0.9228535124341986,
+            0.9948717948717949
+          ],
+          "ms": 13281,
+          "centreErrMm": 3.2616329603702714,
+          "sizeErrPct": -0.13490798567863393,
+          "chamferMm": 1.9637482976508263,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.2616329603702714,
+            "sizeErrPct": -0.13490798567863393,
+            "chamferMm": 1.9637482976508263,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e783763c846986332634b1144195341595e7f822c207802dacd98770d7dcdb2d",
+          "generations": 1,
+          "iou": [
+            0.9772416932180246,
+            0.9228535124341986,
+            0.9948717948717949
+          ],
+          "ms": 15809,
+          "centreErrMm": 3.2616329603702714,
+          "sizeErrPct": -0.13490798567863393,
+          "chamferMm": 1.9637482976508263,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.2616329603702714,
+            "sizeErrPct": -0.13490798567863393,
+            "chamferMm": 1.9637482976508263,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "e2e40b92a6df3472b94e1599f68b56d69e0638f277ecd1a0a114fb0961667310",
+          "generations": 1,
+          "iou": [
+            0.9787282708142726,
+            0.9256410256410257,
+            0.9820971867007673
+          ],
+          "ms": 9865,
+          "centreErrMm": 3.4272332573740134,
+          "sizeErrPct": -0.7610851252338846,
+          "chamferMm": 2.030185212729855,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.4272332573740134,
+            "sizeErrPct": -0.7610851252338846,
+            "chamferMm": 2.030185212729855,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e2e40b92a6df3472b94e1599f68b56d69e0638f277ecd1a0a114fb0961667310",
+          "generations": 1,
+          "iou": [
+            0.9787282708142726,
+            0.9256410256410257,
+            0.9820971867007673
+          ],
+          "ms": 18036,
+          "centreErrMm": 3.4272332573740134,
+          "sizeErrPct": -0.7610851252338846,
+          "chamferMm": 2.030185212729855,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.4272332573740134,
+            "sizeErrPct": -0.7610851252338846,
+            "chamferMm": 2.030185212729855,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "04def2a3f1a2ca143db18a3dd1b1453ff7aceaf20549e40ab68824acca808a99",
+          "generations": 1,
+          "iou": [
+            0.9744905439085179,
+            0.983494593056346,
+            0.9923469387755102
+          ],
+          "ms": 16995,
+          "centreErrMm": 0.9502562206146371,
+          "sizeErrPct": 0.21678211396092273,
+          "chamferMm": 1.0928387339729315,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.9502562206146371,
+            "sizeErrPct": 0.21678211396092273,
+            "chamferMm": 1.0928387339729315,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "8a39afd66743d8c282531a416fe64522c80c193e6a0a6a7cfb1eae34df4f6f0c",
+          "generations": 1,
+          "iou": [
+            0.9695519791213572,
+            0.9538660269422403,
+            0.989769820971867
+          ],
+          "ms": 15445,
+          "centreErrMm": 2.220771440244205,
+          "sizeErrPct": -0.3364458798147396,
+          "chamferMm": 1.6769477176285672,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "493c3694272aa2e4edfea3c203f8d46f0ef612fbd25e72a89f517246062bb2ba",
+          "generations": 1,
+          "iou": [
+            0.986109101432499,
+            0.9822687890388878,
+            1
+          ],
+          "ms": 20171,
+          "centreErrMm": 0.952464061816491,
+          "sizeErrPct": 0.06955368191827738,
+          "chamferMm": 1.1679178213865695,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.952464061816491,
+            "sizeErrPct": 0.06955368191827738,
+            "chamferMm": 1.1679178213865695,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "a0988506392375181b944753b8a005a9dd3d0e4bcee837285143c7e1aa11085d",
+          "generations": 1,
+          "iou": [
+            0.9640718562874252,
+            0.9434256730394069,
+            0.9922480620155039
+          ],
+          "ms": 19068,
+          "centreErrMm": 3.2913508181992914,
+          "sizeErrPct": -0.32575467332875974,
+          "chamferMm": 2.0537483173312414,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "8809e6525b299ebe4e425a732476f6285545255a28170763c9f60940e56cd6c1",
+          "generations": 1,
+          "iou": [
+            0.9634487207052247,
+            0.9407191448007775,
+            0.993485342019544
+          ],
+          "ms": 19116,
+          "centreErrMm": 3.362351904417115,
+          "sizeErrPct": -0.35183727916312524,
+          "chamferMm": 1.8684241444045944,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.362351904417115,
+            "sizeErrPct": -0.35183727916312524,
+            "chamferMm": 1.8684241444045944,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "8809e6525b299ebe4e425a732476f6285545255a28170763c9f60940e56cd6c1",
+          "generations": 1,
+          "iou": [
+            0.9634487207052247,
+            0.9407191448007775,
+            0.993485342019544
+          ],
+          "ms": 25410,
+          "centreErrMm": 3.362351904417115,
+          "sizeErrPct": -0.35183727916312524,
+          "chamferMm": 1.8684241444045944,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.362351904417115,
+            "sizeErrPct": -0.35183727916312524,
+            "chamferMm": 1.8684241444045944,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "a0988506392375181b944753b8a005a9dd3d0e4bcee837285143c7e1aa11085d",
+          "generations": 1,
+          "iou": [
+            0.9706351012975187,
+            0.9388230724412507,
+            0.9948320413436692
+          ],
+          "ms": 16531,
+          "centreErrMm": 3.3095193521662694,
+          "sizeErrPct": -0.2179827616002772,
+          "chamferMm": 1.9340605578091448,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3095193521662694,
+            "sizeErrPct": -0.2179827616002772,
+            "chamferMm": 1.9340605578091448,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "a0988506392375181b944753b8a005a9dd3d0e4bcee837285143c7e1aa11085d",
+          "generations": 1,
+          "iou": [
+            0.9706351012975187,
+            0.9388230724412507,
+            0.9948320413436692
+          ],
+          "ms": 18634,
+          "centreErrMm": 3.3095193521662694,
+          "sizeErrPct": -0.2179827616002772,
+          "chamferMm": 1.9340605578091448,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3095193521662694,
+            "sizeErrPct": -0.2179827616002772,
+            "chamferMm": 1.9340605578091448,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "d60cf0d0c831b21bc449016b9acaccc7d4a951c39a5d02a8f7e0d6a1fa08525c",
+          "generations": 1,
+          "iou": [
+            0.9816738816738817,
+            0.9826752618855762,
+            0.9948051948051948
+          ],
+          "ms": 23380,
+          "centreErrMm": 0.9605882462008952,
+          "sizeErrPct": 0.07914755481739366,
+          "chamferMm": 1.0929329081293124,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.9605882462008952,
+            "sizeErrPct": 0.07914755481739366,
+            "chamferMm": 1.0929329081293124,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "3ada888764485d9e0eb49c8532f7267c0c5e5ceb005ab6fb79648f6f7d276877",
+          "generations": 1,
+          "iou": [
+            0.974663612940166,
+            0.9549567269866247,
+            0.9948320413436692
+          ],
+          "ms": 16775,
+          "centreErrMm": 2.5871129501655967,
+          "sizeErrPct": -0.5541042210640446,
+          "chamferMm": 1.7866814715138701,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "cc468edc60b53f6a01539810a84f69bfd70ff3d6114d841ab996dc8596d46161",
+          "generations": 1,
+          "iou": [
+            0.9729807005003573,
+            0.9825593185966336,
+            0.9948586118251928
+          ],
+          "ms": 17946,
+          "centreErrMm": 0.9005161403105265,
+          "sizeErrPct": 0.26318653893340205,
+          "chamferMm": 1.3034135638318631,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.9005161403105265,
+            "sizeErrPct": 0.26318653893340205,
+            "chamferMm": 1.3034135638318631,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e1dfd1abe719ecec749f4a1a6302cb4511419144a09460cfaedbf4745221f6c9",
+          "generations": 1,
+          "iou": [
+            0.9653819201121233,
+            0.9410509986426216,
+            0.9848101265822785
+          ],
+          "ms": 23588,
+          "centreErrMm": 3.0234425207153612,
+          "sizeErrPct": 0.6412154522829505,
+          "chamferMm": 2.012183121778284,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "4799df99eee079b670381c21e36439e1e8fd126f50d3ffc32d1b3ee7bfa8cd26",
+          "generations": 1,
+          "iou": [
+            0.9693790149892934,
+            0.9409117589512815,
+            0.9869706840390879
+          ],
+          "ms": 29067,
+          "centreErrMm": 3.180886238617751,
+          "sizeErrPct": -0.20727516217228237,
+          "chamferMm": 1.8784598690995598,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.180886238617751,
+            "sizeErrPct": -0.20727516217228237,
+            "chamferMm": 1.8784598690995598,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "4799df99eee079b670381c21e36439e1e8fd126f50d3ffc32d1b3ee7bfa8cd26",
+          "generations": 1,
+          "iou": [
+            0.9693790149892934,
+            0.9409117589512815,
+            0.9869706840390879
+          ],
+          "ms": 20824,
+          "centreErrMm": 3.180886238617751,
+          "sizeErrPct": -0.20727516217228237,
+          "chamferMm": 1.8784598690995598,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.180886238617751,
+            "sizeErrPct": -0.20727516217228237,
+            "chamferMm": 1.8784598690995598,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "e1dfd1abe719ecec749f4a1a6302cb4511419144a09460cfaedbf4745221f6c9",
+          "generations": 1,
+          "iou": [
+            0.9687638458130261,
+            0.9419304719362983,
+            0.9848101265822785
+          ],
+          "ms": 21988,
+          "centreErrMm": 3.0555280703934193,
+          "sizeErrPct": 0.5398033266542646,
+          "chamferMm": 1.7543501505267587,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.0555280703934193,
+            "sizeErrPct": 0.5398033266542646,
+            "chamferMm": 1.7543501505267587,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "e1dfd1abe719ecec749f4a1a6302cb4511419144a09460cfaedbf4745221f6c9",
+          "generations": 1,
+          "iou": [
+            0.9687638458130261,
+            0.9419304719362983,
+            0.9848101265822785
+          ],
+          "ms": 20245,
+          "centreErrMm": 3.0555280703934193,
+          "sizeErrPct": 0.5398033266542646,
+          "chamferMm": 1.7543501505267587,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.0555280703934193,
+            "sizeErrPct": 0.5398033266542646,
+            "chamferMm": 1.7543501505267587,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "b12f3e74fb3bbc40245a1e8645057923ea13506d29e48ee6d0803c8d3c6b71d7",
+          "generations": 1,
+          "iou": [
+            0.9104050184099277,
+            0.7596690052167656,
+            0.9620253164556962
+          ],
+          "ms": 20567,
+          "centreErrMm": 12.05992304904513,
+          "sizeErrPct": -2.337332179924234,
+          "chamferMm": 5.6947587250862,
+          "failed": true,
+          "stored": {
+            "centreErrMm": 12.05992304904513,
+            "sizeErrPct": -2.337332179924234,
+            "chamferMm": 5.6947587250862,
+            "failed": true
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "d77fabb37c1e65b2c9f8301b014549454c7a990b9b37b3c4123d7cebe5ea4f28",
+          "generations": 1,
+          "iou": [
+            0.97014714204867,
+            0.9313496693893427,
+            0.9821882951653944
+          ],
+          "ms": 14076,
+          "centreErrMm": 3.2428186939855803,
+          "sizeErrPct": -0.20848965284884224,
+          "chamferMm": 2.1701026383987836,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.2428186939855803,
+            "sizeErrPct": -0.20848965284884224,
+            "chamferMm": 2.1701026383987836,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "f191a7b1b6c5b2c26bf4e19aab63d6015afa645c34e6ae0734d908dae29e5491",
+          "generations": 1,
+          "iou": [
+            0.9605654761904762,
+            0.9237642585551331,
+            0.9921465968586387
+          ],
+          "ms": 17924,
+          "centreErrMm": 3.089582963494298,
+          "sizeErrPct": 0.2505457673242839,
+          "chamferMm": 2.4065691554643345,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.089582963494298,
+            "sizeErrPct": 0.2505457673242839,
+            "chamferMm": 2.4065691554643345,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "7785bd055deb9a5ac651c49afe6d73d6bcffd07f544a8062e43c9669ee1db2ff",
+          "generations": 1,
+          "iou": [
+            0.9781240635301168,
+            0.9310990451226362,
+            0.9896103896103896
+          ],
+          "ms": 22683,
+          "centreErrMm": 3.170552999252062,
+          "sizeErrPct": -0.37282230597728283,
+          "chamferMm": 1.79993069491645,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.170552999252062,
+            "sizeErrPct": -0.37282230597728283,
+            "chamferMm": 1.79993069491645,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "63d60611837d99b9208bc2848e55d1ec35137df661bda2818f93914ca8adf8df",
+          "generations": 1,
+          "iou": [
+            0.9842723004694836,
+            0.9258359798243976,
+            0.9947916666666666
+          ],
+          "ms": 19047,
+          "centreErrMm": 3.323519603070175,
+          "sizeErrPct": -0.2922210441823503,
+          "chamferMm": 1.871023525899267,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.323519603070175,
+            "sizeErrPct": -0.2922210441823503,
+            "chamferMm": 1.871023525899267,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "63d60611837d99b9208bc2848e55d1ec35137df661bda2818f93914ca8adf8df",
+          "generations": 1,
+          "iou": [
+            0.9842723004694836,
+            0.9258359798243976,
+            0.9947916666666666
+          ],
+          "ms": 19276,
+          "centreErrMm": 3.323519603070175,
+          "sizeErrPct": -0.2922210441823503,
+          "chamferMm": 1.871023525899267,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.323519603070175,
+            "sizeErrPct": -0.2922210441823503,
+            "chamferMm": 1.871023525899267,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "7785bd055deb9a5ac651c49afe6d73d6bcffd07f544a8062e43c9669ee1db2ff",
+          "generations": 1,
+          "iou": [
+            0.9815420560747663,
+            0.9298740364730212,
+            0.9895833333333334
+          ],
+          "ms": 19413,
+          "centreErrMm": 3.370200084464275,
+          "sizeErrPct": -0.792213581272494,
+          "chamferMm": 2.175705823006739,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.370200084464275,
+            "sizeErrPct": -0.792213581272494,
+            "chamferMm": 2.175705823006739,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "7785bd055deb9a5ac651c49afe6d73d6bcffd07f544a8062e43c9669ee1db2ff",
+          "generations": 1,
+          "iou": [
+            0.9815420560747663,
+            0.9298740364730212,
+            0.9895833333333334
+          ],
+          "ms": 15397,
+          "centreErrMm": 3.370200084464275,
+          "sizeErrPct": -0.792213581272494,
+          "chamferMm": 2.175705823006739,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.370200084464275,
+            "sizeErrPct": -0.792213581272494,
+            "chamferMm": 2.175705823006739,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "5be1e9d2b4a208648bd2664b9ea4a1e5f4665c29905c5acc5b4eb0dc2475d65b",
+          "generations": 1,
+          "iou": [
+            0.9904458598726115,
+            0.9835841313269493,
+            1
+          ],
+          "ms": 13498,
+          "centreErrMm": 0.977572409160808,
+          "sizeErrPct": 0.12632339549532023,
+          "chamferMm": 1.0675403571798656,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.977572409160808,
+            "sizeErrPct": 0.12632339549532023,
+            "chamferMm": 1.0675403571798656,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "8dddd29323055e729b8b21d1b76678779237769e823290432a2159ee5755dac5",
+          "generations": 1,
+          "iou": [
+            0.9737749138318598,
+            0.9360902255639098,
+            0.9896103896103896
+          ],
+          "ms": 20079,
+          "centreErrMm": 2.9967762128278705,
+          "sizeErrPct": -0.6940911688758211,
+          "chamferMm": 1.8485311015980816,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "37649d57e45d41bc0c976040e7013a729a36fc43350ba7562be41f1594973928",
+          "generations": 1,
+          "iou": [
+            0.9319357092941999,
+            0.9130798861162285,
+            0.9925
+          ],
+          "ms": 17845,
+          "centreErrMm": 4.563733125789315,
+          "sizeErrPct": 0.47444342518137006,
+          "chamferMm": 2.862126655762449,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 4.563733125789315,
+            "sizeErrPct": 0.47444342518137006,
+            "chamferMm": 2.862126655762449,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "5daa283a562b6f46feb2989206eb2f8c18aec85694bce09f82cd48000ce1de02",
+          "generations": 1,
+          "iou": [
+            0.9646908678389109,
+            0.9379333671571114,
+            0.99
+          ],
+          "ms": 14983,
+          "centreErrMm": 3.1013930516729356,
+          "sizeErrPct": -0.008488070488665844,
+          "chamferMm": 2.211474319998002,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.1013930516729356,
+            "sizeErrPct": -0.008488070488665844,
+            "chamferMm": 2.211474319998002,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "5b84c2a05e0954db6d5583596f9ab5e58f1e1aaa75508876633ab822cca5ce23",
+          "generations": 1,
+          "iou": [
+            0.9454468265760985,
+            0.9609469500604804,
+            0.9881656804733728
+          ],
+          "ms": 15545,
+          "centreErrMm": 3.058324508907894,
+          "sizeErrPct": -1.2231059983323855,
+          "chamferMm": 2.1395657627221314,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.058324508907894,
+            "sizeErrPct": -1.2231059983323855,
+            "chamferMm": 2.1395657627221314,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "5b84c2a05e0954db6d5583596f9ab5e58f1e1aaa75508876633ab822cca5ce23",
+          "generations": 1,
+          "iou": [
+            0.9454468265760985,
+            0.9609469500604804,
+            0.9881656804733728
+          ],
+          "ms": 16435,
+          "centreErrMm": 3.058324508907894,
+          "sizeErrPct": -1.2231059983323855,
+          "chamferMm": 2.1395657627221314,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.058324508907894,
+            "sizeErrPct": -1.2231059983323855,
+            "chamferMm": 2.1395657627221314,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "5daa283a562b6f46feb2989206eb2f8c18aec85694bce09f82cd48000ce1de02",
+          "generations": 1,
+          "iou": [
+            0.9593984962406015,
+            0.9400641566773594,
+            0.9949874686716792
+          ],
+          "ms": 14641,
+          "centreErrMm": 3.4085210396718604,
+          "sizeErrPct": -0.008929080764485953,
+          "chamferMm": 2.0322527277881477,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.4085210396718604,
+            "sizeErrPct": -0.008929080764485953,
+            "chamferMm": 2.0322527277881477,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "5daa283a562b6f46feb2989206eb2f8c18aec85694bce09f82cd48000ce1de02",
+          "generations": 1,
+          "iou": [
+            0.9593984962406015,
+            0.9400641566773594,
+            0.9949874686716792
+          ],
+          "ms": 14750,
+          "centreErrMm": 3.4085210396718604,
+          "sizeErrPct": -0.008929080764485953,
+          "chamferMm": 2.0322527277881477,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.4085210396718604,
+            "sizeErrPct": -0.008929080764485953,
+            "chamferMm": 2.0322527277881477,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "c3ac739974fd7c3ce8c234550ecfb5a18cacd6237999f6711a050bd8b61ce211",
+          "generations": 1,
+          "iou": [
+            0.9784713191735298,
+            0.9825612119076977,
+            0.992462311557789
+          ],
+          "ms": 16810,
+          "centreErrMm": 0.9647939441401112,
+          "sizeErrPct": 0.2523655814733239,
+          "chamferMm": 1.0719177579616066,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.9647939441401112,
+            "sizeErrPct": 0.2523655814733239,
+            "chamferMm": 1.0719177579616066,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "776b10f48bb6ebfb3086e14c9f8be3c67918524f60734c144443629eacc947f2",
+          "generations": 1,
+          "iou": [
+            0.9737259997112747,
+            0.9901304194571731,
+            0.9899497487437185
+          ],
+          "ms": 13769,
+          "centreErrMm": 0.4120970681386542,
+          "sizeErrPct": 0.2602978377772125,
+          "chamferMm": 1.0848527467567344,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "standard",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "dbca6ad082406fb7f83693d8e0130bbbe87eb11db62935d3f4b658eb24a79070",
+          "generations": 1,
+          "iou": [
+            0.9894833104709648,
+            0.9877300613496932,
+            0.9974424552429667
+          ],
+          "ms": 10778,
+          "centreErrMm": 0.7908402780610693,
+          "sizeErrPct": 0.726600341355299,
+          "chamferMm": 1.024254142422421,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.7908402780610693,
+            "sizeErrPct": 0.726600341355299,
+            "chamferMm": 1.024254142422421,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "7df9b020e2cfe29d680f191e9596c82a9831790469a4a9316d78e5c465a3d202",
+          "generations": 1,
+          "iou": [
+            0.9632835820895522,
+            0.9395515695067265,
+            0.9974424552429667
+          ],
+          "ms": 17038,
+          "centreErrMm": 3.41985379556582,
+          "sizeErrPct": 0.1545134329015152,
+          "chamferMm": 2.0364159707347524,
+          "failed": false,
+          "stored": null
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "occlusion",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "41cd3c0ebb683146ecbbdfce69c7326ee1a9a8209c4086ff018bb21a9a636f22",
+          "generations": 1,
+          "iou": [
+            0.9707943925233645,
+            0.9344907821729014,
+            0.9947368421052631
+          ],
+          "ms": 16430,
+          "centreErrMm": 3.3292349108270143,
+          "sizeErrPct": 0.09659681950073828,
+          "chamferMm": 2.055354300787628,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3292349108270143,
+            "sizeErrPct": 0.09659681950073828,
+            "chamferMm": 2.055354300787628,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "41cd3c0ebb683146ecbbdfce69c7326ee1a9a8209c4086ff018bb21a9a636f22",
+          "generations": 1,
+          "iou": [
+            0.9707943925233645,
+            0.9344907821729014,
+            0.9947368421052631
+          ],
+          "ms": 18038,
+          "centreErrMm": 3.3292349108270143,
+          "sizeErrPct": 0.09659681950073828,
+          "chamferMm": 2.055354300787628,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3292349108270143,
+            "sizeErrPct": 0.09659681950073828,
+            "chamferMm": 2.055354300787628,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "limited",
+      "rules": {
+        "largestMask": {
+          "view": "side",
+          "sha": "7df9b020e2cfe29d680f191e9596c82a9831790469a4a9316d78e5c465a3d202",
+          "generations": 1,
+          "iou": [
+            0.9607798685105419,
+            0.9417072730554051,
+            0.9897435897435898
+          ],
+          "ms": 13265,
+          "centreErrMm": 3.3945842739249525,
+          "sizeErrPct": -0.6201745032529127,
+          "chamferMm": 2.047721443822527,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3945842739249525,
+            "sizeErrPct": -0.6201745032529127,
+            "chamferMm": 2.047721443822527,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "7df9b020e2cfe29d680f191e9596c82a9831790469a4a9316d78e5c465a3d202",
+          "generations": 1,
+          "iou": [
+            0.9607798685105419,
+            0.9417072730554051,
+            0.9897435897435898
+          ],
+          "ms": 13996,
+          "centreErrMm": 3.3945842739249525,
+          "sizeErrPct": -0.6201745032529127,
+          "chamferMm": 2.047721443822527,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 3.3945842739249525,
+            "sizeErrPct": -0.6201745032529127,
+            "chamferMm": 2.047721443822527,
+            "failed": false
+          }
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "cond": "reflective",
+      "rules": {
+        "largestMask": {
+          "view": "inspection",
+          "sha": "0eb4f165f3aa3fa35267b8a2b05b91abda3cbe0971ae62ce98908ad0d002c543",
+          "generations": 1,
+          "iou": [
+            0.9877862595419847,
+            0.9852859005401379,
+            0.9923273657289002
+          ],
+          "ms": 14929,
+          "centreErrMm": 0.9140627080097669,
+          "sizeErrPct": 0.3100896356919236,
+          "chamferMm": 0.7788371036661056,
+          "failed": false,
+          "stored": {
+            "centreErrMm": 0.9140627080097669,
+            "sizeErrPct": 0.3100896356919236,
+            "chamferMm": 0.7788371036661056,
+            "failed": false
+          }
+        },
+        "sideOnly": {
+          "view": "side",
+          "sha": "7b0012f818dcc2ca5e4518235c15080836cbccc1eccf910869a776df36810a3a",
+          "generations": 1,
+          "iou": [
+            0.9715789473684211,
+            0.9648387684459828,
+            0.9923273657289002
+          ],
+          "ms": 21341,
+          "centreErrMm": 2.1645205238221834,
+          "sizeErrPct": -0.2134489421912411,
+          "chamferMm": 1.66245525905191,
+          "failed": false,
+          "stored": null
+        }
+      }
+    }
+  ]
+}

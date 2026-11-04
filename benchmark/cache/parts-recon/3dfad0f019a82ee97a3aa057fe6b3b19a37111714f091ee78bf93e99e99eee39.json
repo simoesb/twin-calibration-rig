@@ -1,0 +1,19 @@
+{
+  "sha": "3dfad0f019a82ee97a3aa057fe6b3b19a37111714f091ee78bf93e99e99eee39",
+  "crop": "parts/pilot-sheet-metal-mount/t9/reflective-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 59.039,
+  "job": "75966e4a-dee0-4b13-80f9-fb4fc513b18d",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T19:11:10.758Z"
+}

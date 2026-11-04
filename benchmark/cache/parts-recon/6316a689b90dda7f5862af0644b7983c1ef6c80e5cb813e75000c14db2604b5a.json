@@ -1,0 +1,19 @@
+{
+  "sha": "6316a689b90dda7f5862af0644b7983c1ef6c80e5cb813e75000c14db2604b5a",
+  "crop": "parts/pilot-fixture-block/t5/occlusion-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 53.528,
+  "job": "b08dab87-2840-4bcc-9013-c55d3c4de2ba",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:28:23.683Z"
+}

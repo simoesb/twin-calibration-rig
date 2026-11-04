@@ -1,0 +1,19 @@
+{
+  "sha": "82cfb5e7deea2eb8f949a55d8989b35c8451a67087b41d61742fc23005745db9",
+  "crop": "parts/pilot-flange-adapter/t7/limited-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 54.823,
+  "job": "2464b4b2-cdd0-487f-bd45-e6a66b04005d",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:17:40.389Z"
+}

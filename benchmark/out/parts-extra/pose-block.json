@@ -1,0 +1,31 @@
+{
+  "resamples": 50000,
+  "seed": 20261104,
+  "scheme": "four fixed designs; ten poses resampled within each design; four conditions and all features of a pose kept together",
+  "H3_failure_reduction": {
+    "estimate": 0.43125,
+    "CI": [
+      0.35625,
+      0.50625
+    ]
+  },
+  "H2_median_diff": {
+    "estimate": -0.0923797435079532,
+    "CI": [
+      -0.2349091907186407,
+      -0.020421524247648648
+    ]
+  },
+  "H4_seen_rate_CI": [
+    0.17115384615384616,
+    0.2619300400285767
+  ],
+  "H4_hidden_rate_CI": [
+    0.0830367734282325,
+    0.12514095652921162
+  ],
+  "H4_difference_CI": [
+    0.06951437636283661,
+    0.1548609784765503
+  ]
+}

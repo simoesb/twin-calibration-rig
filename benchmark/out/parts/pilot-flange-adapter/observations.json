@@ -1,0 +1,3286 @@
+{
+  "part": "pilot-flange-adapter",
+  "seed": 2324900169,
+  "poses": 10,
+  "plate": [
+    1.28,
+    0.83,
+    0.01
+  ],
+  "plateRange": {
+    "x": 0.03,
+    "z": 0.02
+  },
+  "lighting": {
+    "environment": {
+      "hdr": "empty_warehouse_01_1k.hdr",
+      "intensity": 0.9,
+      "background": "#e8ebee"
+    },
+    "key": {
+      "color": "#fff1e0",
+      "intensity": 3,
+      "position": [
+        2.8,
+        4.6,
+        3.4
+      ],
+      "target": [
+        1.2,
+        0.8,
+        0
+      ]
+    },
+    "toneMapping": "NeutralToneMapping",
+    "shadows": "VSM 2048"
+  },
+  "cameras": {
+    "inspection": {
+      "position": [
+        1.28,
+        1.25,
+        0.43
+      ],
+      "quaternion": [
+        -0.3594886791515339,
+        0,
+        0,
+        0.9331494465314147
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "side": {
+      "position": [
+        1.78,
+        1.15,
+        -0.11
+      ],
+      "quaternion": [
+        -0.15276534035029496,
+        0.7610130081939676,
+        0.19376707046665667,
+        0.5999802284659024
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "cell": {
+      "position": [
+        2,
+        1.9,
+        0.9
+      ],
+      "quaternion": [
+        -0.33768063779321644,
+        0.3114459229217409,
+        0.11948769308149788,
+        0.8801681175531487
+      ],
+      "fovDeg": 40,
+      "width": 1024,
+      "height": 768,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    }
+  },
+  "coordinates": "world metres, +Y up; part GLB metric +Y up, resting base at y = 0; CAD mm Z up → GLB [x, z, -y] / 1000",
+  "cropRule": "object pixels on white, square 1.35 × the mask bounding box, resampled to 512 × 512",
+  "conditions": [
+    "standard",
+    "occlusion",
+    "limited",
+    "reflective"
+  ],
+  "views": [
+    "inspection",
+    "side",
+    "cell"
+  ],
+  "trials": [
+    {
+      "i": 0,
+      "pose": {
+        "x": 1.3063636472634972,
+        "z": -0.0005830993968993434,
+        "yaw": 5.642158254378386
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/standard-inspection-crop.png",
+              "maskPixels": 103278
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/standard-side-crop.png",
+              "maskPixels": 96092
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/standard-cell-crop.png",
+              "maskPixels": 6269
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.298406814834876,
+              0.9979989616101309,
+              0.12937151326555718
+            ],
+            "quaternion": [
+              0.011164021288727123,
+              0.9305002774670337,
+              -0.3650132192923205,
+              0.02845958545542192
+            ]
+          },
+          "visibleFraction": 0.642216032188177,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/occlusion-inspection-crop.png",
+              "maskPixels": 66301
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/occlusion-side-crop.png",
+              "maskPixels": 96092
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/occlusion-cell-crop.png",
+              "maskPixels": 2983
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -19,
+          "visibleFraction": 0.6330857319715258,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3545585081627954,
+                  -0.15401408206022643,
+                  0.05933274582797797,
+                  0.920351863196371
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/limited-inspection-crop.png",
+              "maskPixels": 65511
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/limited-side-crop.png",
+              "maskPixels": 96092
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/limited-cell-crop.png",
+              "maskPixels": 6269
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/reflective-inspection-crop.png",
+              "maskPixels": 103278
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/reflective-side-crop.png",
+              "maskPixels": 96092
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t0/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t0/reflective-cell-crop.png",
+              "maskPixels": 6269
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 1,
+      "pose": {
+        "x": 1.2516603823332115,
+        "z": 0.018044844940304755,
+        "yaw": 5.492600325307472
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/standard-inspection-crop.png",
+              "maskPixels": 109976
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/standard-side-crop.png",
+              "maskPixels": 77074
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/standard-cell-crop.png",
+              "maskPixels": 6119
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2630169788111425,
+              0.9546028631128253,
+              0.18312852807337435
+            ],
+            "quaternion": [
+              -0.012887031604111759,
+              0.9263465951396547,
+              -0.37510405274453557,
+              -0.031825456858116975
+            ]
+          },
+          "visibleFraction": 0.6603086779266162,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/occlusion-inspection-crop.png",
+              "maskPixels": 72593
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/occlusion-side-crop.png",
+              "maskPixels": 77074
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/occlusion-cell-crop.png",
+              "maskPixels": 4780
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -13.5,
+          "visibleFraction": 0.6498252766453116,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35699686789777835,
+                  -0.10967995738452412,
+                  0.04225336376302691,
+                  0.9266812809752956
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/limited-inspection-crop.png",
+              "maskPixels": 71360
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/limited-side-crop.png",
+              "maskPixels": 77074
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/limited-cell-crop.png",
+              "maskPixels": 6119
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/reflective-inspection-crop.png",
+              "maskPixels": 109976
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/reflective-side-crop.png",
+              "maskPixels": 77074
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t1/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t1/reflective-cell-crop.png",
+              "maskPixels": 6119
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 2,
+      "pose": {
+        "x": 1.2819619142170995,
+        "z": 0.0029508639965206383,
+        "yaw": 0.9953394010926826
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/standard-inspection-crop.png",
+              "maskPixels": 104452
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/standard-side-crop.png",
+              "maskPixels": 87217
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/standard-cell-crop.png",
+              "maskPixels": 6169
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2813707539500645,
+              0.9979302629083107,
+              0.1316284988678672
+            ],
+            "quaternion": [
+              0.0008442266165080457,
+              0.9300100446482072,
+              -0.3675269248047058,
+              0.002136276774086837
+            ]
+          },
+          "visibleFraction": 0.6416973039215687,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/occlusion-inspection-crop.png",
+              "maskPixels": 66986
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/occlusion-side-crop.png",
+              "maskPixels": 87217
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/occlusion-cell-crop.png",
+              "maskPixels": 3001
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -16.5,
+          "visibleFraction": 0.6488970588235294,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.355768469868287,
+                  -0.13390006079241049,
+                  0.051583973147599396,
+                  0.9234926438698223
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/limited-inspection-crop.png",
+              "maskPixels": 67938
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/limited-side-crop.png",
+              "maskPixels": 87217
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/limited-cell-crop.png",
+              "maskPixels": 6169
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/reflective-inspection-crop.png",
+              "maskPixels": 104452
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/reflective-side-crop.png",
+              "maskPixels": 87217
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t2/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t2/reflective-cell-crop.png",
+              "maskPixels": 6169
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 3,
+      "pose": {
+        "x": 1.3066435137437657,
+        "z": 0.0025856132619082924,
+        "yaw": 5.8681018774943485
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/standard-inspection-crop.png",
+              "maskPixels": 104378
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/standard-side-crop.png",
+              "maskPixels": 95905
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/standard-cell-crop.png",
+              "maskPixels": 6300
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.298611707783923,
+              0.9979492348862327,
+              0.13143158499597557
+            ],
+            "quaternion": [
+              0.0114184493663028,
+              0.9298168044010998,
+              -0.36670433968116917,
+              0.028952660091839735
+            ]
+          },
+          "visibleFraction": 0.6420907418761496,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/occlusion-inspection-crop.png",
+              "maskPixels": 66957
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/occlusion-side-crop.png",
+              "maskPixels": 95905
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/occlusion-cell-crop.png",
+              "maskPixels": 3010
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -19,
+          "visibleFraction": 0.6364193746167995,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3545585081627954,
+                  -0.15401408206022643,
+                  0.05933274582797797,
+                  0.920351863196371
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/limited-inspection-crop.png",
+              "maskPixels": 66485
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/limited-side-crop.png",
+              "maskPixels": 95905
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/limited-cell-crop.png",
+              "maskPixels": 6300
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/reflective-inspection-crop.png",
+              "maskPixels": 104378
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/reflective-side-crop.png",
+              "maskPixels": 95905
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t3/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t3/reflective-cell-crop.png",
+              "maskPixels": 6300
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 4,
+      "pose": {
+        "x": 1.2752425665408373,
+        "z": 0.014823643704876304,
+        "yaw": 3.923940038847229
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/standard-inspection-crop.png",
+              "maskPixels": 108715
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/standard-side-crop.png",
+              "maskPixels": 84164
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/standard-cell-crop.png",
+              "maskPixels": 6211
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2766693858038203,
+              0.9977367158998467,
+              0.13934070269936288
+            ],
+            "quaternion": [
+              -0.002142996857066937,
+              0.9273922261428785,
+              -0.37404656922775537,
+              -0.00531323848256547
+            ]
+          },
+          "visibleFraction": 0.6399352560329605,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/occlusion-inspection-crop.png",
+              "maskPixels": 69582
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/occlusion-side-crop.png",
+              "maskPixels": 84164
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/occlusion-cell-crop.png",
+              "maskPixels": 3100
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -16,
+          "visibleFraction": 0.6344908769864627,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3559901600378475,
+                  -0.12986930213294576,
+                  0.050031154237556996,
+                  0.9240681002639294
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/limited-inspection-crop.png",
+              "maskPixels": 68997
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/limited-side-crop.png",
+              "maskPixels": 84164
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/limited-cell-crop.png",
+              "maskPixels": 6211
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/reflective-inspection-crop.png",
+              "maskPixels": 108715
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/reflective-side-crop.png",
+              "maskPixels": 84164
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t4/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t4/reflective-cell-crop.png",
+              "maskPixels": 6211
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 5,
+      "pose": {
+        "x": 1.2594146675383673,
+        "z": 0.019098919369280338,
+        "yaw": 1.2889750876490822
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/standard-inspection-crop.png",
+              "maskPixels": 110324
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/standard-side-crop.png",
+              "maskPixels": 79172
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/standard-cell-crop.png",
+              "maskPixels": 6158
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2676716065926485,
+              0.9546539485909262,
+              0.18391458054112145
+            ],
+            "quaternion": [
+              -0.009413960122280726,
+              0.9262584163227968,
+              -0.3760572719680063,
+              -0.023187318645792744
+            ]
+          },
+          "visibleFraction": 0.65956212846165,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/occlusion-inspection-crop.png",
+              "maskPixels": 72800
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/occlusion-side-crop.png",
+              "maskPixels": 79172
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/occlusion-cell-crop.png",
+              "maskPixels": 4871
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18.5,
+          "visibleFraction": 0.6301290416122952,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35481402014210095,
+                  0.14999683612724996,
+                  -0.05778513259234823,
+                  0.9210151131841978
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/limited-inspection-crop.png",
+              "maskPixels": 69604
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/limited-side-crop.png",
+              "maskPixels": 79172
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/limited-cell-crop.png",
+              "maskPixels": 6158
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/reflective-inspection-crop.png",
+              "maskPixels": 110324
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/reflective-side-crop.png",
+              "maskPixels": 79172
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t5/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t5/reflective-cell-crop.png",
+              "maskPixels": 6158
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 6,
+      "pose": {
+        "x": 1.2584780056867748,
+        "z": 0.02105323818512261,
+        "yaw": 3.2567021988101046
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/standard-inspection-crop.png",
+              "maskPixels": 111075
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/standard-side-crop.png",
+              "maskPixels": 78770
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/standard-cell-crop.png",
+              "maskPixels": 6170
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.267120918130542,
+              0.9547186649434353,
+              0.18528016832403923
+            ],
+            "quaternion": [
+              -0.009916606851645622,
+              0.9257919324965878,
+              -0.3771184293562369,
+              -0.02434438072057607
+            ]
+          },
+          "visibleFraction": 0.6589861751152074,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/occlusion-inspection-crop.png",
+              "maskPixels": 73245
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/occlusion-side-crop.png",
+              "maskPixels": 78770
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/occlusion-cell-crop.png",
+              "maskPixels": 4857
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18.5,
+          "visibleFraction": 0.6383928571428571,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35481402014210095,
+                  0.14999683612724996,
+                  -0.05778513259234823,
+                  0.9210151131841978
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/limited-inspection-crop.png",
+              "maskPixels": 70896
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/limited-side-crop.png",
+              "maskPixels": 78770
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/limited-cell-crop.png",
+              "maskPixels": 6170
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/reflective-inspection-crop.png",
+              "maskPixels": 111075
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/reflective-side-crop.png",
+              "maskPixels": 78770
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t6/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t6/reflective-cell-crop.png",
+              "maskPixels": 6170
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 7,
+      "pose": {
+        "x": 1.2653234398597852,
+        "z": 0.005264458153396845,
+        "yaw": 0.2592602160057856
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/standard-inspection-crop.png",
+              "maskPixels": 105296
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/standard-side-crop.png",
+              "maskPixels": 81854
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/standard-cell-crop.png",
+              "maskPixels": 6100
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.269742252771545,
+              0.9978971564171734,
+              0.13314366680068782
+            ],
+            "quaternion": [
+              -0.006366461394599688,
+              0.9294287915707777,
+              -0.36859718341670494,
+              -0.01605322228920925
+            ]
+          },
+          "visibleFraction": 0.6415639738323444,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/occlusion-inspection-crop.png",
+              "maskPixels": 67513
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/occlusion-side-crop.png",
+              "maskPixels": 81854
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/occlusion-cell-crop.png",
+              "maskPixels": 3018
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -15,
+          "visibleFraction": 0.6411075612353567,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3564132036668467,
+                  -0.12180044402799418,
+                  0.046922688435865556,
+                  0.9251662236573863
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/limited-inspection-crop.png",
+              "maskPixels": 67458
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/limited-side-crop.png",
+              "maskPixels": 81854
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/limited-cell-crop.png",
+              "maskPixels": 6100
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/reflective-inspection-crop.png",
+              "maskPixels": 105296
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/reflective-side-crop.png",
+              "maskPixels": 81854
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t7/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t7/reflective-cell-crop.png",
+              "maskPixels": 6100
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 8,
+      "pose": {
+        "x": 1.2964194949157537,
+        "z": 0.019292482091113925,
+        "yaw": 5.999724164662357
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/standard-inspection-crop.png",
+              "maskPixels": 110398
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/standard-side-crop.png",
+              "maskPixels": 90762
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/standard-cell-crop.png",
+              "maskPixels": 6338
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2898319450474003,
+              0.9546668569333185,
+              0.18406955163035824
+            ],
+            "quaternion": [
+              0.0075192500473897665,
+              0.9262766311567731,
+              -0.3763143760259906,
+              0.018508210279589626
+            ]
+          },
+          "visibleFraction": 0.6593311133632547,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/occlusion-inspection-crop.png",
+              "maskPixels": 72820
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/occlusion-side-crop.png",
+              "maskPixels": 90762
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/occlusion-cell-crop.png",
+              "maskPixels": 5382
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 14.5,
+          "visibleFraction": 0.6615028232228174,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35661454907214457,
+                  0.11776249820193463,
+                  -0.04536710072492463,
+                  0.9256888697500499
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/limited-inspection-crop.png",
+              "maskPixels": 73263
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/limited-side-crop.png",
+              "maskPixels": 90762
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/limited-cell-crop.png",
+              "maskPixels": 6338
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/reflective-inspection-crop.png",
+              "maskPixels": 110398
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/reflective-side-crop.png",
+              "maskPixels": 90762
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t8/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t8/reflective-cell-crop.png",
+              "maskPixels": 6338
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 9,
+      "pose": {
+        "x": 1.2771435668272897,
+        "z": 0.00315818190574646,
+        "yaw": 1.913132778573648
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/standard-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/standard-inspection-crop.png",
+              "maskPixels": 104550
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/standard-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/standard-side-crop.png",
+              "maskPixels": 85650
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/standard-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/standard-cell-crop.png",
+              "maskPixels": 6157
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2780041954274268,
+              0.997927030794766,
+              0.1317634228390877
+            ],
+            "quaternion": [
+              -0.0012300987667020465,
+              0.9299638496892407,
+              -0.3676357475418098,
+              -0.003111632620682855
+            ]
+          },
+          "visibleFraction": 0.6431084595380144,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/occlusion-inspection-crop.png",
+              "maskPixels": 67036
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/occlusion-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/occlusion-side-crop.png",
+              "maskPixels": 85650
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/occlusion-cell-crop.png",
+              "maskPixels": 3010
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -16,
+          "visibleFraction": 0.6524399571668962,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3559901600378475,
+                  -0.12986930213294576,
+                  0.050031154237556996,
+                  0.9240681002639294
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/limited-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/limited-inspection-crop.png",
+              "maskPixels": 68330
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/limited-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/limited-side-crop.png",
+              "maskPixels": 85650
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/limited-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/limited-cell-crop.png",
+              "maskPixels": 6157
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/reflective-inspection-crop.png",
+              "maskPixels": 104550
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/reflective-side-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/reflective-side-crop.png",
+              "maskPixels": 85650
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-flange-adapter/t9/reflective-cell-rgb.png",
+              "crop": "parts/pilot-flange-adapter/t9/reflective-cell-crop.png",
+              "maskPixels": 6157
+            }
+          }
+        }
+      }
+    }
+  ],
+  "generatorInputs": "crop images only; no CAD, part.json, feature inventory or declared size reaches the generator"
+}

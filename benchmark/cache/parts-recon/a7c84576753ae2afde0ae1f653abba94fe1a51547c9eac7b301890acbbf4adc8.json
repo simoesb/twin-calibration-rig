@@ -1,0 +1,19 @@
+{
+  "sha": "a7c84576753ae2afde0ae1f653abba94fe1a51547c9eac7b301890acbbf4adc8",
+  "crop": "parts/pilot-flange-adapter/t9/occlusion-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 58.964,
+  "job": "18af9818-756a-4b53-b103-46f24f59bb8a",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T17:41:05.201Z"
+}

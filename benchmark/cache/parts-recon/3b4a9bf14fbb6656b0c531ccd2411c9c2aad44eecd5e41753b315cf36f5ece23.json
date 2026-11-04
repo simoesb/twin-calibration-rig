@@ -1,0 +1,19 @@
+{
+  "sha": "3b4a9bf14fbb6656b0c531ccd2411c9c2aad44eecd5e41753b315cf36f5ece23",
+  "crop": "parts/pilot-bearing-housing/t4/reflective-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 55.245,
+  "job": "975090f3-4cb1-4aee-b074-e06a5c938dee",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:37:14.724Z"
+}

@@ -1,0 +1,3286 @@
+{
+  "part": "pilot-sheet-metal-mount",
+  "seed": 1218770819,
+  "poses": 10,
+  "plate": [
+    1.28,
+    0.83,
+    0.01
+  ],
+  "plateRange": {
+    "x": 0.03,
+    "z": 0.02
+  },
+  "lighting": {
+    "environment": {
+      "hdr": "empty_warehouse_01_1k.hdr",
+      "intensity": 0.9,
+      "background": "#e8ebee"
+    },
+    "key": {
+      "color": "#fff1e0",
+      "intensity": 3,
+      "position": [
+        2.8,
+        4.6,
+        3.4
+      ],
+      "target": [
+        1.2,
+        0.8,
+        0
+      ]
+    },
+    "toneMapping": "NeutralToneMapping",
+    "shadows": "VSM 2048"
+  },
+  "cameras": {
+    "inspection": {
+      "position": [
+        1.28,
+        1.25,
+        0.43
+      ],
+      "quaternion": [
+        -0.3594886791515339,
+        0,
+        0,
+        0.9331494465314147
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "side": {
+      "position": [
+        1.78,
+        1.15,
+        -0.11
+      ],
+      "quaternion": [
+        -0.15276534035029496,
+        0.7610130081939676,
+        0.19376707046665667,
+        0.5999802284659024
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "cell": {
+      "position": [
+        2,
+        1.9,
+        0.9
+      ],
+      "quaternion": [
+        -0.33768063779321644,
+        0.3114459229217409,
+        0.11948769308149788,
+        0.8801681175531487
+      ],
+      "fovDeg": 40,
+      "width": 1024,
+      "height": 768,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    }
+  },
+  "coordinates": "world metres, +Y up; part GLB metric +Y up, resting base at y = 0; CAD mm Z up → GLB [x, z, -y] / 1000",
+  "cropRule": "object pixels on white, square 1.35 × the mask bounding box, resampled to 512 × 512",
+  "conditions": [
+    "standard",
+    "occlusion",
+    "limited",
+    "reflective"
+  ],
+  "views": [
+    "inspection",
+    "side",
+    "cell"
+  ],
+  "trials": [
+    {
+      "i": 0,
+      "pose": {
+        "x": 1.2995050490740687,
+        "z": 0.007316061677411199,
+        "yaw": 4.24214153586824
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/standard-inspection-crop.png",
+              "maskPixels": 80246
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/standard-side-crop.png",
+              "maskPixels": 96608
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/standard-cell-crop.png",
+              "maskPixels": 5681
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2934134400933095,
+              1.0238115698012409,
+              0.13236692467556888
+            ],
+            "quaternion": [
+              0.007864026195010065,
+              0.9367890187131682,
+              -0.349169510652559,
+              0.021098444043954893
+            ]
+          },
+          "visibleFraction": 0.6439832368788665,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/occlusion-inspection-crop.png",
+              "maskPixels": 51746
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/occlusion-side-crop.png",
+              "maskPixels": 96608
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/occlusion-cell-crop.png",
+              "maskPixels": 2829
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 13.5,
+          "visibleFraction": 0.6358012372779884,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35699686789777835,
+                  0.10967995738452412,
+                  -0.04225336376302691,
+                  0.9266812809752956
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/limited-inspection-crop.png",
+              "maskPixels": 50931
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/limited-side-crop.png",
+              "maskPixels": 96608
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/limited-cell-crop.png",
+              "maskPixels": 5681
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/reflective-inspection-crop.png",
+              "maskPixels": 80246
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/reflective-side-crop.png",
+              "maskPixels": 96608
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t0/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t0/reflective-cell-crop.png",
+              "maskPixels": 5681
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 1,
+      "pose": {
+        "x": 1.2658603432262316,
+        "z": -0.002018185611814261,
+        "yaw": 2.9903585480936883
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/standard-inspection-crop.png",
+              "maskPixels": 103270
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/standard-side-crop.png",
+              "maskPixels": 71348
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/standard-cell-crop.png",
+              "maskPixels": 5099
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2701196698090276,
+              1.0239809560114053,
+              0.126155681101786
+            ],
+            "quaternion": [
+              -0.005593581690987219,
+              0.9387837003713584,
+              -0.3441235570878392,
+              -0.015259528765286119
+            ]
+          },
+          "visibleFraction": 0.6546862896979087,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/occlusion-inspection-crop.png",
+              "maskPixels": 67630
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/occlusion-side-crop.png",
+              "maskPixels": 71348
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/occlusion-cell-crop.png",
+              "maskPixels": 2213
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18,
+          "visibleFraction": 0.6672347017815646,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  0.1459767344707294,
+                  -0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/limited-inspection-crop.png",
+              "maskPixels": 68839
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/limited-side-crop.png",
+              "maskPixels": 71348
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/limited-cell-crop.png",
+              "maskPixels": 5099
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/reflective-inspection-crop.png",
+              "maskPixels": 103270
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/reflective-side-crop.png",
+              "maskPixels": 71348
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t1/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t1/reflective-cell-crop.png",
+              "maskPixels": 5099
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 2,
+      "pose": {
+        "x": 1.2615694255568088,
+        "z": -0.0018406497407704586,
+        "yaw": 1.8744254393547448
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/standard-inspection-crop.png",
+              "maskPixels": 73455
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/standard-side-crop.png",
+              "maskPixels": 100515
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/standard-cell-crop.png",
+              "maskPixels": 4768
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.267601435169018,
+              1.0178717345379853,
+              0.13166965903546413
+            ],
+            "quaternion": [
+              -0.007151381648584025,
+              0.9386310555297191,
+              -0.34429710256299506,
+              -0.01949626893557176
+            ]
+          },
+          "visibleFraction": 0.6390764539316053,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/occlusion-inspection-crop.png",
+              "maskPixels": 46856
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/occlusion-side-crop.png",
+              "maskPixels": 100515
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/occlusion-cell-crop.png",
+              "maskPixels": 2502
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 20,
+          "visibleFraction": 0.6717490742757569,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35402723834854866,
+                  0.16203970088108482,
+                  -0.06242455402655567,
+                  0.9189728096631881
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/limited-inspection-crop.png",
+              "maskPixels": 49323
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/limited-side-crop.png",
+              "maskPixels": 100515
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/limited-cell-crop.png",
+              "maskPixels": 4768
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/reflective-inspection-crop.png",
+              "maskPixels": 73455
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/reflective-side-crop.png",
+              "maskPixels": 100515
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t2/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t2/reflective-cell-crop.png",
+              "maskPixels": 4768
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 3,
+      "pose": {
+        "x": 1.256933603133075,
+        "z": 0.023279439955949784,
+        "yaw": 4.592285300555768
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/standard-inspection-crop.png",
+              "maskPixels": 75380
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/standard-side-crop.png",
+              "maskPixels": 93511
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/standard-cell-crop.png",
+              "maskPixels": 5276
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2661477455339503,
+              0.9699791381172098,
+              0.19085915295174818
+            ],
+            "quaternion": [
+              -0.010359244647677502,
+              0.9332822090752572,
+              -0.35797708628206854,
+              -0.02700759098731113
+            ]
+          },
+          "visibleFraction": 0.6533475026567481,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/occlusion-inspection-crop.png",
+              "maskPixels": 49224
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/occlusion-side-crop.png",
+              "maskPixels": 93511
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/occlusion-cell-crop.png",
+              "maskPixels": 4361
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18,
+          "visibleFraction": 0.6454835281615303,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  0.1459767344707294,
+                  -0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/limited-inspection-crop.png",
+              "maskPixels": 48562
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/limited-side-crop.png",
+              "maskPixels": 93511
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/limited-cell-crop.png",
+              "maskPixels": 5276
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/reflective-inspection-crop.png",
+              "maskPixels": 75380
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/reflective-side-crop.png",
+              "maskPixels": 93511
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t3/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t3/reflective-cell-crop.png",
+              "maskPixels": 5276
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 4,
+      "pose": {
+        "x": 1.2760208696406334,
+        "z": 0.004801769191399217,
+        "yaw": 0.6763900340170255
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/standard-inspection-crop.png",
+              "maskPixels": 107971
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/standard-side-crop.png",
+              "maskPixels": 78927
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/standard-cell-crop.png",
+              "maskPixels": 6730
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.277398067092413,
+              1.0268674240454376,
+              0.12850503546863237
+            ],
+            "quaternion": [
+              -0.0015035233248747277,
+              0.9373198976489276,
+              -0.3484433825423233,
+              -0.00404450880571158
+            ]
+          },
+          "visibleFraction": 0.6479228486646884,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/occlusion-inspection-crop.png",
+              "maskPixels": 69712
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/occlusion-side-crop.png",
+              "maskPixels": 78927
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/occlusion-cell-crop.png",
+              "maskPixels": 3656
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18.5,
+          "visibleFraction": 0.6409495548961425,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35481402014210095,
+                  0.14999683612724996,
+                  -0.05778513259234823,
+                  0.9210151131841978
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/limited-inspection-crop.png",
+              "maskPixels": 69146
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/limited-side-crop.png",
+              "maskPixels": 78927
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/limited-cell-crop.png",
+              "maskPixels": 6730
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/reflective-inspection-crop.png",
+              "maskPixels": 107971
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/reflective-side-crop.png",
+              "maskPixels": 78927
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t4/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t4/reflective-cell-crop.png",
+              "maskPixels": 6730
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 5,
+      "pose": {
+        "x": 1.2927712365658954,
+        "z": 0.0078059502504765985,
+        "yaw": 2.9504885474166973
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/standard-inspection-crop.png",
+              "maskPixels": 105301
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/standard-side-crop.png",
+              "maskPixels": 81786
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/standard-cell-crop.png",
+              "maskPixels": 5166
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.289055707041359,
+              1.0238031332587023,
+              0.13249889695665257
+            ],
+            "quaternion": [
+              0.00531755569571384,
+              0.9368243426866502,
+              -0.3494691330885426,
+              0.014254808644500835
+            ]
+          },
+          "visibleFraction": 0.6577548230290141,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/occlusion-inspection-crop.png",
+              "maskPixels": 69319
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/occlusion-side-crop.png",
+              "maskPixels": 81786
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/occlusion-cell-crop.png",
+              "maskPixels": 2062
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 15.5,
+          "visibleFraction": 0.6481847182135805,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3562050726679096,
+                  0.125836070949171,
+                  -0.04847738280645627,
+                  0.9246259637334228
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/limited-inspection-crop.png",
+              "maskPixels": 68255
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/limited-side-crop.png",
+              "maskPixels": 81786
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/limited-cell-crop.png",
+              "maskPixels": 5166
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/reflective-inspection-crop.png",
+              "maskPixels": 105301
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/reflective-side-crop.png",
+              "maskPixels": 81786
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t5/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t5/reflective-cell-crop.png",
+              "maskPixels": 5166
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 6,
+      "pose": {
+        "x": 1.306198281534016,
+        "z": 0.015822991048917174,
+        "yaw": 3.7099723883157387
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/standard-inspection-crop.png",
+              "maskPixels": 101216
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/standard-side-crop.png",
+              "maskPixels": 69838
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/standard-cell-crop.png",
+              "maskPixels": 5739
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2982771804008642,
+              1.023663567151694,
+              0.13775400885361044
+            ],
+            "quaternion": [
+              0.011042361105614375,
+              0.9349237342770909,
+              -0.3534722688851073,
+              0.029206719702961303
+            ]
+          },
+          "visibleFraction": 0.6483151400094922,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/occlusion-inspection-crop.png",
+              "maskPixels": 65635
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/occlusion-side-crop.png",
+              "maskPixels": 69838
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/occlusion-cell-crop.png",
+              "maskPixels": 2382
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 12.5,
+          "visibleFraction": 0.6505299794336339,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3573520000297521,
+                  0.10158906401371554,
+                  -0.039136409043888085,
+                  0.9276031218332024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/limited-inspection-crop.png",
+              "maskPixels": 65947
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/limited-side-crop.png",
+              "maskPixels": 69838
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/limited-cell-crop.png",
+              "maskPixels": 5739
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/reflective-inspection-crop.png",
+              "maskPixels": 101216
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/reflective-side-crop.png",
+              "maskPixels": 69838
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t6/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t6/reflective-cell-crop.png",
+              "maskPixels": 5739
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 7,
+      "pose": {
+        "x": 1.274430470778607,
+        "z": 0.005691225938498974,
+        "yaw": 1.1463669893693735
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/standard-inspection-crop.png",
+              "maskPixels": 90138
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/standard-side-crop.png",
+              "maskPixels": 96611
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/standard-cell-crop.png",
+              "maskPixels": 6501
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2764961375706914,
+              1.0147463960206762,
+              0.13941939724359378
+            ],
+            "quaternion": [
+              -0.0021029681831396625,
+              0.937171340999724,
+              -0.3488173330981535,
+              -0.005650067600620571
+            ]
+          },
+          "visibleFraction": 0.6408751334044824,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/occlusion-inspection-crop.png",
+              "maskPixels": 57754
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/occlusion-side-crop.png",
+              "maskPixels": 96611
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/occlusion-cell-crop.png",
+              "maskPixels": 3326
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -14.5,
+          "visibleFraction": 0.6517253646389185,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35661454907214457,
+                  -0.11776249820193463,
+                  0.04536710072492463,
+                  0.9256888697500499
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/limited-inspection-crop.png",
+              "maskPixels": 58598
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/limited-side-crop.png",
+              "maskPixels": 96611
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/limited-cell-crop.png",
+              "maskPixels": 6501
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/reflective-inspection-crop.png",
+              "maskPixels": 90138
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/reflective-side-crop.png",
+              "maskPixels": 96611
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t7/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t7/reflective-cell-crop.png",
+              "maskPixels": 6501
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 8,
+      "pose": {
+        "x": 1.296638104589656,
+        "z": 0.0068041170109063385,
+        "yaw": 0.36290072779196186
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/standard-inspection-crop.png",
+              "maskPixels": 113798
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/standard-side-crop.png",
+              "maskPixels": 65336
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/standard-cell-crop.png",
+              "maskPixels": 6756
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2920432131531765,
+              1.0298530857215429,
+              0.12724485609256614
+            ],
+            "quaternion": [
+              0.006945418342643306,
+              0.9367848817473959,
+              -0.34934076124514224,
+              0.018624688620958278
+            ]
+          },
+          "visibleFraction": 0.6433988764044943,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/occlusion-inspection-crop.png",
+              "maskPixels": 73264
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/occlusion-side-crop.png",
+              "maskPixels": 65336
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/occlusion-cell-crop.png",
+              "maskPixels": 3690
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 15.5,
+          "visibleFraction": 0.660814606741573,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3562050726679096,
+                  0.125836070949171,
+                  -0.04847738280645627,
+                  0.9246259637334228
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/limited-inspection-crop.png",
+              "maskPixels": 75315
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/limited-side-crop.png",
+              "maskPixels": 65336
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/limited-cell-crop.png",
+              "maskPixels": 6756
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/reflective-inspection-crop.png",
+              "maskPixels": 113798
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/reflective-side-crop.png",
+              "maskPixels": 65336
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t8/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t8/reflective-cell-crop.png",
+              "maskPixels": 6756
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 9,
+      "pose": {
+        "x": 1.3068004107335582,
+        "z": 0.028560236264020204,
+        "yaw": 1.0540180239442833
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/standard-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/standard-inspection-crop.png",
+              "maskPixels": 96673
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/standard-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/standard-side-crop.png",
+              "maskPixels": 99887
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/standard-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/standard-cell-crop.png",
+              "maskPixels": 6841
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.298704230867044,
+              1.0145356222142905,
+              0.15447332913891781
+            ],
+            "quaternion": [
+              0.012238727875599112,
+              0.931955713016224,
+              -0.3609853318593523,
+              0.03159671974749244
+            ]
+          },
+          "visibleFraction": 0.6335208471211119,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/occlusion-inspection-crop.png",
+              "maskPixels": 61270
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/occlusion-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/occlusion-side-crop.png",
+              "maskPixels": 99887
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/occlusion-cell-crop.png",
+              "maskPixels": 3514
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -18,
+          "visibleFraction": 0.6259099933818663,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  -0.1459767344707294,
+                  0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/limited-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/limited-inspection-crop.png",
+              "maskPixels": 60463
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/limited-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/limited-side-crop.png",
+              "maskPixels": 99887
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/limited-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/limited-cell-crop.png",
+              "maskPixels": 6841
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/reflective-inspection-crop.png",
+              "maskPixels": 96673
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/reflective-side-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/reflective-side-crop.png",
+              "maskPixels": 99887
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-sheet-metal-mount/t9/reflective-cell-rgb.png",
+              "crop": "parts/pilot-sheet-metal-mount/t9/reflective-cell-crop.png",
+              "maskPixels": 6841
+            }
+          }
+        }
+      }
+    }
+  ],
+  "generatorInputs": "crop images only; no CAD, part.json, feature inventory or declared size reaches the generator"
+}

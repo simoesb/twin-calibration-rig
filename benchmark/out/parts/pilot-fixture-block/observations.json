@@ -1,0 +1,3286 @@
+{
+  "part": "pilot-fixture-block",
+  "seed": 356320543,
+  "poses": 10,
+  "plate": [
+    1.28,
+    0.83,
+    0.01
+  ],
+  "plateRange": {
+    "x": 0.03,
+    "z": 0.02
+  },
+  "lighting": {
+    "environment": {
+      "hdr": "empty_warehouse_01_1k.hdr",
+      "intensity": 0.9,
+      "background": "#e8ebee"
+    },
+    "key": {
+      "color": "#fff1e0",
+      "intensity": 3,
+      "position": [
+        2.8,
+        4.6,
+        3.4
+      ],
+      "target": [
+        1.2,
+        0.8,
+        0
+      ]
+    },
+    "toneMapping": "NeutralToneMapping",
+    "shadows": "VSM 2048"
+  },
+  "cameras": {
+    "inspection": {
+      "position": [
+        1.28,
+        1.25,
+        0.43
+      ],
+      "quaternion": [
+        -0.3594886791515339,
+        0,
+        0,
+        0.9331494465314147
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "side": {
+      "position": [
+        1.78,
+        1.15,
+        -0.11
+      ],
+      "quaternion": [
+        -0.15276534035029496,
+        0.7610130081939676,
+        0.19376707046665667,
+        0.5999802284659024
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "cell": {
+      "position": [
+        2,
+        1.9,
+        0.9
+      ],
+      "quaternion": [
+        -0.33768063779321644,
+        0.3114459229217409,
+        0.11948769308149788,
+        0.8801681175531487
+      ],
+      "fovDeg": 40,
+      "width": 1024,
+      "height": 768,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    }
+  },
+  "coordinates": "world metres, +Y up; part GLB metric +Y up, resting base at y = 0; CAD mm Z up → GLB [x, z, -y] / 1000",
+  "cropRule": "object pixels on white, square 1.35 × the mask bounding box, resampled to 512 × 512",
+  "conditions": [
+    "standard",
+    "occlusion",
+    "limited",
+    "reflective"
+  ],
+  "views": [
+    "inspection",
+    "side",
+    "cell"
+  ],
+  "trials": [
+    {
+      "i": 0,
+      "pose": {
+        "x": 1.2576405904721468,
+        "z": -0.004653514241799711,
+        "yaw": 1.3586425717965787
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/standard-inspection-crop.png",
+              "maskPixels": 111296
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/standard-side-crop.png",
+              "maskPixels": 98236
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/standard-cell-crop.png",
+              "maskPixels": 7079
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.264119023917492,
+              1.0032588194778969,
+              0.12128334738655133
+            ],
+            "quaternion": [
+              -0.009345631884003239,
+              0.9312057264876032,
+              -0.36358717992422046,
+              -0.023935678727293897
+            ]
+          },
+          "visibleFraction": 0.6499928129941066,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/occlusion-inspection-crop.png",
+              "maskPixels": 72303
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/occlusion-side-crop.png",
+              "maskPixels": 98236
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/occlusion-cell-crop.png",
+              "maskPixels": 4287
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 19,
+          "visibleFraction": 0.6406497053327583,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3545585081627954,
+                  0.15401408206022643,
+                  -0.05933274582797797,
+                  0.920351863196371
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/limited-inspection-crop.png",
+              "maskPixels": 71374
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/limited-side-crop.png",
+              "maskPixels": 98236
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/limited-cell-crop.png",
+              "maskPixels": 7079
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/reflective-inspection-crop.png",
+              "maskPixels": 111296
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/reflective-side-crop.png",
+              "maskPixels": 98236
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t0/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t0/reflective-cell-crop.png",
+              "maskPixels": 7079
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 1,
+      "pose": {
+        "x": 1.2661271956982092,
+        "z": -0.0002775734104216096,
+        "yaw": 4.957706036401895
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/standard-inspection-crop.png",
+              "maskPixels": 111498
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/standard-side-crop.png",
+              "maskPixels": 98701
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/standard-cell-crop.png",
+              "maskPixels": 6809
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2701364691835337,
+              1.0031552209318875,
+              0.12407367013602538
+            ],
+            "quaternion": [
+              -0.005901794453468421,
+              0.9303989479707129,
+              -0.36619410303644934,
+              -0.014994843732095418
+            ]
+          },
+          "visibleFraction": 0.6476750861079219,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/occlusion-inspection-crop.png",
+              "maskPixels": 72265
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/occlusion-side-crop.png",
+              "maskPixels": 98701
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/occlusion-cell-crop.png",
+              "maskPixels": 4355
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -15.5,
+          "visibleFraction": 0.6439437428243399,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3562050726679096,
+                  -0.125836070949171,
+                  0.04847738280645627,
+                  0.9246259637334228
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/limited-inspection-crop.png",
+              "maskPixels": 71800
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/limited-side-crop.png",
+              "maskPixels": 98701
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/limited-cell-crop.png",
+              "maskPixels": 6809
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/reflective-inspection-crop.png",
+              "maskPixels": 111498
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/reflective-side-crop.png",
+              "maskPixels": 98701
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t1/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t1/reflective-cell-crop.png",
+              "maskPixels": 6809
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 2,
+      "pose": {
+        "x": 1.2942933287844063,
+        "z": 0.008172628050670028,
+        "yaw": 0.49460613357648014
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/standard-inspection-crop.png",
+              "maskPixels": 125072
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/standard-side-crop.png",
+              "maskPixels": 99821
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/standard-cell-crop.png",
+              "maskPixels": 7233
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2901819985403007,
+              1.0029658335765101,
+              0.12950696928396313
+            ],
+            "quaternion": [
+              0.00627995557935947,
+              0.9285675951966437,
+              -0.3707767947089907,
+              0.015727422356203263
+            ]
+          },
+          "visibleFraction": 0.6598517761308459,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/occlusion-inspection-crop.png",
+              "maskPixels": 82596
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/occlusion-side-crop.png",
+              "maskPixels": 99821
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/occlusion-cell-crop.png",
+              "maskPixels": 3352
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -17,
+          "visibleFraction": 0.6552517250191668,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35554000637988936,
+                  -0.1379282701877305,
+                  0.053135809973149754,
+                  0.922899605506962
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/limited-inspection-crop.png",
+              "maskPixels": 82228
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/limited-side-crop.png",
+              "maskPixels": 99821
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/limited-cell-crop.png",
+              "maskPixels": 7233
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/reflective-inspection-crop.png",
+              "maskPixels": 125072
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/reflective-side-crop.png",
+              "maskPixels": 99821
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t2/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t2/reflective-cell-crop.png",
+              "maskPixels": 7233
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 3,
+      "pose": {
+        "x": 1.30987538614776,
+        "z": -0.002472214438021184,
+        "yaw": 5.765650596684416
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/standard-inspection-crop.png",
+              "maskPixels": 121021
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/standard-side-crop.png",
+              "maskPixels": 117051
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/standard-cell-crop.png",
+              "maskPixels": 6971
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.3012272578382493,
+              1.0032212182730507,
+              0.12271696913471246
+            ],
+            "quaternion": [
+              0.012571909083365791,
+              0.9305991884748032,
+              -0.36441237002755267,
+              0.03210486073695752
+            ]
+          },
+          "visibleFraction": 0.6606717799523936,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/occlusion-inspection-crop.png",
+              "maskPixels": 79977
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/occlusion-side-crop.png",
+              "maskPixels": 117051
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/occlusion-cell-crop.png",
+              "maskPixels": 2974
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -19,
+          "visibleFraction": 0.6492991272150225,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3545585081627954,
+                  -0.15401408206022643,
+                  0.05933274582797797,
+                  0.920351863196371
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/limited-inspection-crop.png",
+              "maskPixels": 78593
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/limited-side-crop.png",
+              "maskPixels": 117051
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/limited-cell-crop.png",
+              "maskPixels": 6971
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/reflective-inspection-crop.png",
+              "maskPixels": 121021
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/reflective-side-crop.png",
+              "maskPixels": 117051
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t3/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t3/reflective-cell-crop.png",
+              "maskPixels": 6971
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 4,
+      "pose": {
+        "x": 1.2677390349376947,
+        "z": -0.009137503607198597,
+        "yaw": 2.552692733738628
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/standard-inspection-crop.png",
+              "maskPixels": 118560
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/standard-side-crop.png",
+              "maskPixels": 101449
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/standard-cell-crop.png",
+              "maskPixels": 6579
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.271299178547868,
+              1.0033467887381098,
+              0.11837224538157244
+            ],
+            "quaternion": [
+              -0.005045742815174403,
+              0.9322652977448252,
+              -0.36150607058988815,
+              -0.013012149201966824
+            ]
+          },
+          "visibleFraction": 0.6624780435076341,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/occlusion-inspection-crop.png",
+              "maskPixels": 78566
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/occlusion-side-crop.png",
+              "maskPixels": 101449
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/occlusion-cell-crop.png",
+              "maskPixels": 3159
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 17,
+          "visibleFraction": 0.6484258883934604,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35554000637988936,
+                  0.1379282701877305,
+                  -0.053135809973149754,
+                  0.922899605506962
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/limited-inspection-crop.png",
+              "maskPixels": 76784
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/limited-side-crop.png",
+              "maskPixels": 101449
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/limited-cell-crop.png",
+              "maskPixels": 6579
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/reflective-inspection-crop.png",
+              "maskPixels": 118560
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/reflective-side-crop.png",
+              "maskPixels": 101449
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t4/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t4/reflective-cell-crop.png",
+              "maskPixels": 6579
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 5,
+      "pose": {
+        "x": 1.3046748251328244,
+        "z": 0.021645528692752124,
+        "yaw": 3.626972196487451
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/standard-inspection-crop.png",
+              "maskPixels": 130465
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/standard-side-crop.png",
+              "maskPixels": 101335
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/standard-cell-crop.png",
+              "maskPixels": 7390
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.297632061275589,
+              1.0026626048158127,
+              0.13819930753341136
+            ],
+            "quaternion": [
+              0.011406550450491675,
+              0.9253594637487346,
+              -0.37788828936834995,
+              0.027931956890574944
+            ]
+          },
+          "visibleFraction": 0.6596788034816722,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/occlusion-inspection-crop.png",
+              "maskPixels": 86081
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/occlusion-side-crop.png",
+              "maskPixels": 101335
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/occlusion-cell-crop.png",
+              "maskPixels": 3441
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -18,
+          "visibleFraction": 0.6561235748436925,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  -0.1459767344707294,
+                  0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/limited-inspection-crop.png",
+              "maskPixels": 85703
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/limited-side-crop.png",
+              "maskPixels": 101335
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/limited-cell-crop.png",
+              "maskPixels": 7390
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/reflective-inspection-crop.png",
+              "maskPixels": 130465
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/reflective-side-crop.png",
+              "maskPixels": 101335
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t5/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t5/reflective-cell-crop.png",
+              "maskPixels": 7390
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 6,
+      "pose": {
+        "x": 1.2628207347355784,
+        "z": -0.004900122107937933,
+        "yaw": 0.5797814783171887
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/standard-inspection-crop.png",
+              "maskPixels": 120232
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/standard-side-crop.png",
+              "maskPixels": 93035
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/standard-cell-crop.png",
+              "maskPixels": 6931
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2677982982907656,
+              1.0032590596172963,
+              0.12110893384593761
+            ],
+            "quaternion": [
+              -0.007179200140104472,
+              0.9313341033393314,
+              -0.3636305118143246,
+              -0.018387439194299224
+            ]
+          },
+          "visibleFraction": 0.662187333688132,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/occlusion-inspection-crop.png",
+              "maskPixels": 79616
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/occlusion-side-crop.png",
+              "maskPixels": 93035
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/occlusion-cell-crop.png",
+              "maskPixels": 3298
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18,
+          "visibleFraction": 0.6434273549760511,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  0.1459767344707294,
+                  -0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/limited-inspection-crop.png",
+              "maskPixels": 77357
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/limited-side-crop.png",
+              "maskPixels": 93035
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/limited-cell-crop.png",
+              "maskPixels": 6931
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/reflective-inspection-crop.png",
+              "maskPixels": 120232
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/reflective-side-crop.png",
+              "maskPixels": 93035
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t6/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t6/reflective-cell-crop.png",
+              "maskPixels": 6931
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 7,
+      "pose": {
+        "x": 1.2756339770136402,
+        "z": -0.0034981948882341386,
+        "yaw": 4.177749755634987
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/standard-inspection-crop.png",
+              "maskPixels": 117117
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/standard-side-crop.png",
+              "maskPixels": 104253
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/standard-cell-crop.png",
+              "maskPixels": 7166
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.276897836096698,
+              1.0032215963155056,
+              0.12198914972959737
+            ],
+            "quaternion": [
+              -0.0018360841731174106,
+              0.9311446376658028,
+              -0.3646152854227111,
+              -0.004688942017664615
+            ]
+          },
+          "visibleFraction": 0.6529942575881871,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/occlusion-inspection-crop.png",
+              "maskPixels": 76607
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/occlusion-side-crop.png",
+              "maskPixels": 104253
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/occlusion-cell-crop.png",
+              "maskPixels": 3873
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -16,
+          "visibleFraction": 0.63426305715067,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3559901600378475,
+                  -0.12986930213294576,
+                  0.050031154237556996,
+                  0.9240681002639294
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/limited-inspection-crop.png",
+              "maskPixels": 74201
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/limited-side-crop.png",
+              "maskPixels": 104253
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/limited-cell-crop.png",
+              "maskPixels": 7166
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/reflective-inspection-crop.png",
+              "maskPixels": 117117
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/reflective-side-crop.png",
+              "maskPixels": 104253
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t7/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t7/reflective-cell-crop.png",
+              "maskPixels": 7166
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 8,
+      "pose": {
+        "x": 1.2957511925604195,
+        "z": 0.015307140359655023,
+        "yaw": 2.7096038230410384
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/standard-inspection-crop.png",
+              "maskPixels": 127503
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/standard-side-crop.png",
+              "maskPixels": 108769
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/standard-cell-crop.png",
+              "maskPixels": 7088
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2912392798317733,
+              1.002802191307959,
+              0.13409547874818065
+            ],
+            "quaternion": [
+              0.007113165912115049,
+              0.9269591474781914,
+              -0.3746818057691633,
+              0.017597903362906654
+            ]
+          },
+          "visibleFraction": 0.6587998995731861,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/occlusion-inspection-crop.png",
+              "maskPixels": 83991
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/occlusion-side-crop.png",
+              "maskPixels": 108769
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/occlusion-cell-crop.png",
+              "maskPixels": 3131
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -17.5,
+          "visibleFraction": 0.6541551594275672,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3553047739222702,
+                  -0.14195385362760543,
+                  0.054686635169471844,
+                  0.922288996465944
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/limited-inspection-crop.png",
+              "maskPixels": 83370
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/limited-side-crop.png",
+              "maskPixels": 108769
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/limited-cell-crop.png",
+              "maskPixels": 7088
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/reflective-inspection-crop.png",
+              "maskPixels": 127503
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/reflective-side-crop.png",
+              "maskPixels": 108769
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t8/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t8/reflective-cell-crop.png",
+              "maskPixels": 7088
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 9,
+      "pose": {
+        "x": 1.2731706161098555,
+        "z": 0.00596289036795497,
+        "yaw": 6.2097410220560265
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/standard-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/standard-inspection-crop.png",
+              "maskPixels": 122630
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/standard-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/standard-side-crop.png",
+              "maskPixels": 93575
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/standard-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/standard-cell-crop.png",
+              "maskPixels": 7199
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.27580112222131,
+              0.9594150735020701,
+              0.1692912705429629
+            ],
+            "quaternion": [
+              -0.0029770075339744483,
+              0.9291125681032251,
+              -0.3697093460995552,
+              -0.007481485508372374
+            ]
+          },
+          "visibleFraction": 0.6477716966379984,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/occlusion-inspection-crop.png",
+              "maskPixels": 79545
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/occlusion-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/occlusion-side-crop.png",
+              "maskPixels": 93575
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/occlusion-cell-crop.png",
+              "maskPixels": 6073
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 16.5,
+          "visibleFraction": 0.6482929371905134,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.355768469868287,
+                  0.13390006079241049,
+                  -0.051583973147599396,
+                  0.9234926438698223
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/limited-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/limited-inspection-crop.png",
+              "maskPixels": 79510
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/limited-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/limited-side-crop.png",
+              "maskPixels": 93575
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/limited-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/limited-cell-crop.png",
+              "maskPixels": 7199
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/reflective-inspection-crop.png",
+              "maskPixels": 122630
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/reflective-side-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/reflective-side-crop.png",
+              "maskPixels": 93575
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-fixture-block/t9/reflective-cell-rgb.png",
+              "crop": "parts/pilot-fixture-block/t9/reflective-cell-crop.png",
+              "maskPixels": 7199
+            }
+          }
+        }
+      }
+    }
+  ],
+  "generatorInputs": "crop images only; no CAD, part.json, feature inventory or declared size reaches the generator"
+}

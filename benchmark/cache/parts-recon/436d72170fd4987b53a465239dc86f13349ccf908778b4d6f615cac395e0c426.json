@@ -1,0 +1,19 @@
+{
+  "sha": "436d72170fd4987b53a465239dc86f13349ccf908778b4d6f615cac395e0c426",
+  "crop": "parts/pilot-bearing-housing/t1/standard-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 58.946,
+  "job": "76d0dda5-1102-4762-be99-21962e5dc020",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T19:13:06.330Z"
+}

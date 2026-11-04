@@ -1,0 +1,19 @@
+{
+  "id": "pilot-sheet-metal-mount",
+  "stepReimportValid": true,
+  "stepRoundtripVolumeRelativeError": 1.4019325932949034e-13,
+  "glbExtentsMetres": [
+    0.11999999731779099,
+    0.10700000077486038,
+    0.07899999991059303
+  ],
+  "glbAxisMappingCorrect": true,
+  "glbRestingBaseYMetres": -8.881784618863365e-19,
+  "glbWatertightAfterSeamWeld": true,
+  "glbWindingConsistent": true,
+  "glbCadVolumeRelativeError": 1.5579236116464316e-05,
+  "triangles": 11584,
+  "features": 15,
+  "probedFeatureChecks": 6,
+  "seamWeldPrecisionMetres": 1e-08
+}

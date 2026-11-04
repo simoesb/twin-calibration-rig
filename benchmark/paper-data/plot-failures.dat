@@ -1,0 +1,5 @@
+cond x A B C D
+standard 0 10.0 7.5 0.0 0.0
+occlusion 1 82.5 77.5 2.5 2.5
+limited 2 67.5 70.0 0.0 0.0
+reflective 3 32.5 25.0 5.0 5.0

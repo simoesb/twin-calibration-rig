@@ -1,0 +1,3286 @@
+{
+  "part": "pilot-bearing-housing",
+  "seed": 2751701150,
+  "poses": 10,
+  "plate": [
+    1.28,
+    0.83,
+    0.01
+  ],
+  "plateRange": {
+    "x": 0.03,
+    "z": 0.02
+  },
+  "lighting": {
+    "environment": {
+      "hdr": "empty_warehouse_01_1k.hdr",
+      "intensity": 0.9,
+      "background": "#e8ebee"
+    },
+    "key": {
+      "color": "#fff1e0",
+      "intensity": 3,
+      "position": [
+        2.8,
+        4.6,
+        3.4
+      ],
+      "target": [
+        1.2,
+        0.8,
+        0
+      ]
+    },
+    "toneMapping": "NeutralToneMapping",
+    "shadows": "VSM 2048"
+  },
+  "cameras": {
+    "inspection": {
+      "position": [
+        1.28,
+        1.25,
+        0.43
+      ],
+      "quaternion": [
+        -0.3594886791515339,
+        0,
+        0,
+        0.9331494465314147
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "side": {
+      "position": [
+        1.78,
+        1.15,
+        -0.11
+      ],
+      "quaternion": [
+        -0.15276534035029496,
+        0.7610130081939676,
+        0.19376707046665667,
+        0.5999802284659024
+      ],
+      "fovDeg": 35,
+      "width": 1024,
+      "height": 1024,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    },
+    "cell": {
+      "position": [
+        2,
+        1.9,
+        0.9
+      ],
+      "quaternion": [
+        -0.33768063779321644,
+        0.3114459229217409,
+        0.11948769308149788,
+        0.8801681175531487
+      ],
+      "fovDeg": 40,
+      "width": 1024,
+      "height": 768,
+      "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+    }
+  },
+  "coordinates": "world metres, +Y up; part GLB metric +Y up, resting base at y = 0; CAD mm Z up → GLB [x, z, -y] / 1000",
+  "cropRule": "object pixels on white, square 1.35 × the mask bounding box, resampled to 512 × 512",
+  "conditions": [
+    "standard",
+    "occlusion",
+    "limited",
+    "reflective"
+  ],
+  "views": [
+    "inspection",
+    "side",
+    "cell"
+  ],
+  "trials": [
+    {
+      "i": 0,
+      "pose": {
+        "x": 1.2917288758559153,
+        "z": -0.0025012362003326415,
+        "yaw": 1.4539856638590611
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/standard-inspection-crop.png",
+              "maskPixels": 83475
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/standard-side-crop.png",
+              "maskPixels": 105197
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/standard-cell-crop.png",
+              "maskPixels": 6219
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2880301791973903,
+              1.0134689028173478,
+              0.13388786850106563
+            ],
+            "quaternion": [
+              0.0046830935954500375,
+              0.9383426364828452,
+              -0.3454407934646147,
+              0.012720982797593795
+            ]
+          },
+          "visibleFraction": 0.6414877300613497,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/occlusion-inspection-crop.png",
+              "maskPixels": 53524
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/occlusion-side-crop.png",
+              "maskPixels": 105197
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/occlusion-cell-crop.png",
+              "maskPixels": 3728
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -18,
+          "visibleFraction": 0.6420628834355828,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3550627769739164,
+                  -0.1459767344707294,
+                  0.0562364192110894,
+                  0.9216608283718842
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/limited-inspection-crop.png",
+              "maskPixels": 53605
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/limited-side-crop.png",
+              "maskPixels": 105197
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/limited-cell-crop.png",
+              "maskPixels": 6219
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/reflective-inspection-crop.png",
+              "maskPixels": 83475
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/reflective-side-crop.png",
+              "maskPixels": 105197
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t0/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t0/reflective-cell-crop.png",
+              "maskPixels": 6219
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 1,
+      "pose": {
+        "x": 1.268665652377531,
+        "z": 0.0027918586973100902,
+        "yaw": 2.8338515035985092
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/standard-inspection-crop.png",
+              "maskPixels": 112202
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/standard-side-crop.png",
+              "maskPixels": 92266
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/standard-cell-crop.png",
+              "maskPixels": 5827
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2732058281113778,
+              0.9710106703391125,
+              0.1739177232860418
+            ],
+            "quaternion": [
+              -0.004619580603548072,
+              0.9372897537705501,
+              -0.3482987713001148,
+              -0.012431526962499379
+            ]
+          },
+          "visibleFraction": 0.6517462580185317,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/occlusion-inspection-crop.png",
+              "maskPixels": 73058
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/occlusion-side-crop.png",
+              "maskPixels": 92266
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/occlusion-cell-crop.png",
+              "maskPixels": 4988
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 17,
+          "visibleFraction": 0.6466143977191732,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35554000637988936,
+                  0.1379282701877305,
+                  -0.053135809973149754,
+                  0.922899605506962
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/limited-inspection-crop.png",
+              "maskPixels": 72624
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/limited-side-crop.png",
+              "maskPixels": 92266
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/limited-cell-crop.png",
+              "maskPixels": 5827
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/reflective-inspection-crop.png",
+              "maskPixels": 112202
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/reflective-side-crop.png",
+              "maskPixels": 92266
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t1/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t1/reflective-cell-crop.png",
+              "maskPixels": 5827
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 2,
+      "pose": {
+        "x": 1.2953831786336378,
+        "z": -0.003613843861967326,
+        "yaw": 0.9406521775960289
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/standard-inspection-crop.png",
+              "maskPixels": 101770
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/standard-side-crop.png",
+              "maskPixels": 106663
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/standard-cell-crop.png",
+              "maskPixels": 6589
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2906226682338298,
+              1.0165285728505373,
+              0.13057319656489783
+            ],
+            "quaternion": [
+              0.006113596410117139,
+              0.938522380002181,
+              -0.34476280290668304,
+              0.01664259312437764
+            ]
+          },
+          "visibleFraction": 0.641049819267641,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/occlusion-inspection-crop.png",
+              "maskPixels": 65204
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/occlusion-side-crop.png",
+              "maskPixels": 106663
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/occlusion-cell-crop.png",
+              "maskPixels": 3547
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 16,
+          "visibleFraction": 0.6485934307716485,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3559901600378475,
+                  0.12986930213294576,
+                  -0.050031154237556996,
+                  0.9240681002639294
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/limited-inspection-crop.png",
+              "maskPixels": 66047
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/limited-side-crop.png",
+              "maskPixels": 106663
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/limited-cell-crop.png",
+              "maskPixels": 6589
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/reflective-inspection-crop.png",
+              "maskPixels": 101770
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/reflective-side-crop.png",
+              "maskPixels": 106663
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t2/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t2/reflective-cell-crop.png",
+              "maskPixels": 6589
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 3,
+      "pose": {
+        "x": 1.2708800071105362,
+        "z": -0.004666837686672807,
+        "yaw": 4.9389464834255
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/standard-inspection-crop.png",
+              "maskPixels": 87773
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/standard-side-crop.png",
+              "maskPixels": 95171
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/standard-cell-crop.png",
+              "maskPixels": 5545
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.274679548474509,
+              0.9616139520549499,
+              0.17642262689457475
+            ],
+            "quaternion": [
+              -0.0036119061543688183,
+              0.9387896852321987,
+              -0.34433110032455627,
+              -0.009847557303281806
+            ]
+          },
+          "visibleFraction": 0.647638154295094,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/occlusion-inspection-crop.png",
+              "maskPixels": 56914
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/occlusion-side-crop.png",
+              "maskPixels": 95171
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/occlusion-cell-crop.png",
+              "maskPixels": 4425
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 17.5,
+          "visibleFraction": 0.6503738829108152,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3553047739222702,
+                  0.14195385362760543,
+                  -0.054686635169471844,
+                  0.922288996465944
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/limited-inspection-crop.png",
+              "maskPixels": 56993
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/limited-side-crop.png",
+              "maskPixels": 95171
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/limited-cell-crop.png",
+              "maskPixels": 5545
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/reflective-inspection-crop.png",
+              "maskPixels": 87773
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/reflective-side-crop.png",
+              "maskPixels": 95171
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t3/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t3/reflective-cell-crop.png",
+              "maskPixels": 5545
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 4,
+      "pose": {
+        "x": 1.250394002883695,
+        "z": 0.01787604060024023,
+        "yaw": 2.5011528819369246
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/standard-inspection-crop.png",
+              "maskPixels": 113574
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/standard-side-crop.png",
+              "maskPixels": 93342
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/standard-cell-crop.png",
+              "maskPixels": 5043
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2594995961731312,
+              1.0162743078999488,
+              0.14462850714897296
+            ],
+            "quaternion": [
+              -0.012767893448573696,
+              0.9338272243580806,
+              -0.3559234846591547,
+              -0.03349879121182241
+            ]
+          },
+          "visibleFraction": 0.642152719075796,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/occlusion-inspection-crop.png",
+              "maskPixels": 72936
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/occlusion-side-crop.png",
+              "maskPixels": 93342
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/occlusion-cell-crop.png",
+              "maskPixels": 2894
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18.5,
+          "visibleFraction": 0.6583544660467737,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35481402014210095,
+                  0.14999683612724996,
+                  -0.05778513259234823,
+                  0.9210151131841978
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/limited-inspection-crop.png",
+              "maskPixels": 74671
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/limited-side-crop.png",
+              "maskPixels": 93342
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/limited-cell-crop.png",
+              "maskPixels": 5043
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/reflective-inspection-crop.png",
+              "maskPixels": 113574
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/reflective-side-crop.png",
+              "maskPixels": 93342
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t4/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t4/reflective-cell-crop.png",
+              "maskPixels": 5043
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 5,
+      "pose": {
+        "x": 1.2565194288361818,
+        "z": 0.020965082542970775,
+        "yaw": 0.543897235983031
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/standard-inspection-crop.png",
+              "maskPixels": 117947
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/standard-side-crop.png",
+              "maskPixels": 79597
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/standard-cell-crop.png",
+              "maskPixels": 6521
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2637330854464828,
+              1.0162294677566277,
+              0.14662801533842718
+            ],
+            "quaternion": [
+              -0.010266064468831203,
+              0.9332940555123607,
+              -0.3579670493692634,
+              -0.02676575109119389
+            ]
+          },
+          "visibleFraction": 0.6483844691827315,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/occlusion-inspection-crop.png",
+              "maskPixels": 76461
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/occlusion-side-crop.png",
+              "maskPixels": 79597
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/occlusion-cell-crop.png",
+              "maskPixels": 3282
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 19.5,
+          "visibleFraction": 0.6415965245723595,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3542962459005795,
+                  0.158028395787087,
+                  -0.06087922945365345,
+                  0.9196710910357275
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/limited-inspection-crop.png",
+              "maskPixels": 75590
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/limited-side-crop.png",
+              "maskPixels": 79597
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/limited-cell-crop.png",
+              "maskPixels": 6521
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/reflective-inspection-crop.png",
+              "maskPixels": 117947
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/reflective-side-crop.png",
+              "maskPixels": 79597
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t5/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t5/reflective-cell-crop.png",
+              "maskPixels": 6521
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 6,
+      "pose": {
+        "x": 1.2540626773843542,
+        "z": 0.0048248470015823846,
+        "yaw": 2.811415637488916
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/standard-inspection-crop.png",
+              "maskPixels": 112969
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/standard-side-crop.png",
+              "maskPixels": 88605
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/standard-cell-crop.png",
+              "maskPixels": 5720
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2644613131108535,
+              0.9710571170576522,
+              0.17528351775591236
+            ],
+            "quaternion": [
+              -0.010632977849296593,
+              0.9366558082786456,
+              -0.3489242296200523,
+              -0.028543275635191018
+            ]
+          },
+          "visibleFraction": 0.6512747875354108,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/occlusion-inspection-crop.png",
+              "maskPixels": 73528
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/occlusion-side-crop.png",
+              "maskPixels": 88605
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/occlusion-cell-crop.png",
+              "maskPixels": 4679
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 18.5,
+          "visibleFraction": 0.6389518413597733,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.35481402014210095,
+                  0.14999683612724996,
+                  -0.05778513259234823,
+                  0.9210151131841978
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/limited-inspection-crop.png",
+              "maskPixels": 72146
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/limited-side-crop.png",
+              "maskPixels": 88605
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/limited-cell-crop.png",
+              "maskPixels": 5720
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/reflective-inspection-crop.png",
+              "maskPixels": 112969
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/reflective-side-crop.png",
+              "maskPixels": 88605
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t6/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t6/reflective-cell-crop.png",
+              "maskPixels": 5720
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 7,
+      "pose": {
+        "x": 1.2563288903795182,
+        "z": 0.023615364013239742,
+        "yaw": 3.6484661335333466
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/standard-inspection-crop.png",
+              "maskPixels": 119126
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/standard-side-crop.png",
+              "maskPixels": 77643
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/standard-cell-crop.png",
+              "maskPixels": 6552
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.263594865990946,
+              1.0161950720159527,
+              0.148357334342495
+            ],
+            "quaternion": [
+              -0.010460046330504742,
+              0.9327071827907857,
+              -0.3594596706734629,
+              -0.02714118200383257
+            ]
+          },
+          "visibleFraction": 0.650013430029546,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/occlusion-inspection-crop.png",
+              "maskPixels": 77330
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/occlusion-side-crop.png",
+              "maskPixels": 77643
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/occlusion-cell-crop.png",
+              "maskPixels": 3310
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 19.5,
+          "visibleFraction": 0.6375235025517056,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3542962459005795,
+                  0.158028395787087,
+                  -0.06087922945365345,
+                  0.9196710910357275
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/limited-inspection-crop.png",
+              "maskPixels": 75971
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/limited-side-crop.png",
+              "maskPixels": 77643
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/limited-cell-crop.png",
+              "maskPixels": 6552
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/reflective-inspection-crop.png",
+              "maskPixels": 119126
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/reflective-side-crop.png",
+              "maskPixels": 77643
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t7/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t7/reflective-cell-crop.png",
+              "maskPixels": 6552
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 8,
+      "pose": {
+        "x": 1.269872147697024,
+        "z": -0.00946035511791706,
+        "yaw": 3.4306298619725477
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/standard-inspection-crop.png",
+              "maskPixels": 108170
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/standard-side-crop.png",
+              "maskPixels": 75677
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/standard-cell-crop.png",
+              "maskPixels": 6462
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2738993686926445,
+              0.9706142017765182,
+              0.16528587102457762
+            ],
+            "quaternion": [
+              -0.0039378099081758345,
+              0.939709917136014,
+              -0.3417785009217431,
+              -0.010826892307531559
+            ]
+          },
+          "visibleFraction": 0.6475458308693081,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/occlusion-inspection-crop.png",
+              "maskPixels": 70091
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/occlusion-side-crop.png",
+              "maskPixels": 75677
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/occlusion-cell-crop.png",
+              "maskPixels": 5797
+            }
+          }
+        },
+        "limited": {
+          "panDeg": -15,
+          "visibleFraction": 0.6417800118273211,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3564132036668467,
+                  -0.12180044402799418,
+                  0.046922688435865556,
+                  0.9251662236573863
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/limited-inspection-crop.png",
+              "maskPixels": 69479
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/limited-side-crop.png",
+              "maskPixels": 75677
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/limited-cell-crop.png",
+              "maskPixels": 6462
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/reflective-inspection-crop.png",
+              "maskPixels": 108170
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/reflective-side-crop.png",
+              "maskPixels": 75677
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t8/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t8/reflective-cell-crop.png",
+              "maskPixels": 6462
+            }
+          }
+        }
+      }
+    },
+    {
+      "i": 9,
+      "pose": {
+        "x": 1.2929907300975174,
+        "z": 0.01611976564861834,
+        "yaw": 1.9413448801666344
+      },
+      "conditions": {
+        "standard": {
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/standard-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/standard-inspection-crop.png",
+              "maskPixels": 101235
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/standard-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/standard-side-crop.png",
+              "maskPixels": 101200
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/standard-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/standard-cell-crop.png",
+              "maskPixels": 5380
+            }
+          }
+        },
+        "occlusion": {
+          "occluder": {
+            "name": "Occluder_CableDuct",
+            "size": [
+              0.5,
+              0.04,
+              0.04
+            ],
+            "position": [
+              1.2889941827498146,
+              1.0162857850064877,
+              0.14344840233392253
+            ],
+            "quaternion": [
+              0.005579426192602449,
+              0.9345047507381316,
+              -0.3556047756415092,
+              0.014662346066567083
+            ]
+          },
+          "visibleFraction": 0.6497943688706106,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/occlusion-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/occlusion-inspection-crop.png",
+              "maskPixels": 65864
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/occlusion-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/occlusion-side-crop.png",
+              "maskPixels": 101200
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/occlusion-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/occlusion-cell-crop.png",
+              "maskPixels": 3229
+            }
+          }
+        },
+        "limited": {
+          "panDeg": 15,
+          "visibleFraction": 0.6377728566909205,
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3564132036668467,
+                  0.12180044402799418,
+                  -0.046922688435865556,
+                  0.9251662236573863
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/limited-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/limited-inspection-crop.png",
+              "maskPixels": 64588
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/limited-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/limited-side-crop.png",
+              "maskPixels": 101200
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/limited-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/limited-cell-crop.png",
+              "maskPixels": 5380
+            }
+          }
+        },
+        "reflective": {
+          "material": {
+            "type": "MeshPhysicalMaterial",
+            "color": "#dfe3e8",
+            "metalness": 1,
+            "roughness": 0.06
+          },
+          "views": {
+            "inspection": {
+              "camera": {
+                "position": [
+                  1.28,
+                  1.25,
+                  0.43
+                ],
+                "quaternion": [
+                  -0.3594886791515339,
+                  0,
+                  0,
+                  0.9331494465314147
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/reflective-inspection-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/reflective-inspection-crop.png",
+              "maskPixels": 101235
+            },
+            "side": {
+              "camera": {
+                "position": [
+                  1.78,
+                  1.15,
+                  -0.11
+                ],
+                "quaternion": [
+                  -0.15276534035029496,
+                  0.7610130081939676,
+                  0.19376707046665667,
+                  0.5999802284659024
+                ],
+                "fovDeg": 35,
+                "width": 1024,
+                "height": 1024,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/reflective-side-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/reflective-side-crop.png",
+              "maskPixels": 101200
+            },
+            "cell": {
+              "camera": {
+                "position": [
+                  2,
+                  1.9,
+                  0.9
+                ],
+                "quaternion": [
+                  -0.33768063779321644,
+                  0.3114459229217409,
+                  0.11948769308149788,
+                  0.8801681175531487
+                ],
+                "fovDeg": 40,
+                "width": 1024,
+                "height": 768,
+                "convention": "three.js PerspectiveCamera: vertical fov, looks down local -Z, +Y up, metres; quaternion [x,y,z,w]"
+              },
+              "rgb": "parts/pilot-bearing-housing/t9/reflective-cell-rgb.png",
+              "crop": "parts/pilot-bearing-housing/t9/reflective-cell-crop.png",
+              "maskPixels": 5380
+            }
+          }
+        }
+      }
+    }
+  ],
+  "generatorInputs": "crop images only; no CAD, part.json, feature inventory or declared size reaches the generator"
+}

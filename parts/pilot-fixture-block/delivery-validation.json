@@ -1,0 +1,19 @@
+{
+  "id": "pilot-fixture-block",
+  "stepReimportValid": true,
+  "stepRoundtripVolumeRelativeError": 2.39224126023467e-15,
+  "glbExtentsMetres": [
+    0.1599999964237213,
+    0.03799999877810478,
+    0.10000000149011612
+  ],
+  "glbAxisMappingCorrect": true,
+  "glbRestingBaseYMetres": 0.0,
+  "glbWatertightAfterSeamWeld": true,
+  "glbWindingConsistent": true,
+  "glbCadVolumeRelativeError": 7.004886364395899e-06,
+  "triangles": 18748,
+  "features": 13,
+  "probedFeatureChecks": 13,
+  "seamWeldPrecisionMetres": 1e-08
+}

@@ -1,0 +1,19 @@
+{
+  "sha": "954d3642bc726519779c5dd5756513f67153fa420513c087623cd4ee354f33bb",
+  "crop": "parts/pilot-bearing-housing/t6/standard-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 52.834,
+  "job": "02aa3ec0-3736-4bf2-92bb-5bd307e1b222",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T16:40:14.233Z"
+}

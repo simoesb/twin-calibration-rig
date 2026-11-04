@@ -1,0 +1,19 @@
+{
+  "sha": "917e89b5e0409c017dba6fcc7af8993561c61c9bf6f91b1213b32cbc46da7525",
+  "crop": "parts/pilot-fixture-block/t7/reflective-inspection-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 50.94,
+  "job": "6d7e3031-1817-4c1d-a935-8476b11f5c7b",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T18:48:20.190Z"
+}

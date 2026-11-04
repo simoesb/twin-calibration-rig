@@ -1,0 +1,356 @@
+{
+  "protocol": "protocol/PROTOCOL.md",
+  "rows": {
+    "baselines": 160,
+    "heldout": 160
+  },
+  "arms": {
+    "A": {
+      "failures": {
+        "standard": 4,
+        "occlusion": 33,
+        "limited": 27,
+        "reflective": 13,
+        "total": 77
+      },
+      "generations": 160
+    },
+    "B": {
+      "failures": {
+        "standard": 3,
+        "occlusion": 31,
+        "limited": 28,
+        "reflective": 10,
+        "total": 72
+      },
+      "generations": 160
+    },
+    "C": {
+      "failures": {
+        "standard": 0,
+        "occlusion": 1,
+        "limited": 0,
+        "reflective": 2,
+        "total": 3
+      },
+      "generations": 265
+    },
+    "D": {
+      "failures": {
+        "standard": 0,
+        "occlusion": 1,
+        "limited": 0,
+        "reflective": 2,
+        "total": 3
+      },
+      "generations": 320
+    }
+  },
+  "baselines": {
+    "largestMask": {
+      "rows": 160,
+      "registered": 160,
+      "notRun": 0,
+      "notRunReasons": {},
+      "views": {
+        "inspection": 66,
+        "side": 94,
+        "cell": 0
+      },
+      "failures": {
+        "standard": 3,
+        "occlusion": 1,
+        "limited": 0,
+        "reflective": 9,
+        "total": 13
+      },
+      "generations": 160,
+      "reproduction": {
+        "compared": 155,
+        "exact": 155,
+        "within01mm": 155,
+        "maxAbsDiffMm": 0,
+        "failureLabelDisagreements": 0
+      },
+      "newOutcomes": 5,
+      "failedIds": [
+        "pilot-fixture-block|1|reflective",
+        "pilot-fixture-block|3|reflective",
+        "pilot-flange-adapter|0|standard",
+        "pilot-flange-adapter|0|reflective",
+        "pilot-flange-adapter|3|standard",
+        "pilot-flange-adapter|3|reflective",
+        "pilot-flange-adapter|6|reflective",
+        "pilot-sheet-metal-mount|1|reflective",
+        "pilot-sheet-metal-mount|3|reflective",
+        "pilot-sheet-metal-mount|5|standard",
+        "pilot-sheet-metal-mount|5|reflective",
+        "pilot-sheet-metal-mount|6|reflective",
+        "pilot-sheet-metal-mount|8|occlusion"
+      ]
+    },
+    "sideOnly": {
+      "rows": 160,
+      "registered": 160,
+      "notRun": 0,
+      "notRunReasons": {},
+      "views": {
+        "inspection": 0,
+        "side": 160,
+        "cell": 0
+      },
+      "failures": {
+        "standard": 0,
+        "occlusion": 1,
+        "limited": 0,
+        "reflective": 7,
+        "total": 8
+      },
+      "generations": 160,
+      "reproduction": {
+        "compared": 120,
+        "exact": 120,
+        "within01mm": 120,
+        "maxAbsDiffMm": 0,
+        "failureLabelDisagreements": 0
+      },
+      "newOutcomes": 40,
+      "failedIds": [
+        "pilot-fixture-block|0|reflective",
+        "pilot-fixture-block|4|reflective",
+        "pilot-fixture-block|6|reflective",
+        "pilot-fixture-block|9|reflective",
+        "pilot-bearing-housing|8|reflective",
+        "pilot-sheet-metal-mount|3|reflective",
+        "pilot-sheet-metal-mount|4|reflective",
+        "pilot-sheet-metal-mount|8|occlusion"
+      ]
+    }
+  },
+  "heldout": {
+    "inspection": {
+      "present": 160,
+      "ran": 160,
+      "notRunReasons": {},
+      "total": {
+        "n": 160,
+        "failures": 76,
+        "correct": 84,
+        "failuresFlaggedHeldOut": 69,
+        "correctFlaggedHeldOut": 20,
+        "failuresFlaggedFitted": 76,
+        "correctFlaggedFitted": 27,
+        "failuresPassingBoth": 0,
+        "correctPassingBoth": 54
+      },
+      "byCondition": {
+        "standard": {
+          "n": 40,
+          "failures": 4,
+          "correct": 36,
+          "failuresFlaggedHeldOut": 4,
+          "correctFlaggedHeldOut": 3,
+          "failuresFlaggedFitted": 4,
+          "correctFlaggedFitted": 8,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 28
+        },
+        "occlusion": {
+          "n": 40,
+          "failures": 36,
+          "correct": 4,
+          "failuresFlaggedHeldOut": 33,
+          "correctFlaggedHeldOut": 3,
+          "failuresFlaggedFitted": 36,
+          "correctFlaggedFitted": 4,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "limited": {
+          "n": 40,
+          "failures": 27,
+          "correct": 13,
+          "failuresFlaggedHeldOut": 24,
+          "correctFlaggedHeldOut": 10,
+          "failuresFlaggedFitted": 27,
+          "correctFlaggedFitted": 12,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "reflective": {
+          "n": 40,
+          "failures": 9,
+          "correct": 31,
+          "failuresFlaggedHeldOut": 8,
+          "correctFlaggedHeldOut": 4,
+          "failuresFlaggedFitted": 9,
+          "correctFlaggedFitted": 3,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 26
+        }
+      },
+      "spearmanHeldIoUvsChamfer": -0.8478612445798664,
+      "failuresPassingBothIds": []
+    },
+    "side": {
+      "present": 160,
+      "ran": 160,
+      "notRunReasons": {},
+      "total": {
+        "n": 160,
+        "failures": 74,
+        "correct": 86,
+        "failuresFlaggedHeldOut": 74,
+        "correctFlaggedHeldOut": 36,
+        "failuresFlaggedFitted": 73,
+        "correctFlaggedFitted": 25,
+        "failuresPassingBoth": 0,
+        "correctPassingBoth": 48
+      },
+      "byCondition": {
+        "standard": {
+          "n": 40,
+          "failures": 3,
+          "correct": 37,
+          "failuresFlaggedHeldOut": 3,
+          "correctFlaggedHeldOut": 12,
+          "failuresFlaggedFitted": 3,
+          "correctFlaggedFitted": 5,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 23
+        },
+        "occlusion": {
+          "n": 40,
+          "failures": 33,
+          "correct": 7,
+          "failuresFlaggedHeldOut": 33,
+          "correctFlaggedHeldOut": 7,
+          "failuresFlaggedFitted": 32,
+          "correctFlaggedFitted": 7,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "limited": {
+          "n": 40,
+          "failures": 28,
+          "correct": 12,
+          "failuresFlaggedHeldOut": 28,
+          "correctFlaggedHeldOut": 12,
+          "failuresFlaggedFitted": 28,
+          "correctFlaggedFitted": 11,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "reflective": {
+          "n": 40,
+          "failures": 10,
+          "correct": 30,
+          "failuresFlaggedHeldOut": 10,
+          "correctFlaggedHeldOut": 5,
+          "failuresFlaggedFitted": 10,
+          "correctFlaggedFitted": 2,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 25
+        }
+      },
+      "spearmanHeldIoUvsChamfer": -0.8765703738427282,
+      "failuresPassingBothIds": []
+    },
+    "cell": {
+      "present": 160,
+      "ran": 160,
+      "notRunReasons": {},
+      "total": {
+        "n": 160,
+        "failures": 76,
+        "correct": 84,
+        "failuresFlaggedHeldOut": 71,
+        "correctFlaggedHeldOut": 22,
+        "failuresFlaggedFitted": 76,
+        "correctFlaggedFitted": 28,
+        "failuresPassingBoth": 0,
+        "correctPassingBoth": 53
+      },
+      "byCondition": {
+        "standard": {
+          "n": 40,
+          "failures": 3,
+          "correct": 37,
+          "failuresFlaggedHeldOut": 3,
+          "correctFlaggedHeldOut": 5,
+          "failuresFlaggedFitted": 3,
+          "correctFlaggedFitted": 8,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 28
+        },
+        "occlusion": {
+          "n": 40,
+          "failures": 34,
+          "correct": 6,
+          "failuresFlaggedHeldOut": 33,
+          "correctFlaggedHeldOut": 6,
+          "failuresFlaggedFitted": 34,
+          "correctFlaggedFitted": 6,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "limited": {
+          "n": 40,
+          "failures": 29,
+          "correct": 11,
+          "failuresFlaggedHeldOut": 26,
+          "correctFlaggedHeldOut": 8,
+          "failuresFlaggedFitted": 29,
+          "correctFlaggedFitted": 10,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 0
+        },
+        "reflective": {
+          "n": 40,
+          "failures": 10,
+          "correct": 30,
+          "failuresFlaggedHeldOut": 9,
+          "correctFlaggedHeldOut": 3,
+          "failuresFlaggedFitted": 10,
+          "correctFlaggedFitted": 4,
+          "failuresPassingBoth": 0,
+          "correctPassingBoth": 25
+        }
+      },
+      "spearmanHeldIoUvsChamfer": -0.8272946408758232,
+      "failuresPassingBothIds": []
+    }
+  },
+  "poseBlock": {
+    "source": "pose-block.json",
+    "resamples": 50000,
+    "seed": 20261104,
+    "scheme": "four fixed designs; ten poses resampled within each design; four conditions and all features of a pose kept together",
+    "H3_failure_reduction": {
+      "estimate": 0.43125,
+      "CI": [
+        0.35625,
+        0.50625
+      ]
+    },
+    "H2_median_diff": {
+      "estimate": -0.0923797435079532,
+      "CI": [
+        -0.2349091907186407,
+        -0.020421524247648648
+      ]
+    },
+    "H4_seen_rate_CI": [
+      0.17115384615384616,
+      0.2619300400285767
+    ],
+    "H4_hidden_rate_CI": [
+      0.0830367734282325,
+      0.12514095652921162
+    ],
+    "H4_difference_CI": [
+      0.06951437636283661,
+      0.1548609784765503
+    ]
+  }
+}

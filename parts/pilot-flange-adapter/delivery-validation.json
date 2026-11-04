@@ -1,0 +1,19 @@
+{
+  "id": "pilot-flange-adapter",
+  "stepReimportValid": true,
+  "stepRoundtripVolumeRelativeError": 8.540105270690406e-12,
+  "glbExtentsMetres": [
+    0.15000000596046448,
+    0.03999999910593033,
+    0.15000000596046448
+  ],
+  "glbAxisMappingCorrect": true,
+  "glbRestingBaseYMetres": 0.0,
+  "glbWatertightAfterSeamWeld": true,
+  "glbWindingConsistent": true,
+  "glbCadVolumeRelativeError": 0.00023304133172197573,
+  "triangles": 64612,
+  "features": 13,
+  "probedFeatureChecks": 12,
+  "seamWeldPrecisionMetres": 1e-08
+}

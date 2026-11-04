@@ -1,0 +1,94 @@
+{
+  "cadValid": true,
+  "solidCount": 1,
+  "cadVolumeMm3": 381590.15976195654,
+  "cadDimensionsMm": [
+    174.0,
+    74.0,
+    103.0
+  ],
+  "stlWatertight": true,
+  "stlWindingConsistent": true,
+  "stlTriangles": 29148,
+  "meshCadVolumeRelativeError": 6.235307763794287e-05,
+  "featureChecks": [
+    {
+      "name": "bore-bearing axis void",
+      "point": [
+        0.0,
+        -23.0,
+        53.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "slot--66 open",
+      "point": [
+        -66,
+        0,
+        8
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "slot-66 open",
+      "point": [
+        66,
+        0,
+        8
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "lubrication-port axis void",
+      "point": [
+        0.0,
+        0.0,
+        100.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "cover-fixing--38 axis void",
+      "point": [
+        -38.0,
+        -23.0,
+        53.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "cover-fixing-38 axis void",
+      "point": [
+        38.0,
+        -23.0,
+        53.0
+      ],
+      "inside": false,
+      "actualInside": false,
+      "passed": true
+    },
+    {
+      "name": "housing crown retained",
+      "point": [
+        6,
+        0,
+        91
+      ],
+      "inside": true,
+      "actualInside": true,
+      "passed": true
+    }
+  ],
+  "declaredDimensionCheck": true
+}

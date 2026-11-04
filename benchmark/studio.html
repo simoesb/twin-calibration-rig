@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Figure studio</title>
+  <style>
+    body { margin: 0; background: #1b1d21; color: #c9cdd2; font: 13px system-ui, sans-serif; }
+    #log { position: fixed; left: 12px; bottom: 10px; white-space: pre; opacity: .8; }
+    canvas { display: block; width: 100vw; height: auto; max-height: 100vh; object-fit: contain; }
+  </style>
+  <script type="importmap">
+    { "imports": { "three": "/three/build/three.module.js", "three/addons/": "/three/examples/jsm/" } }
+  </script>
+</head>
+<body>
+  <div id="log"></div>
+  <script type="module" src="/studio.js"></script>
+</body>
+</html>

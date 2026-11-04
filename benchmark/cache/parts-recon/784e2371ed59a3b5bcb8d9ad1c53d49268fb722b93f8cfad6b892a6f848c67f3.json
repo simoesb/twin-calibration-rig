@@ -1,0 +1,19 @@
+{
+  "sha": "784e2371ed59a3b5bcb8d9ad1c53d49268fb722b93f8cfad6b892a6f848c67f3",
+  "crop": "parts/pilot-sheet-metal-mount/t7/reflective-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 65.83,
+  "job": "a7bc6fa8-7049-43c1-b5e9-c65dbf3f38c6",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T21:12:18.550Z"
+}

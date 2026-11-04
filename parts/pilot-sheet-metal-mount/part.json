@@ -1,0 +1,302 @@
+{
+  "id": "pilot-sheet-metal-mount",
+  "name": "Folded sensor and cable mount",
+  "category": "sheet-metal",
+  "units": "mm",
+  "declaredSize": {
+    "length": 120,
+    "width": 79,
+    "height": 107
+  },
+  "declaredSizeSource": "original design parameters; synthetic nominal dimensions, not independently measured AAS values",
+  "material": "steel sheet, satin graphite powder coat",
+  "restingFaces": [
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "features": [
+    {
+      "id": "mount-slot--43",
+      "type": "slot",
+      "center": [
+        -43,
+        -15,
+        3
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 24,
+      "width": 7,
+      "depth": 3
+    },
+    {
+      "id": "mount-slot-43",
+      "type": "slot",
+      "center": [
+        43,
+        -15,
+        3
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 24,
+      "width": 7,
+      "depth": 3
+    },
+    {
+      "id": "vent-1",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        28
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-2",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        36
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-3",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        44
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-4",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        52
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-5",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        60
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-6",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        68
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "vent-7",
+      "type": "slot",
+      "center": [
+        0,
+        39,
+        76
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 66,
+      "width": 4,
+      "depth": 3
+    },
+    {
+      "id": "bore-sensor",
+      "type": "through-hole",
+      "center": [
+        -46,
+        39,
+        81
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "diameter": 16,
+      "depth": 3,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "mount-top--42",
+      "type": "through-hole",
+      "center": [
+        -42,
+        18,
+        107
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 4.5,
+      "depth": 3,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "mount-top-42",
+      "type": "through-hole",
+      "center": [
+        42,
+        18,
+        107
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 4.5,
+      "depth": 3,
+      "entryChamfer": 0.35
+    },
+    {
+      "id": "base-cable-opening",
+      "type": "slot",
+      "center": [
+        0,
+        -9,
+        3
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 44,
+      "width": 18,
+      "depth": 3
+    },
+    {
+      "id": "lower-bend",
+      "type": "bend",
+      "center": [
+        0,
+        32,
+        7
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "insideRadius": 4,
+      "outsideRadius": 7,
+      "angle": 90,
+      "thickness": 3
+    },
+    {
+      "id": "upper-bend",
+      "type": "bend",
+      "center": [
+        0,
+        32,
+        100
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "insideRadius": 4,
+      "outsideRadius": 7,
+      "angle": 90,
+      "thickness": 3
+    }
+  ],
+  "release": "public",
+  "source": "Original parametric synthetic design created for this evaluation; not a manufacturer model or certified standard part.",
+  "notes": "Held-out test part, reviewed against common design rules before any reconstruction existed.",
+  "cadCoordinateSystem": {
+    "up": "Z",
+    "units": "mm",
+    "origin": "XY center, resting base Z=0"
+  },
+  "meshCoordinateSystem": {
+    "file": "model.glb",
+    "up": "Y",
+    "units": "m",
+    "fromCad": "[x,y,z] mm -> [x,z,-y] / 1000 m"
+  },
+  "evaluationStatus": "held-out test part (protocol/PROTOCOL.md); not used for method development",
+  "modelFiles": {
+    "cad": "model.step",
+    "mesh": "model.glb",
+    "triangulatedCad": "model.stl",
+    "preview": "preview.png"
+  },
+  "annotationsPolicy": "CAD and feature inventory are evaluator-only; explicitly specify any fields made available to the agent.",
+  "threadPolicy": "Ports are modeled as smooth bores; no thread standard or thread accuracy is asserted."
+}

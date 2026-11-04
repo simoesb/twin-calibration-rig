@@ -1,0 +1,12 @@
+{
+  "trial": 19,
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "seconds": 55.132,
+  "job": "d36c4904-50a1-4f89-95de-219778f13a7e"
+}

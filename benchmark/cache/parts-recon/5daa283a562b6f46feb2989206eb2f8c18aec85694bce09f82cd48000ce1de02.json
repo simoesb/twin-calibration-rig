@@ -1,0 +1,19 @@
+{
+  "sha": "5daa283a562b6f46feb2989206eb2f8c18aec85694bce09f82cd48000ce1de02",
+  "crop": "parts/pilot-flange-adapter/t8/standard-side-crop.png",
+  "settings": {
+    "steps": 30,
+    "octree_resolution": 256,
+    "guidance_scale": 5,
+    "generate_texture": true,
+    "seed": 1234
+  },
+  "status": "completed",
+  "error": null,
+  "seconds": 68.191,
+  "job": "ddabea59-4668-45f3-afd7-1ce4caa96f62",
+  "attempt": 1,
+  "firstAttempt": null,
+  "concurrency": 1,
+  "finishedAt": "2026-10-06T19:40:18.258Z"
+}
